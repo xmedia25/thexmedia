@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 600">
+  <!-- Red bands -->
+  <rect width="300" height="600" fill="#FF0000"/>
+  <rect x="900" width="300" height="600" fill="#FF0000"/>
+  
+  <!-- White center -->
+  <rect x="300" width="600" height="600" fill="#FFFFFF"/>
+  
+  <!-- Maple leaf -->
+  <g transform="translate(600,300)">
+    <path d="M0,-150 L-30,-120 L-60,-130 L-45,-100 L-75,-90 L-45,-70 L-60,-40 L-30,-50 L-15,-20 L0,-30 L15,-20 L30,-50 L60,-40 L45,-70 L75,-90 L45,-100 L60,-130 L30,-120 Z" fill="#FF0000"/>
+    <!-- Stem -->
+    <rect x="-5" y="30" width="10" height="40" fill="#FF0000"/>
+  </g>
+</svg>

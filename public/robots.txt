@@ -1,0 +1,28 @@
+# Robots.txt for The X Media
+# https://thexmedia.com/robots.txt
+
+User-agent: *
+Allow: /
+
+# Disallow admin and private areas
+Disallow: /admin/
+Disallow: /api/
+Disallow: /_next/
+Disallow: /checkout/
+Disallow: /cart/
+Disallow: /account/
+Disallow: /login/
+Disallow: /register/
+
+# Allow important pages for SEO
+Allow: /about-us
+Allow: /contact
+Allow: /service
+Allow: /portfolio-standard
+Allow: /blog-modern
+
+# Sitemap location
+Sitemap: https://thexmedia.com/sitemap.xml
+
+# Crawl delay (optional)
+Crawl-delay: 1
