@@ -17,11 +17,14 @@ import ProjectFour from "@/components/project/project-four";
 import VideoThree from "@/components/video/video-three";
 import ServiceFour from "@/components/service/service-four";
 import ContactOne from "@/components/contact/contact-one";
-import FooterFour from "@/layouts/footers/footer-four";
 import { textInvert } from "@/utils/text-invert";
 import { fadeAnimation, revelAnimationOne } from "@/utils/title-animation";
 import { projectThreeAnimation } from "@/utils/project-anim";
 import { ctaAnimation } from "@/utils/cta-anim";
+import FooterOne from "@/layouts/footers/footer-one";
+import ProjectFive from "@/components/project/project-five";
+import TeamOne from "@/components/team/team-one";
+import AboutWork from "@/components/work/about-work";
 
 const HomeFourMain = () => {
   useScrollSmooth();
@@ -66,6 +69,8 @@ const HomeFourMain = () => {
             <AboutThree />
             {/* about area end */}
 
+            <TeamOne />
+
             {/* brand area start */}
             <BrandThree />
             {/* brand area end */}
@@ -75,13 +80,11 @@ const HomeFourMain = () => {
             <ProjectFour />
             {/* project area end */}
 
-            {/* video area start */}
-            <VideoThree />
-            {/* video area end */}
-
             {/* service area start */}
             <ServiceFour />
             {/* service area end */}
+
+            <AboutWork />
 
             {/* contact area start */}
             <ContactOne />
@@ -90,7 +93,7 @@ const HomeFourMain = () => {
           </main>
 
           {/* footer area */}
-          <FooterFour />
+          <FooterOne />
           {/* footer area */}
         </div>
       </div>

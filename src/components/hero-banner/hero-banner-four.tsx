@@ -13,15 +13,18 @@ export default function HeroBannerFour() {
               <div className="tp-hero-3-circle-shape">
                 <span></span>
               </div>
+              <div className="tp-hero-3-category">
+                <span>#1 in personal branding in Canada.</span>
+              </div>
               <h4 className="tp-hero-3-title tp_reveal_anim">
-                <span className="tp-reveal-line">{"We're"} a high-end</span>
-                <span className="tp-reveal-line">digital agency</span>
+                <span className="tp-reveal-line">{"We"} make you </span>
+                <span className="tp-reveal-line"> viral badly! </span>
               </h4>
               <span className="tp-hero-3-category tp_reveal_anim">
-                ux/ui design / motion design / branding / development
+              Branding / Lead Generation / Automations / Content Creation
               </span>
               <Link className="tp-btn-black-2" href="/contact">
-                Say Hello{" "}
+              Book Now{" "}
                 <span className="p-relative">
                   <RightArrowTwo />
                   <ArrowBg />

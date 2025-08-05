@@ -7,6 +7,11 @@
 .tp-header-3{
     &-area{
         &.header-sticky{
+            position: fixed;
+            top: 20px;
+            left: 0;
+            right: 0;
+            z-index: 999;
             &::after{
                 backdrop-filter: initial;
             }

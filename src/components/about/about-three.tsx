@@ -25,10 +25,10 @@ export default function AboutThree() {
                 </span>
               </span>
               <h4 className="tp-section-title-90 tp_text_invert tp_fade_bottom">
-                We tell visual stories through smooth motions{" "}
+              We generate qualified leads, organically!{" "}
                 <span>
                   {" "}
-                  <br />& fluid Website
+                  <br />Using AI Automations.
                 </span>
               </h4>
             </div>
@@ -43,12 +43,10 @@ export default function AboutThree() {
           <div className="col-xl-6 col-lg-6 col-md-8">
             <div className="tp-about-3-content">
               <p className="mb-30 tp_fade_bottom">
-                We are a creative design studio based in London. We specialize
-                in Branding, and Web experiences for beauty.
+              At TheXMedia, we help realtors, mortgage agents, lawyers, CAs, and businesses grow fast with powerful organic social media content. No paid ads just content that connects, engages, and reaches millions.
               </p>
               <p className="mb-45 tp_fade_bottom">
-                we’re all about digital experiences. The most creative idea and
-                the most perfect execution mean nothing.
+              We don’t just make you go viral, we turn that attention into qualified leads using AI automations and smart CRM tools. Ready to be seen, heard, and chosen? Let’s make it happen.
               </p>
               <Link className="tp-btn-black-2 tp_fade_bottom" href="/about-us">
                 About Us
