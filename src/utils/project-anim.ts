@@ -6,10 +6,10 @@ function projectThreeAnimation() {
   if (document.querySelectorAll(".tp-project-3-area").length > 0) {
     let pw = gsap.matchMedia();
     pw.add("(min-width: 1200px)", () => {
-      gsap.set(".tp-project-3-wrap .pro-img-1 img", {
+      gsap.set(".tp-project-3-wrap .pro-img-1 video", {
         x: "500",
       });
-      gsap.set(".tp-project-3-wrap .pro-img-2 img", {
+      gsap.set(".tp-project-3-wrap .pro-img-2 video", {
         x: "-500",
       });
 
@@ -18,7 +18,7 @@ function projectThreeAnimation() {
       projects.forEach((item: any) => {
         let $this: any = $(item);
 
-        gsap.to($this.find(".pro-img-1 img"), {
+        gsap.to($this.find(".pro-img-1 video"), {
           x: "0",
           scrollTrigger: {
             trigger: $this,
@@ -30,7 +30,7 @@ function projectThreeAnimation() {
           } as any,
         });
 
-        gsap.to($this.find(".pro-img-2 img"), {
+        gsap.to($this.find(".pro-img-2 video"), {
           x: "0",
           scrollTrigger: {
             trigger: $this,

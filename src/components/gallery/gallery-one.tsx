@@ -6,15 +6,16 @@ import shape_1 from '@/assets/img/home-03/gallery/gal-shape-1.png';
 import shape_d_1 from '@/assets/img/home-03/gallery/gal-shape-dark-1.png';
 import shape_2 from '@/assets/img/home-03/gallery/gal-shape-2.png';
 import shape_d_2 from '@/assets/img/home-03/gallery/gal-shape-dark-2.png';
-import g_1 from '@/assets/img/home-03/gallery/gal-1.jpg';
-import g_2 from '@/assets/img/home-03/gallery/gal-2.jpg';
-import g_3 from '@/assets/img/home-03/gallery/gal-3.jpg';
-import g_4 from '@/assets/img/home-03/gallery/gal-4.jpg';
-import g_5 from '@/assets/img/home-03/gallery/gal-5.jpg';
 
+// videos from reels directory
+const video_1 = '/assets/reels/the_x_media-01.mp4';
+const video_2 = '/assets/reels/the_x_media-02.mp4';
+const video_3 = '/assets/reels/the_x_media-03.mp4';
+const video_4 = '/assets/reels/the_x_media-04.mp4';
+const video_5 = '/assets/reels/the_x_media-05.mp4';
 
-const gallery_images = [
-  g_1, g_2, g_3, g_4, g_5, g_3, g_1, g_2, g_3, g_4, g_5, g_3
+const gallery_videos = [
+  video_1, video_2, video_3, video_4, video_5, video_3, video_1, video_2, video_3, video_4, video_5, video_3
 ]
 
 const imgStyle:CSSProperties = {height: "auto"};
@@ -37,11 +38,23 @@ export default function GalleryOne() {
               <div className="swiper-container tp-gallery-slider-active">
                 <Marquee className="tp-gallery-titming" speed={100} direction='left'>
 
-                  {gallery_images.map((g, i) => (
+                  {gallery_videos.map((video, i) => (
 
                     <div key={i}>
                       <div className="tp-gallery-item mr-30">
-                        <Image src={g} alt="gallery-img" style={{ height: 'auto' }} />
+                        <video 
+                          src={video} 
+                          style={{ 
+                            height: '600px', 
+                            width: '400px', 
+                            objectFit: 'cover',
+                            borderRadius: '8px'
+                          }}
+                          muted
+                          loop
+                          playsInline
+                          autoPlay
+                        />
                       </div>
                     </div>
                   ))}

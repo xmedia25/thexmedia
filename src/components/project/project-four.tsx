@@ -2,46 +2,43 @@ import React from "react";
 import Image from "next/image";
 
 import { ProjectShape, RightArrow } from "../svg";
-// images
-import port_1 from "@/assets/img/home-03/portfolio/port-1.jpg";
-import port_2 from "@/assets/img/home-03/portfolio/port-2.jpg";
-import port_3 from "@/assets/img/home-03/portfolio/port-3.jpg";
-import port_4 from "@/assets/img/home-03/portfolio/port-4.jpg";
-import port_5 from "@/assets/img/home-03/portfolio/port-5.jpg";
-import port_6 from "@/assets/img/home-03/portfolio/port-6.jpg";
-import port_7 from "@/assets/img/home-03/portfolio/port-7.jpg";
-import port_8 from "@/assets/img/home-03/portfolio/port-8.jpg";
+// videos
+const video_1 = '/assets/reels/the_x_media-01.mp4';
+const video_2 = '/assets/reels/the_x_media-02.mp4';
+const video_3 = '/assets/reels/the_x_media-03.mp4';
+const video_4 = '/assets/reels/the_x_media-04.mp4';
+const video_5 = '/assets/reels/the_x_media-05.mp4';
 import Link from "next/link";
 
 // portfolio data
 const project_data = [
   {
     id: 1,
-    img_1: port_1,
-    img_2: port_2,
+    video_1: video_1,
+    video_2: video_2,
     meta: "DEC 2024 . Creative",
-    title: "Pellente dapibus",
+    title: "Real Estate Agents",
   },
   {
     id: 2,
-    img_1: port_3,
-    img_2: port_4,
+    video_1: video_3,
+    video_2: video_4,
     meta: "NOV 2024 . Creative",
-    title: "Chania tourism",
+    title: "Mortgage Agents",
   },
   {
     id: 3,
-    img_1: port_5,
-    img_2: port_6,
-    meta: "OCT 2024 . Creative",
-    title: "Fashion sentence",
+    video_1: video_5,
+    video_2: video_1,
+    meta: "OCT 2024 . Relish Immigration",
+    title: "Lawyer (Kapil Rathod)",
   },
   {
     id: 4,
-    img_1: port_7,
-    img_2: port_8,
-    meta: "SEP 2024 . Creative",
-    title: "Fashion sentence",
+    video_1: video_2,
+    video_2: video_3,
+    meta: "SEP 2024 .  Tint Express",
+    title: "Consutrction company",
   },
 ];
 
@@ -58,7 +55,7 @@ export default function ProjectFour({ style_2 = false }: IProps) {
             <div className="col-xl-7">
               <div className="tp-project-3-title-box p-relative mb-150">
                 <h4 className="tp-section-title-200 tp_reveal_anim">
-                  Latest <span>Projects</span>
+                  Latest <span>Work</span>
                 </h4>
                 <div className="tp-project-3-btn-box">
                   <Link
@@ -83,10 +80,22 @@ export default function ProjectFour({ style_2 = false }: IProps) {
                 <div className="row">
                   <div className="col-xl-4 col-lg-4 col-md-6">
                     <div className="tp-project-3-thumb pro-img-1">
-                      <Image
-                        src={item.img_1}
-                        alt="port-img"
-                        style={{ height: "auto" }}
+                      <video
+                        src={item.video_1}
+                        style={{
+                          height: 'auto',
+                          width: '100%',
+                          objectFit: 'cover',
+                          borderRadius: '20px',
+                          transformOrigin: 'bottom left',
+                          transform: 'rotate(-2deg)',
+                          position: 'relative',
+                          zIndex: 2
+                        }}
+                        muted
+                        loop
+                        playsInline
+                        autoPlay
                       />
                     </div>
                   </div>
@@ -109,10 +118,22 @@ export default function ProjectFour({ style_2 = false }: IProps) {
                   </div>
                   <div className="col-xl-4 col-lg-4 col-md-6 order-0 order-lg-0">
                     <div className="tp-project-3-thumb pro-img-2">
-                      <Image
-                        src={item.img_2}
-                        alt="port-img"
-                        style={{ height: "auto" }}
+                      <video
+                        src={item.video_2}
+                        style={{
+                          height: 'auto',
+                          width: '100%',
+                          objectFit: 'cover',
+                          borderRadius: '20px',
+                          transformOrigin: 'bottom right',
+                          transform: 'rotate(2deg)',
+                          position: 'relative',
+                          zIndex: 1
+                        }}
+                        muted
+                        loop
+                        playsInline
+                        autoPlay
                       />
                     </div>
                   </div>
