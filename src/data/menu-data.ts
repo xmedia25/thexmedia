@@ -29,16 +29,21 @@ const menu_data:IMenuDT[] = [
   },
   {
     id: 3,
+    title: 'AI Content',
+    link: '/ai-content'
+  },
+  {
+    id: 4,
     title: 'Blog',
     link: '/blog-modern'
   },
   {
-    id: 4,
+    id: 5,
     title: 'FAQ',
     link: '/faq'
   },
   {
-    id: 5,
+    id: 6,
     title: 'Contact',
     link: '/contact'
   }
@@ -112,6 +117,14 @@ export const mobile_menu_data:{
   },
   {
     id: 3,
+    title: 'AI Content',
+    link: '/ai-content',
+    dropdown_menus:[
+      { title: 'AI Content', link: '/ai-content' },
+    ]
+  },
+  {
+    id: 4,
     title: 'Blog',
     link: '/blog-modern',
     dropdown_menus:[
@@ -123,7 +136,7 @@ export const mobile_menu_data:{
     ]
   },
   {
-    id: 4,
+    id: 5,
     title: 'FAQ',
     link: '/faq',
     dropdown_menus:[
@@ -131,7 +144,7 @@ export const mobile_menu_data:{
     ]
   },
   {
-    id: 5,
+    id: 6,
     title: 'Contact',
     link: '/contact',
     dropdown_menus:[
