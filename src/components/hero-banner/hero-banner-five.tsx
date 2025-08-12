@@ -19,12 +19,7 @@ export default function HeroBannerFive() {
               high-end products <br />
               and experiences that grow your business exponentially.
             </p>
-            <Link className="tp-btn-black-square" href="/portfolio-grid-col-2">
-              View Our Works
-              <span>
-                <UpArrow/>
-              </span>
-            </Link>
+            <Link className="tp-btn-black-2" href="/our-clients">View Our Clients</Link>
           </div>
           <div className="tp-project-5-wrap d-flex align-items-end justify-content-center justify-content-md-end">
             <div className="tp-project-5-text">
@@ -32,7 +27,7 @@ export default function HeroBannerFive() {
             </div>
             <div className="tp-project-5-thumb-wrap d-flex align-items-center">
               <div className="tp-project-5-thumb">
-                <Link href="/portfolio-details-1">
+                <Link href="/portfolio-details">
                   <Image src={p_img_1} alt="project-img" style={{height: "auto"}} />
                 </Link>
               </div>
@@ -53,7 +48,7 @@ export default function HeroBannerFive() {
                 </div>
               </div>
               <div className="tp-project-5-thumb">
-                <Link href="/portfolio-details-1">
+                <Link href="/portfolio-details">
                   <Image src={p_img_2} alt="project-img" style={{height: "auto"}} />
                 </Link>
               </div>

@@ -13,7 +13,7 @@ gsap.registerPlugin(ScrollTrigger, ScrollSmoother, SplitText);
 
 // internal imports
 import Wrapper from "@/layouts/wrapper";
-import HeaderEleven from "@/layouts/headers/header-eleven";
+import HeaderFour from "@/layouts/headers/header-four";
 import ProjectOne from "@/components/project/project-one";
 import { UpArrowThree } from "@/components/svg";
 import LineTextThree from "@/components/line-text/line-text-3";
@@ -59,7 +59,7 @@ const PortfolioRandomMain = () => {
       {/* magic cursor end */}
 
       {/* header area start */}
-      <HeaderEleven />
+      <HeaderFour />
       {/* header area end */}
 
       <div id="smooth-wrapper">

@@ -1,13 +1,15 @@
-import type { Metadata } from "next";
+import React from "react";
+import { Metadata } from "next";
 import {
   Syne,
-  Aladin,
-  Big_Shoulders_Display,
-  Marcellus,
+  Syne as Syne_body,
+  Syne as Syne_heading,
 } from "next/font/google";
+import { Aladin, Big_Shoulders_Display, Marcellus } from "next/font/google";
 import localFont from "next/font/local";
 import { ThemeProvider } from "next-themes";
 import "./globals.scss";
+import StructuredData from "@/components/structured-data";
 
 const gellery = localFont({
   src: [
@@ -132,6 +134,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning={true}>
+      <head>
+        <StructuredData type="organization" />
+        <StructuredData type="website" />
+      </head>
       <body
         id="body"
         suppressHydrationWarning={true}

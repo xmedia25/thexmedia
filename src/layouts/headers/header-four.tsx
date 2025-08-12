@@ -55,13 +55,13 @@ export default function HeaderFour() {
               <div className="col-xl-3 col-lg-6 col-md-6 col-6">
                 <div className="tp-header-3-right d-flex align-items-center justify-content-end">
                   <div className="tp-header-3-social d-none d-sm-block">
-                    <a href="#">
+                    <a href="https://x.com/thexmedia">
                       <i className="fa-brands fa-twitter"></i>
                     </a>
-                    <a href="#">
+                    <a href="https://www.facebook.com/thexmedia/">
                       <i className="fa-brands fa-facebook"></i>
                     </a>
-                    <a href="#">
+                    <a href="https://www.instagram.com/thexmedia/">
                       <i className="fa-brands fa-instagram"></i>
                     </a>
                   </div>

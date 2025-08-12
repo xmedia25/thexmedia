@@ -8,7 +8,7 @@ const HeaderMenus = () => {
   return (
     <ul>
       {menu_data.map((menu) => (
-        <li key={menu.id} className={menu.title === 'Home' || menu.title === 'Portfolio' || menu.title === 'Blog' || menu.title === 'Contact' ? '' : 'has-dropdown'}>
+        <li key={menu.id} className={menu.title === 'Home' || menu.title === 'Our Clients' || menu.title === 'Blog' || menu.title === 'Contact' ? '' : 'has-dropdown'}>
           <Link href={menu.link}>{menu.title}</Link>
           {menu.pages_mega_menu ? (
             <div className="tp-submenu submenu tp-mega-menu">

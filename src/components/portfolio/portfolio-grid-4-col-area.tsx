@@ -75,7 +75,7 @@ export default function PortfolioGridFourColArea({style_2=false}:IProps) {
           {portfolio_data.map((item) => (
             <div key={item.id} className="col-xl-3 col-lg-6 col-md-6">
               <div className="tp-project-5-2-thumb mb-30 p-relative not-hide-cursor" data-cursor="View<br>Demo">
-                <Link href="/portfolio-details-2" className="tp_img_reveal cursor-hide">
+                <Link href="/portfolio-details" className="tp_img_reveal cursor-hide">
                   <div className="tp_img_reveal">
                     <Image
                       src={item.img}

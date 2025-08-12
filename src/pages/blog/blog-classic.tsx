@@ -8,7 +8,7 @@ gsap.registerPlugin(ScrollTrigger, ScrollSmoother, SplitText);
 
 // internal imports
 import Wrapper from "@/layouts/wrapper";
-import HeaderEleven from "@/layouts/headers/header-eleven";
+import HeaderFour from "@/layouts/headers/header-four";
 import FooterTwo from "@/layouts/footers/footer-two";
 // animation
 import { charAnimation } from "@/utils/title-animation";
@@ -19,7 +19,7 @@ import VideoPopup from "@/components/modal/video-popup";
 const BlogClassicMain = () => {
   const [isVideoOpen, setIsVideoOpen] = React.useState(false);
   const [videoId, setVideoId] = React.useState("rVHxkxJM3rY");
-  useScrollSmooth();
+  useScrollSmooth();  
 
   useGSAP(() => {
     const timer = setTimeout(() => {
@@ -31,7 +31,7 @@ const BlogClassicMain = () => {
   return (
     <Wrapper>
       {/* header area start */}
-      <HeaderEleven transparent={true} />
+      <HeaderFour />
       {/* header area end */}
 
       <div id="smooth-wrapper">

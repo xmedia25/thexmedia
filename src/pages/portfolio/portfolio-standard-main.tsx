@@ -8,7 +8,7 @@ gsap.registerPlugin(ScrollTrigger, ScrollSmoother, SplitText);
 
 // internal imports
 import Wrapper from "@/layouts/wrapper";
-import HeaderEleven from "@/layouts/headers/header-eleven";
+import HeaderFour from "@/layouts/headers/header-four";
 import FooterTwo from "@/layouts/footers/footer-two";
 import ProjectFive from "@/components/project/project-five";
 import BigText from "@/components/big-text";
@@ -53,7 +53,7 @@ const PortfolioStandardMain = () => {
       {/* magic cursor end */}
       
       {/* header area start */}
-      <HeaderEleven />
+      <HeaderFour />
       {/* header area end */}
 
       <div id="smooth-wrapper">
@@ -78,6 +78,17 @@ const PortfolioStandardMain = () => {
                         At TheXMedia, we&apos;re proud to work with professionals who are serious about growing their brand, reaching new audiences, and converting attention into action.
                       </p>
                     </div>
+                    <div className="tm-hero-description tp_fade_bottom mt-4">
+                      <p>
+                        Whether you&apos;re a realtor, mortgage agent, lawyer, CA, or service-based entrepreneur, our clients are united by one goal: to lead in their industry by showing up with powerful, organic content that works.
+                      </p>
+                      <p className="mt-3">
+                        We don&apos;t just work for our clients—we grow with them. We take their business as seriously as our own, helping them not only go viral but also build sales teams, business development pipelines, and internal processes. From automations to SOPs, we create systems that help them scale with clarity and confidence.
+                      </p>
+                      <p className="mt-3">
+                        Below are some of the incredible professionals and businesses we&apos;ve helped go viral, build systems, and generate real business results.
+                      </p>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -85,8 +96,27 @@ const PortfolioStandardMain = () => {
             {/* portfolio hero */}
 
             {/* portfolio area */}
-            <ProjectFive style_2={true} />
+            <div className="tp-service-5-area sv-service-style pb-70">
+              <div className="container container-1530">
+                <div className="row">
+                  <div className="col-xl-12">
+                    <div className="tp-service-5-title-box mb-90">
+                      <h4 className="tp-service-5-title tp-char-animation">
+                        Client Profiles
+                      </h4>
+                      <p className="tp_fade_bottom">
+                        You can now follow this section with individual client spotlights, testimonials, case studies, or social media highlights.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
             {/* portfolio area */}
+
+            {/* client profiles area */}
+            <ProjectFive style_2={true} />
+            {/* client profiles area */}
 
             {/* big text */}
             <BigText/>

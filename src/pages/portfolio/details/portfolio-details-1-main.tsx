@@ -9,7 +9,7 @@ gsap.registerPlugin(ScrollTrigger, ScrollSmoother, SplitText);
 
 // internal imports
 import Wrapper from "@/layouts/wrapper";
-import HeaderEleven from "@/layouts/headers/header-eleven";
+import HeaderOne from "@/layouts/headers/header-one";
 import Social from "@/components/social/social";
 import { Dots, Share } from "@/components/svg";
 import { projectDetailsPin } from "@/utils/project-anim";
@@ -42,7 +42,7 @@ const PortfolioDetailsOneMain = () => {
   return (
     <Wrapper>
       {/* header area start */}
-      <HeaderEleven cls="tp-inner-header-border"/>
+      <HeaderOne />
       {/* header area end */}
 
       <div id="smooth-wrapper">

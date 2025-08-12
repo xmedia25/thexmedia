@@ -8,7 +8,7 @@ gsap.registerPlugin(ScrollTrigger, ScrollSmoother, SplitText);
 
 // internal imports
 import Wrapper from "@/layouts/wrapper";
-import HeaderEleven from "@/layouts/headers/header-eleven";
+import HeaderFour from "@/layouts/headers/header-four";
 import { ServiceItems } from "@/components/service/service-five";
 import ServiceHero from "@/components/service/service-hero";
 import ServiceSix from "@/components/service/service-six";
@@ -36,7 +36,7 @@ const ServiceMain = () => {
   return (
     <Wrapper>
       {/* header area start */}
-      <HeaderEleven />
+      <HeaderFour />
       {/* header area end */}
 
       <div id="smooth-wrapper">
@@ -57,9 +57,8 @@ const ServiceMain = () => {
                         Services
                       </span>
                       <h4 className="tp-service-5-title">
-                        We strongly believe that only design reinforced by{" "}
-                        <br />
-                        strategy can provide real results.
+                        We help service professionals scale their business <br />
+                        with proven digital marketing and automation strategies.
                       </h4>
                     </div>
                   </div>

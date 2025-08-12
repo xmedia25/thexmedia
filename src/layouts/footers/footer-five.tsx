@@ -21,9 +21,7 @@ export default function FooterFive() {
                   <a className="tp-footer-5-mail" href="mailto:contact@thexmedia.com">
                   contact@thexmedia.com
                   </a>
-                  <a className="tp-footer-5-link" href="#">
-                    <UpArrow clr="#19191A" />
-                  </a>
+                  <a className="tp-footer-5-link" href="/contact">Get in Touch</a>
                 </div>
               </div>
             </div>

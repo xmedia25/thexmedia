@@ -58,7 +58,7 @@ export default function PortfolioDetailsCustomLightArea() {
                     <span className="project-details-1-subtitle"><i>01</i>Shooting</span>
                     <h4 className="project-details-1-title fs-100 tp-char-animation">Magazine Cover</h4>
                     <p className="mb-35 tp_title_anim">Designing a portfolio for a wonderful Photographer The site promotes the stunning work of Russian photographer Elena Iv-Skaya. Elena has a passion for highly aesthetic, strong and elegant imagery with saturated colors, and I built a minimalist layout that let her work stand out on its own.</p>
-                    <Link className="project-details-custom-link" href="/portfolio-details-2">Visit Website</Link>
+                    <Link className="project-details-custom-link" href="/portfolio-details">Visit Website</Link>
                   </div>
               </div>
               <div className="col-xl-4 col-lg-4">

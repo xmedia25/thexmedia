@@ -36,21 +36,13 @@ export default function BlogSidebar() {
         </div>
       </div>
       <div className="sidebar__widget mb-65">
-        <h3 className="sidebar__widget-title">Category</h3>
-        <div className="sidebar__widget-content">
+        <div className="tp-blog-sidebar-category">
+          <h4 className="tp-blog-sidebar-title">Categories</h4>
           <ul>
-            <li>
-              <Link href="/blog-modern">Branding</Link>
-            </li>
-            <li>
-              <Link href="/blog-modern">Lifestyle</Link>
-            </li>
-            <li>
-              <Link href="/blog-modern">UI/UX Design</Link>
-            </li>
-            <li>
-              <Link href="/blog-modern">Production</Link>
-            </li>
+            <li><Link href="/blog">Branding</Link></li>
+            <li><Link href="/blog">Lifestyle</Link></li>
+            <li><Link href="/blog">UI/UX Design</Link></li>
+            <li><Link href="/blog">Production</Link></li>
           </ul>
         </div>
       </div>

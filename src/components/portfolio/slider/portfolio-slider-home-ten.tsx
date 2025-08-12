@@ -187,7 +187,7 @@ export default function PortfolioSliderHomeTen() {
               >
                 <div className="tp-portfolio-11-slider-content">
                   <div className="tp-portfolio-11-slider-link">
-                    <Link href="/portfolio-details-video">
+                    <Link href="/portfolio-details">
                       <DownArrow />
                     </Link>
                   </div>
@@ -196,7 +196,7 @@ export default function PortfolioSliderHomeTen() {
                   </span>
                   <h3 className="tp-portfolio-11-slider-title">
                     <Link
-                      href="/portfolio-details-video"
+                      href="/portfolio-details"
                       dangerouslySetInnerHTML={{ __html: item.title }}
                     ></Link>
                   </h3>
@@ -245,7 +245,9 @@ export default function PortfolioSliderHomeTen() {
                         {item.subtitle}
                       </span>
                       <h4 className="tp-portfolio-11-slider-nav-tittle">
-                        <Link href="/portfolio-details-video">{item.title}</Link>
+                        <Link href="/portfolio-details">
+                          {item.title}
+                        </Link>
                       </h4>
                     </div>
                   </div>

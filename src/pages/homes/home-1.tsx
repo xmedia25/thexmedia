@@ -73,11 +73,10 @@ const HomeMain = () => {
 
 
   return (
-    <Wrapper showBackToTop={false}>
-
+    <Wrapper>
       {/* magic cursor start */}
       <div id="magic-cursor">
-        <div id="ball"></div>
+        <div className="magic-cursor__inner"></div>
       </div>
       {/* magic cursor end */}
 

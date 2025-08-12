@@ -48,7 +48,7 @@ const CartMain = () => {
                         <tbody>
                           <tr>
                             <td className="tp-cart-img">
-                              <Link href={`/shop-details/1`}>
+                              <Link href={`/shop-details`}>
                                 <Image
                                   src="/assets/img/inner-shop/shop-details/tab-img/nav-1.png"
                                   alt="cart-img"
@@ -58,7 +58,7 @@ const CartMain = () => {
                               </Link>
                             </td>
                             <td className="tp-cart-title">
-                              <Link href={`/shop-details/1`}>
+                              <Link href={`/shop-details`}>
                                 Legendary Whitetails Women.
                               </Link>
                             </td>

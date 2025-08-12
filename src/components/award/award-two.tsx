@@ -35,7 +35,7 @@ export default function AwardTwo() {
                 <div className="tp-hover-btn-wrapper">
                   <Link
                     className="tp-btn-circle tp-hover-btn-item tp-hover-btn"
-                    href="/portfolio-details-1"
+                    href="/portfolio-details"
                   >
                     <span className="tp-btn-circle-text">
                       See Our <br /> Awards
