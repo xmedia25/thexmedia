@@ -14,39 +14,63 @@ type IFaq = {
 export const faq_data:IFaq[] = [
   {
     id: 1,
-    question: "What we do?",
+    question: "Who do you work with?",
     answer:
-      "We specialize in custom e-commerce solutions and mobile app development. Our team creates scalable platforms that drive business growth and enhance customer engagement through innovative technology.",
+      "We specialize in working with realtors, mortgage agents, lawyers, CAs, and local service-based businesses looking to grow their visibility and generate qualified leads.",
   },
   {
     id: 2,
-    question: "How we do it?",
+    question: "What platforms do you create content for?",
     answer:
-      "Our development process typically takes 4-12 weeks depending on complexity. We follow agile methodology with regular updates and client feedback to ensure your project meets all requirements.",
+      "We create platform-optimized content for Instagram, Facebook, YouTube, TikTok, and LinkedIn — tailored to where your audience is most active.",
   },
   {
     id: 3,
-    question: "Do you provide ongoing support?",
+    question: "Do I need to be good on camera?",
     answer:
-      "Yes, we provide comprehensive post-launch support including maintenance, updates, security patches, and feature enhancements to keep your platform running smoothly.",
+      "Not at all. We guide you through direction and on-camera coaching to help you speak naturally and confidently, even if it's your first time.",
   },
   {
     id: 4,
-    question: "Free Shipping  & Return Order",
+    question: "How long does it take to start seeing results?",
     answer:
-      "We work with businesses of all sizes, from startups to enterprise companies. Our solutions are scalable and can be customized to meet your specific business needs and budget.",
+      "Organic growth and lead generation typically start showing results within 30–60 days. Paid campaigns can generate faster traction depending on budget and targeting.",
   },
   {
     id: 5,
-    question: "Payment options",
+    question: "Do you offer one-time projects or only monthly plans?",
     answer:
-      "We use modern technologies including React, Node.js, React Native, and cloud platforms like AWS to build robust, scalable solutions that perform excellently across all devices.",
+      "We offer both! Whether you want a one-time launch package or ongoing content and lead generation, we'll customize a plan for your goals.",
   },
   {
     id: 6,
-    question: "Best Quality Products",
+    question: "How do automations and AI tools help me?",
     answer:
-      "Getting started is easy! Contact us for a free consultation where we'll discuss your project requirements, timeline, and provide a detailed proposal tailored to your needs.",
+      "We use AI to handle lead responses, follow-ups, data collection, and CRM integrations—so you never miss a lead while focusing on your actual work.",
+  },
+  {
+    id: 7,
+    question: "Can you help me with website or CRM setup too?",
+    answer:
+      "Absolutely. We build high-converting websites and set up CRMs integrated with automation workflows for seamless client acquisition.",
+  },
+  {
+    id: 8,
+    question: "How involved do I need to be?",
+    answer:
+      "We keep your time commitment minimal. You'll collaborate during ideation and provide feedback—but we handle scripting, editing, publishing, and automation.",
+  },
+  {
+    id: 9,
+    question: "What's your pricing structure?",
+    answer:
+      "Our pricing depends on your needs—ranging from individual services to full-scale growth packages. Contact us for a personalized quote.",
+  },
+  {
+    id: 10,
+    question: "How do I get started?",
+    answer:
+      "Simple. Book a discovery call with us, and we'll map out a growth plan tailored to your business, goals, and timeline.",
   },
 ];
 
@@ -69,10 +93,10 @@ export default function FaqArea() {
           <div className="col-xl-4 col-lg-4">
             <div className="fq-faq-sidebar">
               <div className="fq-faq-sidebar-content">
-                <h4 className="fq-faq-sidebar-title">Q&A</h4>
+                <h4 className="fq-faq-sidebar-title">Need Help?</h4>
                 <p>
-                  Lorem ipsum dolor sit laud munere dicunt detraxit mel, nisl
-                  evertitu <br /> eu vim.
+                  Can't find the answer you're looking for? <br />
+                  Contact our team for personalized assistance.
                 </p>
               </div>
               <div className="fq-faq-sidebar-thumb">
@@ -84,7 +108,7 @@ export default function FaqArea() {
                 />
               </div>
               <div className="fq-faq-sidebar-input p-relative">
-                <input type="text" placeholder="Search product" />
+                <input type="text" placeholder="Search FAQ" />
                 <button className="fq-faq-sidebar-search">
                   <Search />
                 </button>

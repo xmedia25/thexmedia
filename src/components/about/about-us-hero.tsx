@@ -35,12 +35,12 @@ export default function AboutUsHero() {
               data-stagger="0.08"
             >
               <span className="ab-inner-hero-subtitle">
-                E-commerce & <br /> Mobile App Solutions
+                Viral Content & <br /> Organic Growth
               </span>
               <h1 className="ab-inner-hero-title tp-char-animation">
-                Scaling Your Business with Technology
+                Helping Service Professionals Go Viral & Scale Up
               </h1>
-              <p>Custom e-commerce and mobile app solutions that drive engagement and growth</p>
+              <p>Creating viral, organic content that drives real business results for realtors, mortgage agents, lawyers, CAs, and service professionals</p>
             </div>
           </div>
         </div>
@@ -52,10 +52,9 @@ export default function AboutUsHero() {
               data-stagger="0.08"
             >
               <p className="tp_title_anim">
-                The-X-Media creates, develops & delivers cutting-edge e-commerce
-                solutions and custom mobile apps that drive measurable growth,
+                At TheXMedia, we help professionals stand out and scale up by creating viral, organic content that drives real business results—without relying solely on paid ads.
               </p>
-               <a className="tp-btn-white-sm border-style" href="#">Our Story</a>
+               <a className="tp-btn-white-sm border-style" href="#our-story">Our Story</a>
             </div>
           </div>
         </div>

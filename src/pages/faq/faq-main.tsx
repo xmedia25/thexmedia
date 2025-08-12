@@ -48,15 +48,15 @@ const FaqMain = () => {
                   <div className="row">
                     <div className="col-xl-12">
                       <div className="tm-hero-content">
-                        <span className="tm-hero-subtitle">The-X-Media</span>
+                        <span className="tm-hero-subtitle">TheXMedia</span>
                         <h4 className="tm-hero-title tp-char-animation">
-                          FAQ Page
+                          Frequently Asked Questions
                         </h4>
                       </div>
                       <div className="tm-hero-text tp_title_anim">
                         <p>
-                          Frequently asked question (FAQ)pages <br />
-                          to find answars.
+                          Get answers to common questions about our viral content <br />
+                          and growth services for service professionals.
                         </p>
                       </div>
                     </div>

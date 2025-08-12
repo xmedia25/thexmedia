@@ -68,16 +68,14 @@ const PortfolioStandardMain = () => {
                 <div className="row">
                   <div className="col-xl-12">
                     <div className="tm-hero-content">
-                      <span className="tm-hero-subtitle">The-X-Media</span>
+                      <span className="tm-hero-subtitle">TheXMedia</span>
                       <h4 className="tm-hero-title tp-char-animation">
-                        Our latest & great projects
+                        Our Clients – Who We Work With
                       </h4>
                     </div>
                     <div className="tm-hero-text">
                       <p className="tp_title_anim">
-                        We’re a diverse team that works as fancies attention to
-                        details, enjoys beers on Friday nights and aspires to
-                        design the dent in the universe.
+                        At TheXMedia, we're proud to work with professionals who are serious about growing their brand, reaching new audiences, and converting attention into action.
                       </p>
                     </div>
                   </div>

@@ -34,6 +34,11 @@ const menu_data:IMenuDT[] = [
   },
   {
     id: 4,
+    title: 'FAQ',
+    link: '/faq'
+  },
+  {
+    id: 5,
     title: 'Contact',
     link: '/contact'
   }
@@ -119,6 +124,14 @@ export const mobile_menu_data:{
   },
   {
     id: 4,
+    title: 'FAQ',
+    link: '/faq',
+    dropdown_menus:[
+      { title: 'FAQ', link: '/faq' },
+    ]
+  },
+  {
+    id: 5,
     title: 'Contact',
     link: '/contact',
     dropdown_menus:[
