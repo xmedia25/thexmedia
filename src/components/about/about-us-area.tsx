@@ -56,13 +56,13 @@ export default function AboutUsArea() {
                 At TheXMedia, we help realtors, mortgage agents, lawyers, CAs, and other service professionals stand out and scale up by creating viral, organic content that drives real business results.
               </p>
               <p className="tp_fade_bottom mt-30">
-                We started with a simple belief: professionals shouldn't need to rely solely on paid ads to grow. With the right content, storytelling, and automation, you can become a go-to name in your industry—organically.
+                We started with a simple belief: professionals shouldn&apos;t need to rely solely on paid ads to grow. With the right content, storytelling, and automation, you can become a go-to name in your industry—organically.
               </p>
               <p className="tp_fade_bottom mt-30">
-                What makes us different? We do it all. From ideation and scripting to direction, editing, and automated lead generation, our team handles the entire content-to-client journey. We don't just create videos—we build systems that attract, engage, and convert at scale.
+                What makes us different? We do it all. From ideation and scripting to direction, editing, and automated lead generation, our team handles the entire content-to-client journey. We don&apos;t just create videos—we build systems that attract, engage, and convert at scale.
               </p>
               <p className="tp_fade_bottom mt-30">
-                We blend creativity with cutting-edge tech like AI-driven CRMs and automation tools, so while your content reaches millions, your backend never misses a beat. You focus on your expertise—we'll handle the visibility, engagement, and growth.
+                We blend creativity with cutting-edge tech like AI-driven CRMs and automation tools, so while your content reaches millions, your backend never misses a beat. You focus on your expertise—we&apos;ll handle the visibility, engagement, and growth.
               </p>
               <p className="tp_fade_bottom mt-30">
                 Welcome to the new era of marketing. Welcome to TheXMedia.
@@ -77,10 +77,10 @@ export default function AboutUsArea() {
             <div className="ab-about-content p-relative">
                              <h3 className="mb-40 tp_fade_bottom" style={{color: 'white'}}>Our Story</h3>
               <p className="tp_fade_bottom">
-                TheXMedia began as a personal mission. While working a 9-to-5 job as a millwright, I spent two years experimenting with content—everything from personal vlogs to social media trends—learning through trial and error. Over three years, I dove deep into how content really works. Eventually, I found my voice by talking about business ideas in Canada and launched the series "100 Business Ideas in 100 Days."
+                TheXMedia began as a personal mission. While working a 9-to-5 job as a millwright, I spent two years experimenting with content—everything from personal vlogs to social media trends—learning through trial and error. Over three years, I dove deep into how content really works. Eventually, I found my voice by talking about business ideas in Canada and launched the series &quot;100 Business Ideas in 100 Days.&quot;
               </p>
               <p className="tp_fade_bottom mt-30">
-                It went viral. Fast. We gained over 2 million followers across platforms, and our videos consistently hit 500K+ views—all shot from the front seat of a car using a regular iPhone. That's when I realized: it's not about fancy gear; it's about content that resonates, helps, and connects.
+                It went viral. Fast. We gained over 2 million followers across platforms, and our videos consistently hit 500K+ views—all shot from the front seat of a car using a regular iPhone. That&apos;s when I realized: it&apos;s not about fancy gear; it&apos;s about content that resonates, helps, and connects.
               </p>
               <p className="tp_fade_bottom mt-30">
                 Then I met Dhruval, a seasoned entrepreneur and operations expert. While I mastered content, he mastered systems. Together, we built TheXMedia a perfect mix of creativity and structure. I bring the storytelling, Dhruval brings the backend and business-building power. Now, we help professionals go viral, stay consistent, and turn views into real revenue.
@@ -112,7 +112,7 @@ export default function AboutUsArea() {
                     <div className="ab-about-category-list category-space-1 tp_fade_bottom">
                       <ul>
                         <li><strong>Real Results, Not Just Views</strong><br/>We create content and systems that generate real leads, build trust, and convert followers into paying clients.</li>
-                        <li><strong>Built by Creators, Backed by Systems</strong><br/>We've lived the content grind and cracked the code on what goes viral, paired with business automation.</li>
+                        <li><strong>Built by Creators, Backed by Systems</strong><br/>We&apos;ve lived the content grind and cracked the code on what goes viral, paired with business automation.</li>
                         <li><strong>End-to-End Service</strong><br/>From ideation to editing, automation to CRM setup—we do it all in one place.</li>
                       </ul>
                     </div>
@@ -154,7 +154,7 @@ export default function AboutUsArea() {
                   <ul className="mt-20">
                     <li><strong>Authenticity:</strong> We keep it real, on and off camera</li>
                     <li><strong>Innovation:</strong> We blend creativity with cutting-edge tech</li>
-                    <li><strong>Results:</strong> We're focused on ROI, not just reach</li>
+                    <li><strong>Results:</strong> We&apos;re focused on ROI, not just reach</li>
                     <li><strong>Partnership:</strong> We grow when our clients grow</li>
                     <li><strong>Simplicity:</strong> No fluff, no jargon—just systems that work</li>
                   </ul>

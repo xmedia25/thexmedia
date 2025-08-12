@@ -95,7 +95,7 @@ export default function FaqArea() {
               <div className="fq-faq-sidebar-content">
                 <h4 className="fq-faq-sidebar-title">Need Help?</h4>
                 <p>
-                  Can't find the answer you're looking for? <br />
+                  Can&apos;t find the answer you&apos;re looking for? <br />
                   Contact our team for personalized assistance.
                 </p>
               </div>
