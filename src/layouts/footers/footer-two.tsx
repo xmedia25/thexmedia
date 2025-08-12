@@ -52,11 +52,12 @@ export default function FooterTwo({ whiteFooter = false,topCls='footer-top' }: I
                 <div className="tp-footer-2-widget-menu">
                   <h4 className="tp-footer-2-widget-title">Sitemap</h4>
                   <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Contact</a></li>
-                    <li> <a href="#">Blog</a></li>
-
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/about-us">About</a></li>
+                    <li><a href="/ai-content">AI Content</a></li>
+                    <li><a href="/contact">Contact</a></li>
+                    <li><a href="/blog">Blog</a></li>
+                    <li><a href="/faq">FAQ</a></li>
                   </ul>
                 </div>
               </div>
@@ -123,7 +124,7 @@ export default function FooterTwo({ whiteFooter = false,topCls='footer-top' }: I
             </div>
             <div className="col-xl-8 col-lg-7">
               <div className="tp-copyright-2-social text-center text-lg-end">
-                <a className="mb-10" href="https://www.linkedin.com/company/theexmedia/" target="_blank">Linkedin</a>
+                <a className="mb-10" href="https://www.linkedin.com/company/thexmedia/" target="_blank">Linkedin</a>
                 <a className="mb-10" href="https://www.facebook.com/thexmediaofficial" target="_blank">Facebook</a>
                 <a className="mb-10" href="https://www.instagram.com/thexmedia_/" target="_blank">Instagram</a>
               </div>

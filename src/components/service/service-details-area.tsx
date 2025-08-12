@@ -15,10 +15,10 @@ export default function ServiceDetailsArea() {
           <div className="col-xl-12">
             <div className="service-details__title-box mb-40">
               <span className="service-details__subtitle tp-char-animation">
-                Design Studio
+                TheXMedia Services
               </span>
               <h4 className="sv-hero-title tp-char-animation">
-                Logo and branding
+                Comprehensive Digital Solutions for Service Professionals
               </h4>
             </div>
           </div>
@@ -26,124 +26,326 @@ export default function ServiceDetailsArea() {
             <div className="offset-xl-4 col-xl-5">
               <div className="service-details__banner-text mb-80">
                 <p className="mb-30 tp_title_anim">
-                  Branding is essential to establish yourself in the market
-                  <br /> in a unique and permanent way. At Riveal, we attach{" "}
-                  <br /> great importance. We seek to understand your business
-                  to better convey your values ​​and your talent <br /> through
-                  your brand image.{" "}
+                  We help realtors, mortgage agents, lawyers, CAs, and local service-based businesses dominate their digital presence. Our services are designed to generate qualified leads and scale your business sustainably.
                 </p>
                 <p className="tp_title_anim">
-                  Explore our achievements and let yourself be <br /> convinced!
+                  From SEO to content creation, we provide end-to-end solutions that drive real business results.
                 </p>
               </div>
             </div>
           </div>
         </div>
       </div>
-      <div className="container-fluid">
+
+      {/* SEO Services Section */}
+      <div className="container mb-120">
         <div className="row">
           <div className="col-xl-12">
-            <div className="service-details__tab-wrapper text-center mb-120">
+            <div className="service-details__tab-wrapper text-center mb-60">
               <div className="service-details__tab-thumb">
                 <Image
                   data-speed="0.4"
                   src={sv_1}
-                  alt="service-img"
+                  alt="SEO Services"
                   style={{ height: "auto" }}
                 />
               </div>
             </div>
           </div>
         </div>
-      </div>
-      <div className="container">
         <div className="row">
           <div className="col-xl-7 col-lg-7">
             <div className="service-details__left-wrap">
               <div className="service-details__left-text pb-20">
-                <p className="text-1 tp_title_anim">
-                  Your logo is at the heart of your identity. An impactful
-                  design, tailor-made and in line with your activity will allow
-                  you to differentiate yourself and mark your audience.
+                <h3 className="mb-30">SEO for Service Professionals</h3>
+                <p className="text-1 tp_title_anim mb-30">
+                  We help realtors, mortgage agents, lawyers, CAs, and local service-based businesses dominate local search. Our SEO isn't about vanity traffic—it's about visibility to the right audience, at the right time.
                 </p>
-                <p>
-                  Great user experience design lets users focus on the task they
-                  have to complete and evokes emotion without distracting them.!
-                </p>
-              </div>
-              <div className="service-details__fea-list">
-                <ul>
-                  <li>Graphic research and production</li>
-                  <li>Presentation of your logo on different media</li>
-                  <li>
-                    Advice on the graphic orientation of your logo or its
-                    redesign
-                  </li>
-                  <li>Delivery of your logo in professional formats</li>
-                </ul>
-              </div>
-              <div className="service-details__sm-thumb-wrap mb-60">
-                <div className="row">
-                  <div className="col-xl-6 col-lg-6 col-md-6 mb-20">
-                    <div className="service-details__sm-thumb">
-                      <Image
-                        src={sv_2}
-                        alt="service-img"
-                        style={{ height: "auto" }}
-                      />
-                    </div>
-                  </div>
-                  <div className="col-xl-6 col-lg-6 col-md-6 mb-20">
-                    <div className="service-details__sm-thumb">
-                      <Image
-                        src={sv_3}
-                        alt="service-img"
-                        style={{ height: "auto" }}
-                      />
-                    </div>
-                  </div>
+                <h5 className="mb-20">What We Do:</h5>
+                <div className="service-details__fea-list mb-30">
+                  <ul>
+                    <li>Keyword research tailored to your niche and geography</li>
+                    <li>On-page SEO (title tags, content structure, internal linking)</li>
+                    <li>Technical SEO audits and fixes</li>
+                    <li>Google Business Profile optimization</li>
+                    <li>Review generation and reputation management</li>
+                    <li>Local backlinks and citation building</li>
+                    <li>Monthly performance reporting and insights</li>
+                  </ul>
                 </div>
-              </div>
-              <div className="service-details__left-text">
-                <p>
-                  Great user experience design lets users focus on the task they
-                  have to complete & evokes emotion without distracting them.
-                  Bonus points for when it also looks & feels aesthetically
-                  pleasing!{" "}
+                <p className="mb-20">
+                  <strong>Why It Works:</strong> By positioning you where your clients search (Google), we build lasting organic visibility that generates qualified leads month after month—without ad spend.
+                </p>
+                <p className="mb-20">
+                  <strong>Who It's For:</strong> Local service providers looking for consistent, high-intent inbound leads.
+                </p>
+                <p className="mb-30">
+                  <strong>Timeline:</strong> 2–4 weeks setup + ongoing monthly management
                 </p>
               </div>
             </div>
           </div>
           <div className="col-xl-5 col-lg-5">
             <div className="service-details__right-wrap fix p-relative">
-              <div className="service-details__rotate-text">
-                <span>Full list of services</span>
-              </div>
               <div className="service-details__right-category">
-                <a href="#">Strategy</a>
-                <a className="active" href="#">
-                  Logo Design
-                </a>
-                <a href="#">Graphic identity</a>
-                <a href="#">Web Design</a>
-                <a href="#">Development</a>
+                <a href="#seo" className="active">SEO Services</a>
+                <a href="#consultancy">Business Consultancy</a>
+                <a href="#marketing">Performance Marketing</a>
+                <a href="#development">Web Development</a>
+                <a href="#content">Content Creation</a>
               </div>
               <div className="service-details__right-text-box">
-                <h4>
-                  Logo <br /> Design
-                </h4>
+                <h4>SEO for Service Professionals</h4>
                 <p className="mb-20">
-                  Your logo is at the heart of your identity. An impactful
-                  design, tailor-made and in line with your activity will allow
-                  you to differentiate yourself and mark your audience.
+                  Dominate local search and generate qualified leads month after month without ad spend.
                 </p>
                 <Link
                   className="tp-btn-white background-black"
                   href="/contact"
                 >
-                  Let’s Talk
+                  Get Started
                 </Link>
               </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* Business Consultancy Section */}
+      <div className="container mb-120" id="consultancy">
+        <div className="row">
+          <div className="col-xl-7 col-lg-7">
+            <div className="service-details__left-wrap">
+              <div className="service-details__left-text pb-20">
+                <h3 className="mb-30">Business Consultancy & Strategy</h3>
+                <p className="text-1 tp_title_anim mb-30">
+                  We partner with you to refine your business model, positioning, offer, and growth systems. Think of us as your strategic co-pilot.
+                </p>
+                <h5 className="mb-20">What We Do:</h5>
+                <div className="service-details__fea-list mb-30">
+                  <ul>
+                    <li>Deep dive into your services, pricing, and customer journey</li>
+                    <li>Offer optimization & packaging for clarity and conversion</li>
+                    <li>SOP creation for sales, content, onboarding, and delivery</li>
+                    <li>CRM setup and automation workflows</li>
+                    <li>AI automation integration to save time and improve client experience</li>
+                    <li>Lead nurturing & follow-up systems</li>
+                  </ul>
+                </div>
+                <p className="mb-20">
+                  <strong>Why It Works:</strong> You can't scale chaos. We give you a lean, effective system to attract, convert, and retain clients more efficiently.
+                </p>
+                <p className="mb-20">
+                  <strong>Who It's For:</strong> Service businesses looking to scale sustainably with better systems and positioning.
+                </p>
+                <p className="mb-30">
+                  <strong>Timeline:</strong> 4–6 weeks with optional ongoing advisory
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="col-xl-5 col-lg-5">
+            <div className="service-details__right-wrap fix p-relative">
+              <div className="service-details__right-text-box">
+                <h4>Business Consultancy</h4>
+                <p className="mb-20">
+                  Refine your business model, positioning, and growth systems for sustainable scaling.
+                </p>
+                <Link
+                  className="tp-btn-white background-black"
+                  href="/contact"
+                >
+                  Let's Strategize
+                </Link>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* Performance Marketing Section */}
+      <div className="container mb-120" id="marketing">
+        <div className="row">
+          <div className="col-xl-7 col-lg-7">
+            <div className="service-details__left-wrap">
+              <div className="service-details__left-text pb-20">
+                <h3 className="mb-30">Performance Marketing (Meta & Google Ads)</h3>
+                <p className="text-1 tp_title_anim mb-30">
+                  Already got organic traction? Let's pour fuel on the fire. We create, test, and optimize paid campaigns that convert clicks into real business.
+                </p>
+                <h5 className="mb-20">What We Do:</h5>
+                <div className="service-details__fea-list mb-30">
+                  <ul>
+                    <li>Audience and keyword research</li>
+                    <li>Campaign setup (Meta, Google Search, Display, YouTube)</li>
+                    <li>Ad creative design (image, video, copy)</li>
+                    <li>Funnel creation with lead magnets, landing pages, and CRM follow-ups</li>
+                    <li>Performance tracking with analytics and attribution</li>
+                    <li>Weekly optimizations and monthly reporting</li>
+                  </ul>
+                </div>
+                <p className="mb-20">
+                  <strong>Why It Works:</strong> We align paid traffic with your organic strengths and service offers, so you don't waste money. Every dollar is tracked, tested, and improved.
+                </p>
+                <p className="mb-20">
+                  <strong>Who It's For:</strong> Established businesses ready to scale faster with ads.
+                </p>
+                <p className="mb-30">
+                  <strong>Timeline:</strong> 1–2 weeks setup + ongoing monthly management
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="col-xl-5 col-lg-5">
+            <div className="service-details__right-wrap fix p-relative">
+              <div className="service-details__right-text-box">
+                <h4>Performance Marketing</h4>
+                <p className="mb-20">
+                  Convert clicks into real business with optimized paid campaigns that align with your organic strengths.
+                </p>
+                <Link
+                  className="tp-btn-white background-black"
+                  href="/contact"
+                >
+                  Scale with Ads
+                </Link>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* Website Development Section */}
+      <div className="container mb-120" id="development">
+        <div className="row">
+          <div className="col-xl-7 col-lg-7">
+            <div className="service-details__left-wrap">
+              <div className="service-details__left-text pb-20">
+                <h3 className="mb-30">Website & App Development</h3>
+                <p className="text-1 tp_title_anim mb-30">
+                  We build sleek, fast, and functional websites and mobile apps designed to convert—built specifically for realtors, mortgage pros, lawyers, and other local service experts.
+                </p>
+                <h5 className="mb-20">What We Do:</h5>
+                <div className="service-details__fea-list mb-30">
+                  <ul>
+                    <li>Custom website design and development</li>
+                    <li>Mobile-first and SEO-friendly builds</li>
+                    <li>CRM, calendar, chatbot, and form integrations</li>
+                    <li>Secure payment gateways and booking tools</li>
+                    <li>AI-enhanced features (lead scoring, automation triggers, smart recommendations)</li>
+                    <li>Basic mobile app development (client portals, content delivery, lead capture)</li>
+                  </ul>
+                </div>
+                <p className="mb-20">
+                  <strong>Why It Works:</strong> A clean, fast website or app that aligns with your services helps you convert visitors into clients while capturing useful data and automating the follow-up.
+                </p>
+                <p className="mb-20">
+                  <strong>Who It's For:</strong> Service pros needing a strong digital presence that works 24/7.
+                </p>
+                <p className="mb-30">
+                  <strong>Timeline:</strong> 3–6 weeks depending on project scope
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="col-xl-5 col-lg-5">
+            <div className="service-details__right-wrap fix p-relative">
+              <div className="service-details__right-text-box">
+                <h4>Web Development</h4>
+                <p className="mb-20">
+                  Build a digital presence that converts visitors into clients 24/7 with modern, functional websites and apps.
+                </p>
+                <Link
+                  className="tp-btn-white background-black"
+                  href="/contact"
+                >
+                  Build Your Site
+                </Link>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* Content Creation Section */}
+      <div className="container mb-120" id="content">
+        <div className="row">
+          <div className="col-xl-7 col-lg-7">
+            <div className="service-details__left-wrap">
+              <div className="service-details__left-text pb-20">
+                <h3 className="mb-30">Content Creation Services</h3>
+                <p className="text-1 tp_title_anim mb-30">
+                  We help you create compelling content that showcases your expertise and drives engagement across all platforms.
+                </p>
+                
+                <h5 className="mb-20">Ideation</h5>
+                <p className="mb-20">
+                  We bring your expertise to life through thoughtful, strategic content ideation sessions. We interview you about your journey, identify content pillars, and brainstorm engaging ideas that educate, inspire, and convert.
+                </p>
+                <p className="mb-30">
+                  <strong>Timeline:</strong> Weekly or bi-weekly content planning sessions
+                </p>
+
+                <h5 className="mb-20">Scripting</h5>
+                <p className="mb-20">
+                  We transform your ideas into powerful scripts that drive views, shares, and action. We craft scroll-stopping hooks, relatable storytelling, and write in your authentic voice.
+                </p>
+                <p className="mb-30">
+                  <strong>Timeline:</strong> 3–5 scripts per week (flexible based on volume)
+                </p>
+
+                <h5 className="mb-20">Direction</h5>
+                <p className="mb-20">
+                  We guide you on camera to capture your best, most confident self. We provide on-shoot coaching, frame guidance, and real-time feedback to keep you relaxed and camera-ready.
+                </p>
+                <p className="mb-30">
+                  <strong>Timeline:</strong> Per-shoot or per-session basis
+                </p>
+
+                <h5 className="mb-20">Editing</h5>
+                <p className="mb-20">
+                  We turn raw footage into scroll-stopping videos using modern editing techniques. We add viral hooks, integrate subtitles and branding, and optimize for platform-specific formats.
+                </p>
+                <p className="mb-30">
+                  <strong>Timeline:</strong> 48–72 hour turnaround per video
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="col-xl-5 col-lg-5">
+            <div className="service-details__right-wrap fix p-relative">
+              <div className="service-details__right-text-box">
+                <h4>Content Creation</h4>
+                <p className="mb-20">
+                  From ideation to final edit, we help you create viral content that showcases your expertise and drives engagement.
+                </p>
+                <Link
+                  className="tp-btn-white background-black"
+                  href="/contact"
+                >
+                  Create Content
+                </Link>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* Call to Action Section */}
+      <div className="container">
+        <div className="row">
+          <div className="col-xl-12">
+            <div className="service-details__cta text-center">
+              <h3 className="mb-30">Ready to Transform Your Business?</h3>
+              <p className="mb-40">
+                Let's discuss how our comprehensive services can help you dominate your market, generate qualified leads, and scale sustainably.
+              </p>
+              <Link
+                className="tp-btn-white background-black"
+                href="/contact"
+              >
+                Schedule a Free Consultation
+              </Link>
             </div>
           </div>
         </div>
