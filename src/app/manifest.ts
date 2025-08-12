@@ -4,29 +4,56 @@ export default function manifest(): MetadataRoute.Manifest {
   return {
     name: 'The X Media - Digital Marketing Agency',
     short_name: 'The X Media',
-    description: 'Digital Marketing Agency & Creative Solutions',
+    description: 'Leading digital marketing agency specializing in SEO, AI content creation, and lead generation. Transform your business with proven strategies.',
     start_url: '/',
     display: 'standalone',
-    background_color: '#ffffff',
+    background_color: '#000000',
     theme_color: '#000000',
     orientation: 'portrait-primary',
-    categories: ['business', 'marketing', 'design'],
+    scope: '/',
     lang: 'en',
+    categories: ['business', 'marketing', 'advertising'],
     icons: [
       {
-        src: '/favicon.ico',
-        sizes: '16x16 32x32',
-        type: 'image/x-icon',
+        src: '/assets/img/favicon.png',
+        sizes: '32x32',
+        type: 'image/png',
       },
       {
-        src: '/icon-192.png',
+        src: '/assets/img/logo/logo.png',
         sizes: '192x192',
         type: 'image/png',
       },
       {
-        src: '/icon-512.png',
+        src: '/assets/img/logo/logo.png',
         sizes: '512x512',
         type: 'image/png',
+      },
+    ],
+    shortcuts: [
+      {
+        name: 'Our Services',
+        short_name: 'Services',
+        description: 'View our digital marketing services',
+        url: '/service',
+        icons: [
+          {
+            src: '/assets/img/logo/logo.png',
+            sizes: '96x96',
+          },
+        ],
+      },
+      {
+        name: 'Contact Us',
+        short_name: 'Contact',
+        description: 'Get in touch with our team',
+        url: '/contact',
+        icons: [
+          {
+            src: '/assets/img/logo/logo.png',
+            sizes: '96x96',
+          },
+        ],
       },
     ],
   }

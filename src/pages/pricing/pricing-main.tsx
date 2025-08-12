@@ -8,7 +8,7 @@ gsap.registerPlugin(ScrollTrigger, ScrollSmoother, SplitText);
 
 // internal imports
 import Wrapper from "@/layouts/wrapper";
-import HeaderEleven from "@/layouts/headers/header-eleven";
+import HeaderOne from "@/layouts/headers/header-one";
 import PricingArea from "@/components/pricing/pricing-area";
 import FaqAreaTwo from "@/components/faq/faq-area-2";
 import FooterTwo from "@/layouts/footers/footer-two";
@@ -29,7 +29,7 @@ const PricingMain = () => {
   return (
     <Wrapper>
       {/* header area start */}
-      <HeaderEleven />
+      <HeaderOne />
       {/* header area end */}
 
       <div id="smooth-wrapper">

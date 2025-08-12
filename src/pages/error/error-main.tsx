@@ -9,9 +9,9 @@ gsap.registerPlugin(ScrollTrigger, ScrollSmoother, SplitText);
 
 // internal imports
 import Wrapper from "@/layouts/wrapper";
-import HeaderEleven from "@/layouts/headers/header-eleven";
 import FooterTwo from "@/layouts/footers/footer-two";
 import error from '@/assets/img/error/error.png';
+import HeaderFour from "@/layouts/headers/header-four";
 
 const ErrorMain = () => {
   useScrollSmooth();
@@ -19,7 +19,7 @@ const ErrorMain = () => {
   return (
     <Wrapper>
       {/* header area start */}
-      <HeaderEleven />
+      <HeaderFour />
       {/* header area end */}
 
       <div id="smooth-wrapper">

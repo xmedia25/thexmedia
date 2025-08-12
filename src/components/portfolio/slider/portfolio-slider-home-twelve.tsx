@@ -57,7 +57,7 @@ export default function PortfolioSliderHomeTwelve() {
               data-cursor="View<br>Demo"
               key={item.id}
             >
-              <Link className="cursor-hide" href="/portfolio-showcase-details">
+              <Link className="cursor-hide" href="/portfolio-details">
                 <div className="parallax-content">
                   <span>{item.subtitle}</span>
                   <h4>{item.title}</h4>

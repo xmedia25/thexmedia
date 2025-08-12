@@ -70,7 +70,7 @@ export default function PerspectivePortfolioSlider() {
                           >
                             <Link
                               className="cursor-hide"
-                              href="/portfolio-showcase-details-2"
+                              href="/portfolio-details"
                             >
                               {item.title}
                             </Link>

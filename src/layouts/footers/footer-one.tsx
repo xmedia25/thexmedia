@@ -6,11 +6,10 @@ import logo from '@/assets/img/logo/logo-white.png';
 import { footerOneAnimation, footerTwoAnimation } from "@/utils/footer-anim";
 
 const footer_links = [
-  { link: "/portfolio-details-1", title: "Projects" },
-  { link: "/service", title: "What we do" },
-  { link: "/ai-content", title: "AI Content" },
+  { link: "/our-clients", title: "Our Clients" },
+  { link: "/service", title: "Services" },
   { link: "/about-us", title: "About" },
-  { link: "/blog-modern", title: "Blog" },
+  { link: "/blog", title: "Blog" },
   { link: "/contact", title: "Contact" },
 ];
 export default function FooterOne() {

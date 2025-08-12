@@ -125,7 +125,7 @@ export default function PortfolioGridColThreeArea({ style_2 = false }: IProps) {
               className={`col-xl-4 col-lg-6 col-md-6 grid-item ${item.show}`}
             >
               <div className="tp-project-5-2-thumb mb-30 p-relative not-hide-cursor" data-cursor="View<br>Demo">
-                <Link href="/portfolio-details-1" className="cursor-hide">
+                <Link href="/portfolio-details" className="cursor-hide">
                     <Image
                       className="anim-zoomin"
                       src={item.img}

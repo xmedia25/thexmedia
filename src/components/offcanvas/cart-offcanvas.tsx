@@ -48,19 +48,12 @@ export default function CartOffcanvas({openCartMini,setOpenCartMini}:IProps) {
               {/* card item start */}
               <div className="cartmini__widget-item">
                 <div className="cartmini__thumb">
-                  <Link href="/shop-details/1">
-                    <Image
-                      src="/assets/img/inner-blog/blog-sidebar/rc-post/rc-1.jpg"
-                      alt="cart-img"
-                      width={70}
-                      height={70}
-                    />
-                  </Link>
+                  <Link href="/shop-details">Level Bolt Smart Lock</Link>
                 </div>
                 <div className="cartmini__content">
-                  <h5 className="cartmini__title">
-                    <Link href="/shop-details/1">Level Bolt Smart Lock</Link>
-                  </h5>
+                  <h6 className="cartmini__title">
+                    <Link href="/shop-details">Level Bolt Smart Lock</Link>
+                  </h6>
                   <div className="cartmini__price-wrapper">
                     <span className="cartmini__price">$46.00</span>
                     <span className="cartmini__quantity">x2</span>

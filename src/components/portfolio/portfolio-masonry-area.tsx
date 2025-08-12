@@ -80,7 +80,7 @@ export default function PortfolioMasonryArea() {
                     {item.subtitle}
                   </span>
                   <h4 className="pm-project-masonary-title">
-                    <Link href="/portfolio-details-comparison">{item.title}</Link>
+                    <Link href="/portfolio-details">{item.title}</Link>
                   </h4>
                 </div>
               </div>

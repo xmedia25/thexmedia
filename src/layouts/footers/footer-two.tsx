@@ -52,11 +52,11 @@ export default function FooterTwo({ whiteFooter = false,topCls='footer-top' }: I
                 <div className="tp-footer-2-widget-menu">
                   <h4 className="tp-footer-2-widget-title">Sitemap</h4>
                   <ul>
-                    <li><a href="/">Home</a></li>
                     <li><a href="/about-us">About</a></li>
-                    <li><a href="/ai-content">AI Content</a></li>
-                    <li><a href="/contact">Contact</a></li>
+                    <li><a href="/service">Services</a></li>
+                    <li><a href="/our-clients">Our Clients</a></li>
                     <li><a href="/blog">Blog</a></li>
+                    <li><a href="/contact">Contact</a></li>
                     <li><a href="/faq">FAQ</a></li>
                   </ul>
                 </div>

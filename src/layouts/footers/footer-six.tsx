@@ -57,12 +57,11 @@ export default function FooterSix() {
                   <h4 className="tp-footer-6-widget-title">Category</h4>
                   <div className="tp-footer-6-list">
                     <ul>
-                      <li><a href="#">Our Story</a></li>
-                      <li><a href="#">Careers</a></li>
-                      <li><a href="#">Privacy Policy</a></li>
-                      <li><a href="#">Terms & Conditions</a></li>
-                      <li><a href="#">Latest News</a></li>
-                      <li><a href="#">Contact Us</a></li>
+                      <li><a href="/about-us">Our Story</a></li>
+                      <li><a href="/service">Services</a></li>
+                      <li><a href="/our-clients">Our Clients</a></li>
+                      <li><a href="/blog">Latest News</a></li>
+                      <li><a href="/contact">Contact Us</a></li>
                     </ul>
                   </div>
                 </div>
@@ -72,12 +71,10 @@ export default function FooterSix() {
                   <h4 className="tp-footer-6-widget-title">My Account</h4>
                   <div className="tp-footer-6-list">
                     <ul>
-                      <li><a href="#">Track Orders</a></li>
-                      <li><a href="#">Shipping</a></li>
-                      <li><a href="#">Wishlist</a></li>
-                      <li><a href="#">My Account</a></li>
-                      <li><a href="#">Order History</a></li>
-                      <li><a href="#">Returns</a></li>
+                      <li><a href="/cart">Cart</a></li>
+                      <li><a href="/wishlist">Wishlist</a></li>
+                      <li><a href="/account">My Account</a></li>
+                      <li><a href="/contact">Contact</a></li>
                     </ul>
                   </div>
                 </div>

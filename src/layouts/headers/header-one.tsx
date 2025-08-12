@@ -5,6 +5,7 @@ import Link from "next/link";
 import HeaderMenus from "./header-menus";
 import useSticky from "@/hooks/use-sticky";
 import MobileOffcanvas from "@/components/offcanvas/mobile-offcanvas";
+import MobileHeader from "@/components/mobile-header";
 
 const HeaderOne = () => {
   const {sticky,headerRef,headerFullWidth} = useSticky();
@@ -54,10 +55,12 @@ const HeaderOne = () => {
               </div>
               <div className="col-xl-2 col-lg col-6">
                 <div className="tp-header-bar text-end">
-                  <button className="tp-offcanvas-open-btn" onClick={() => setOpenOffCanvas(true)}>
+                  <button className="tp-offcanvas-open-btn d-none d-lg-block" onClick={() => setOpenOffCanvas(true)}>
                     <span></span>
                     <span></span>
                   </button>
+                  {/* Mobile Menu Toggle */}
+                  <MobileHeader />
                 </div>
               </div>
             </div>
