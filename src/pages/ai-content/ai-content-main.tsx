@@ -59,7 +59,7 @@ const AiContentMain = () => {
                       </div>
                       <div className="tm-hero-description tp_fade_bottom">
                         <p>
-                          At TheXMedia, we're helping entrepreneurs, executives, and content-driven professionals scale their brand presence using the power of AI. If you've ever felt like content creation is too time-consuming — this is for you.
+                          At TheXMedia, we&apos;re helping entrepreneurs, executives, and content-driven professionals scale their brand presence using the power of AI. If you&apos;ve ever felt like content creation is too time-consuming — this is for you.
                         </p>
                       </div>
                     </div>
@@ -194,7 +194,7 @@ const AiContentMain = () => {
                     <div className="col-xl-12">
                       <div className="tp-service-5-title-box mb-90">
                         <h4 className="tp-service-5-title tp-char-animation">
-                          Who It's For
+                          Who It&apos;s For
                         </h4>
                       </div>
                     </div>
@@ -265,7 +265,7 @@ const AiContentMain = () => {
                           The New Wave of Personal Branding
                         </h4>
                         <p className="tp_fade_bottom">
-                          AI-generated content isn't the future — it's the now. The most effective creators are building influence at scale with AI-powered videos. With TheXMedia, you're not just following the trend — you're leading it.
+                          AI-generated content isn&apos;t the future — it&apos;s the now. The most effective creators are building influence at scale with AI-powered videos. With TheXMedia, you&apos;re not just following the trend — you&apos;re leading it.
                         </p>
                       </div>
                     </div>
@@ -284,7 +284,7 @@ const AiContentMain = () => {
                           Ready to Go Viral on Autopilot?
                         </h4>
                         <p className="tp_fade_bottom">
-                          Let's turn your face and voice into a 24/7 content machine that brings visibility, authority, and revenue.
+                          Let&apos;s turn your face and voice into a 24/7 content machine that brings visibility, authority, and revenue.
                         </p>
                         <div className="tp-hero-btn mt-40">
                           <a href="/contact" className="tp-btn tp-btn-2 tp-btn-hover">

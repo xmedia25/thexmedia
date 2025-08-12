@@ -75,7 +75,7 @@ const PortfolioStandardMain = () => {
                     </div>
                     <div className="tm-hero-text">
                       <p className="tp_title_anim">
-                        At TheXMedia, we're proud to work with professionals who are serious about growing their brand, reaching new audiences, and converting attention into action.
+                        At TheXMedia, we&apos;re proud to work with professionals who are serious about growing their brand, reaching new audiences, and converting attention into action.
                       </p>
                     </div>
                   </div>

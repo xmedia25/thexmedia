@@ -132,13 +132,13 @@ export default function ProjectFive({ style_2 = false }: IProps) {
               <div className="client-intro-content">
                 <h3 className="mb-30" style={{color: 'white'}}>Growing Together</h3>
                 <p className="mb-30">
-                  Whether you're a realtor, mortgage agent, lawyer, CA, or service-based entrepreneur, our clients are united by one goal: to lead in their industry by showing up with powerful, organic content that works.
+                  Whether you&apos;re a realtor, mortgage agent, lawyer, CA, or service-based entrepreneur, our clients are united by one goal: to lead in their industry by showing up with powerful, organic content that works.
                 </p>
                 <p className="mb-30">
-                  We don't just work for our clients—we grow with them. We take their business as seriously as our own, helping them not only go viral but also build sales teams, business development pipelines, and internal processes. From automations to SOPs, we create systems that help them scale with clarity and confidence.
+                  We don&apos;t just work for our clients—we grow with them. We take their business as seriously as our own, helping them not only go viral but also build sales teams, business development pipelines, and internal processes. From automations to SOPs, we create systems that help them scale with clarity and confidence.
                 </p>
                 <p>
-                  Below are some of the incredible professionals and businesses we've helped go viral, build systems, and generate real business results.
+                  Below are some of the incredible professionals and businesses we&apos;ve helped go viral, build systems, and generate real business results.
                 </p>
               </div>
             </div>

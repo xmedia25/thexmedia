@@ -59,7 +59,7 @@ export default function ServiceDetailsArea() {
               <div className="service-details__left-text pb-20">
                 <h3 className="mb-30">SEO for Service Professionals</h3>
                 <p className="text-1 tp_title_anim mb-30">
-                  We help realtors, mortgage agents, lawyers, CAs, and local service-based businesses dominate local search. Our SEO isn't about vanity traffic—it's about visibility to the right audience, at the right time.
+                  We help realtors, mortgage agents, lawyers, CAs, and local service-based businesses dominate local search. Our SEO isn&apos;t about vanity traffic—it&apos;s about visibility to the right audience, at the right time.
                 </p>
                 <h5 className="mb-20">What We Do:</h5>
                 <div className="service-details__fea-list mb-30">
@@ -77,7 +77,7 @@ export default function ServiceDetailsArea() {
                   <strong>Why It Works:</strong> By positioning you where your clients search (Google), we build lasting organic visibility that generates qualified leads month after month—without ad spend.
                 </p>
                 <p className="mb-20">
-                  <strong>Who It's For:</strong> Local service providers looking for consistent, high-intent inbound leads.
+                  <strong>Who It&apos;s For:</strong> Local service providers looking for consistent, high-intent inbound leads.
                 </p>
                 <p className="mb-30">
                   <strong>Timeline:</strong> 2–4 weeks setup + ongoing monthly management
@@ -133,10 +133,10 @@ export default function ServiceDetailsArea() {
                   </ul>
                 </div>
                 <p className="mb-20">
-                  <strong>Why It Works:</strong> You can't scale chaos. We give you a lean, effective system to attract, convert, and retain clients more efficiently.
+                  <strong>Why It Works:</strong> You can&apos;t scale chaos. We give you a lean, effective system to attract, convert, and retain clients more efficiently.
                 </p>
                 <p className="mb-20">
-                  <strong>Who It's For:</strong> Service businesses looking to scale sustainably with better systems and positioning.
+                  <strong>Who It&apos;s For:</strong> Service businesses looking to scale sustainably with better systems and positioning.
                 </p>
                 <p className="mb-30">
                   <strong>Timeline:</strong> 4–6 weeks with optional ongoing advisory
@@ -155,7 +155,7 @@ export default function ServiceDetailsArea() {
                   className="tp-btn-white background-black"
                   href="/contact"
                 >
-                  Let's Strategize
+                  Let&apos;s Strategize
                 </Link>
               </div>
             </div>
@@ -171,7 +171,7 @@ export default function ServiceDetailsArea() {
               <div className="service-details__left-text pb-20">
                 <h3 className="mb-30">Performance Marketing (Meta & Google Ads)</h3>
                 <p className="text-1 tp_title_anim mb-30">
-                  Already got organic traction? Let's pour fuel on the fire. We create, test, and optimize paid campaigns that convert clicks into real business.
+                  Already got organic traction? Let&apos;s pour fuel on the fire. We create, test, and optimize paid campaigns that convert clicks into real business.
                 </p>
                 <h5 className="mb-20">What We Do:</h5>
                 <div className="service-details__fea-list mb-30">
@@ -185,10 +185,10 @@ export default function ServiceDetailsArea() {
                   </ul>
                 </div>
                 <p className="mb-20">
-                  <strong>Why It Works:</strong> We align paid traffic with your organic strengths and service offers, so you don't waste money. Every dollar is tracked, tested, and improved.
+                  <strong>Why It Works:</strong> We align paid traffic with your organic strengths and service offers, so you don&apos;t waste money. Every dollar is tracked, tested, and improved.
                 </p>
                 <p className="mb-20">
-                  <strong>Who It's For:</strong> Established businesses ready to scale faster with ads.
+                  <strong>Who It&apos;s For:</strong> Established businesses ready to scale faster with ads.
                 </p>
                 <p className="mb-30">
                   <strong>Timeline:</strong> 1–2 weeks setup + ongoing monthly management
@@ -240,7 +240,7 @@ export default function ServiceDetailsArea() {
                   <strong>Why It Works:</strong> A clean, fast website or app that aligns with your services helps you convert visitors into clients while capturing useful data and automating the follow-up.
                 </p>
                 <p className="mb-20">
-                  <strong>Who It's For:</strong> Service pros needing a strong digital presence that works 24/7.
+                  <strong>Who It&apos;s For:</strong> Service pros needing a strong digital presence that works 24/7.
                 </p>
                 <p className="mb-30">
                   <strong>Timeline:</strong> 3–6 weeks depending on project scope
@@ -338,7 +338,7 @@ export default function ServiceDetailsArea() {
             <div className="service-details__cta text-center">
               <h3 className="mb-30">Ready to Transform Your Business?</h3>
               <p className="mb-40">
-                Let's discuss how our comprehensive services can help you dominate your market, generate qualified leads, and scale sustainably.
+                Let&apos;s discuss how our comprehensive services can help you dominate your market, generate qualified leads, and scale sustainably.
               </p>
               <Link
                 className="tp-btn-white background-black"
