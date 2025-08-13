@@ -33,63 +33,35 @@ const menu_data:IMenuDT[] = [
 
 export default menu_data;
 
-// mobile menus 
+// mobile menus - updated to use direct links instead of dropdowns
 export const mobile_menu_data:{
   id: number;
   title: string;
   link: string;
-  dropdown_menus: {
-      title: string;
-      link: string;
-  }[];
 }[] = [
   {
-    id:1,
+    id: 1,
     title: 'Our Clients',
-    link: '/our-clients',
-    dropdown_menus:[
-      { title: 'Client Profiles', link: '/our-clients' },
-      { title: 'Portfolio Masonry', link: '/portfolio-masonry' },
-      { title: 'Portfolio Showcase', link: '/portfolio-showcase' },
-      { title: 'Portfolio Details', link: '/portfolio-details' },
-    ]
+    link: '/our-clients'
   },
   {
     id: 2,
     title: 'Services',
-    link: '/service',
-    dropdown_menus:[
-      { title: 'All Services', link: '/service' },
-      { title: 'AI Content', link: '/ai-content' },
-      { title: 'Service Details', link: '/service-details' },
-    ]
+    link: '/service'
   },
   {
     id: 3,
     title: 'Blog',
-    link: '/blog',
-    dropdown_menus:[
-      { title: 'Blog Modern', link: '/blog' },
-      { title: 'Blog Classic', link: '/blog-classic' },
-      { title: 'Blog List', link: '/blog-list' },
-      { title: 'Blog Details', link: '/blog-details' },
-    ]
+    link: '/blog'
   },
   {
     id: 4,
     title: 'FAQ',
-    link: '/faq',
-    dropdown_menus:[
-      { title: 'FAQ', link: '/faq' },
-    ]
+    link: '/faq'
   },
   {
     id: 5,
     title: 'Contact',
-    link: '/contact',
-    dropdown_menus:[
-      { title: 'Contact', link: '/contact' },
-      { title: 'Contact 2', link: '/contact-2' },
-    ]
+    link: '/contact'
   }
 ]
