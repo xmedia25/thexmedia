@@ -184,21 +184,7 @@
   }
   
   .mobile-menu-item {
-    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-  }
-  
-  .mobile-menu-toggle-btn {
-    width: 100%;
-    background: none;
-    border: none;
-    color: #fff;
-    text-align: left;
-    padding: 15px 0;
-    font-size: 16px;
-    cursor: pointer;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    /* Border removed - now applied to individual links */
   }
   
   .mobile-menu-link {
@@ -208,46 +194,16 @@
     padding: 15px 0;
     font-size: 16px;
     transition: color 0.3s ease;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
   }
   
   .mobile-menu-link:hover {
     color: #007bff;
+    background-color: rgba(255, 255, 255, 0.05);
   }
   
-  .mobile-submenu {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    max-height: 0;
-    overflow: hidden;
-    transition: max-height 0.3s ease;
-    background: rgba(255, 255, 255, 0.05);
-    margin-left: 20px;
-  }
-  
-  .mobile-submenu.active {
-    max-height: 300px;
-  }
-  
-  .mobile-submenu-link {
-    display: block;
-    color: rgba(255, 255, 255, 0.8);
-    text-decoration: none;
-    padding: 12px 20px;
-    font-size: 14px;
-    transition: color 0.3s ease;
-  }
-  
-  .mobile-submenu-link:hover {
-    color: #007bff;
-  }
-  
-  .fa-chevron-down {
-    transition: transform 0.3s ease;
-  }
-  
-  .fa-chevron-down.rotated {
-    transform: rotate(180deg);
+  .mobile-menu-link:active {
+    background-color: rgba(255, 255, 255, 0.1);
   }
   
   .mobile-contact-info {
@@ -328,33 +284,10 @@
     background-color: rgba(255, 255, 255, 0.1);
   }
   
-  .tp-submenu {
-    background: rgba(0, 0, 0, 0.8);
-    margin-left: 20px;
-  }
-  
-  .tp-submenu li {
-    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
-  }
-  
-  .tp-submenu a {
-    padding: 12px 20px;
-    font-size: 14px;
-    color: rgba(255, 255, 255, 0.8);
-  }
-  
-  .dropdown-toggle-btn {
-    background: none;
-    border: none;
-    color: #fff;
-    float: right;
-    padding: 5px;
-    cursor: pointer;
-  }
+  /* Dropdown styles removed - now using direct links */
   
   /* Mobile touch optimization */
-  .tp-main-menu-content a,
-  .tp-submenu a {
+  .tp-main-menu-content a {
     -webkit-tap-highlight-color: transparent;
     touch-action: manipulation;
   }
@@ -466,9 +399,9 @@
   }
   
   /* Optimize mobile menu animations */
-  .tp-submenu {
+  .tp-main-menu-content {
     transform: translateZ(0);
-    will-change: opacity, transform;
+    will-change: transform;
   }
   
   /* Hide desktop navigation on mobile */

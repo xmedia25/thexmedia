@@ -6,26 +6,13 @@ import { mobile_menu_data } from "@/data/menu-data";
 
 const MobileHeader: React.FC = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-  const [activeDropdown, setActiveDropdown] = useState<string | null>(null);
 
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
-    if (isMenuOpen) {
-      setActiveDropdown(null);
-    }
-  };
-
-  const toggleDropdown = (title: string) => {
-    if (activeDropdown === title) {
-      setActiveDropdown(null);
-    } else {
-      setActiveDropdown(title);
-    }
   };
 
   const closeMenu = () => {
     setIsMenuOpen(false);
-    setActiveDropdown(null);
   };
 
   // Close menu when clicking outside
@@ -84,44 +71,18 @@ const MobileHeader: React.FC = () => {
           </button>
         </div>
 
-        {/* Mobile Navigation */}
+        {/* Mobile Navigation - Updated to use direct links */}
         <nav className="mobile-navigation">
           <ul className="mobile-menu">
             {mobile_menu_data.map((menu) => (
               <li key={menu.id} className="mobile-menu-item">
-                {menu.dropdown_menus && menu.dropdown_menus.length > 0 ? (
-                  <>
-                    <button
-                      className="mobile-menu-toggle-btn"
-                      onClick={() => toggleDropdown(menu.title)}
-                      aria-expanded={activeDropdown === menu.title}
-                    >
-                      {menu.title}
-                      <i className={`fa-light fa-chevron-down ${activeDropdown === menu.title ? 'rotated' : ''}`}></i>
-                    </button>
-                    <ul className={`mobile-submenu ${activeDropdown === menu.title ? 'active' : ''}`}>
-                      {menu.dropdown_menus.map((submenu, index) => (
-                        <li key={index}>
-                          <Link 
-                            href={submenu.link} 
-                            onClick={closeMenu}
-                            className="mobile-submenu-link"
-                          >
-                            {submenu.title}
-                          </Link>
-                        </li>
-                      ))}
-                    </ul>
-                  </>
-                ) : (
-                  <Link 
-                    href={menu.link} 
-                    onClick={closeMenu}
-                    className="mobile-menu-link"
-                  >
-                    {menu.title}
-                  </Link>
-                )}
+                <Link 
+                  href={menu.link} 
+                  onClick={closeMenu}
+                  className="mobile-menu-link"
+                >
+                  {menu.title}
+                </Link>
               </li>
             ))}
           </ul>
