@@ -1,6 +1,6 @@
 "use client";
 import React from "react";
-import Image from "next/image";
+import OptimizedImage from "@/components/ui/optimized-image";
 import Marquee from "react-fast-marquee";
 
 // brand images
@@ -26,7 +26,7 @@ export default function BrandSlider() {
       >
         {brand_images.map((b, i) => (
           <div key={i} className="tp-brand-item" style={{ height: "auto",width: "200px" }}>
-            <Image src={b} alt="" />
+            <OptimizedImage src={b} alt="" showSkeleton={true} />
           </div>
         ))}
       </Marquee>
@@ -38,7 +38,7 @@ export default function BrandSlider() {
         {brand_images.map((b, i) => (
           <SwiperSlide key={i}>
             <div className="tp-brand-item">
-              <Image src={b} alt="" />
+              <OptimizedImage src={b} alt="" showSkeleton={true} />
             </div>
           </SwiperSlide>
         ))}

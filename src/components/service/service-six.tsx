@@ -1,5 +1,5 @@
 import React from "react";
-import Image from "next/image";
+import OptimizedImage from "@/components/ui/optimized-image";
 
 // images
 import ser_img_1 from "@/assets/img/inner-service/service/service-1.jpg";
@@ -73,10 +73,11 @@ export default function ServiceSix() {
             <div className="row g-0">
               <div className="col-xl-6 col-lg-6">
                 <div className="sv-service-thumb">
-                  <Image
+                  <OptimizedImage
                     src={item.img}
                     alt="service-img"
                     style={{ height: "auto" }}
+                    showSkeleton={true}
                   />
                 </div>
               </div>

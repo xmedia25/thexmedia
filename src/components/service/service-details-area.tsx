@@ -1,5 +1,5 @@
 import React from "react";
-import Image from "next/image";
+import OptimizedImage from "@/components/ui/optimized-image";
 import Link from "next/link";
 
 // images
@@ -43,11 +43,12 @@ export default function ServiceDetailsArea() {
           <div className="col-xl-12">
             <div className="service-details__tab-wrapper text-center mb-60">
               <div className="service-details__tab-thumb">
-                <Image
+                <OptimizedImage
                   data-speed="0.4"
                   src={sv_1}
                   alt="SEO Services"
                   style={{ height: "auto" }}
+                  showSkeleton={true}
                 />
               </div>
             </div>

@@ -1,0 +1,546 @@
+/* Skeleton Loading CSS - YouTube Style */
+/* This file provides smooth skeleton loading animations for images and videos */
+
+/* Base skeleton loader styles */
+.skeleton-loader {
+  position: relative;
+  background: #f0f0f0;
+  border-radius: 8px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Shimmer animation */
+.skeleton-shimmer {
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(255, 255, 255, 0.4),
+    transparent
+  );
+  animation: shimmer 1.5s infinite;
+}
+
+@keyframes shimmer {
+  0% {
+    left: -100%;
+  }
+  100% {
+    left: 100%;
+  }
+}
+
+/* Image skeleton specific styles */
+.image-skeleton {
+  background: #f8f9fa;
+  border: 1px solid #e9ecef;
+}
+
+.skeleton-image {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.skeleton-placeholder {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #adb5bd;
+  z-index: 1;
+}
+
+.skeleton-icon {
+  width: 48px;
+  height: 48px;
+  margin-bottom: 8px;
+  opacity: 0.6;
+}
+
+.skeleton-icon svg {
+  width: 100%;
+  height: 100%;
+}
+
+/* Video skeleton specific styles */
+.video-skeleton {
+  background: #f8f9fa;
+  border: 1px solid #e9ecef;
+  aspect-ratio: 16/9;
+}
+
+.skeleton-video {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.skeleton-play-button {
+  width: 64px;
+  height: 64px;
+  background: rgba(0, 0, 0, 0.7);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 16px;
+  z-index: 1;
+}
+
+.skeleton-play-button svg {
+  width: 32px;
+  height: 32px;
+  color: #fff;
+}
+
+.skeleton-video-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  z-index: 1;
+}
+
+.skeleton-title {
+  width: 120px;
+  height: 16px;
+  background: #dee2e6;
+  border-radius: 4px;
+  animation: pulse 1.5s ease-in-out infinite;
+}
+
+.skeleton-subtitle {
+  width: 80px;
+  height: 12px;
+  background: #e9ecef;
+  border-radius: 4px;
+  animation: pulse 1.5s ease-in-out infinite 0.5s;
+}
+
+/* Pulse animation for text elements */
+@keyframes pulse {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+}
+
+/* Optimized image container */
+.optimized-image-container {
+  position: relative;
+  display: inline-block;
+}
+
+.optimized-image {
+  display: block;
+}
+
+.image-loading {
+  opacity: 0;
+}
+
+.image-loaded {
+  opacity: 1;
+}
+
+/* Optimized video container */
+.optimized-video-container {
+  position: relative;
+  display: inline-block;
+}
+
+.optimized-video {
+  display: block;
+}
+
+.video-loading {
+  opacity: 0;
+}
+
+.video-loaded {
+  opacity: 1;
+}
+
+/* Video play overlay */
+.video-play-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.video-play-overlay:hover {
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.play-button {
+  background: rgba(0, 0, 0, 0.8);
+  border-radius: 50%;
+  width: 64px;
+  height: 64px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.2s ease, background-color 0.2s ease;
+}
+
+.play-button:hover {
+  transform: scale(1.1);
+  background: rgba(0, 0, 0, 0.9);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .skeleton-icon {
+    width: 32px;
+    height: 32px;
+  }
+  
+  .skeleton-play-button {
+    width: 48px;
+    height: 48px;
+  }
+  
+  .skeleton-play-button svg {
+    width: 24px;
+    height: 24px;
+  }
+  
+  .skeleton-title {
+    width: 100px;
+    height: 14px;
+  }
+  
+  .skeleton-subtitle {
+    width: 70px;
+    height: 10px;
+  }
+}
+
+/* Dark theme support */
+@media (prefers-color-scheme: dark) {
+  .skeleton-loader {
+    background: #2d3748;
+  }
+  
+  .image-skeleton,
+  .video-skeleton {
+    background: #2d3748;
+    border-color: #4a5568;
+  }
+  
+  .skeleton-placeholder {
+    color: #718096;
+  }
+  
+  .skeleton-title {
+    background: #4a5568;
+  }
+  
+  .skeleton-subtitle {
+    background: #718096;
+  }
+}
+
+/* High contrast mode support */
+@media (prefers-contrast: high) {
+  .skeleton-loader {
+    border: 2px solid #000;
+  }
+  
+  .skeleton-shimmer {
+    background: linear-gradient(
+      90deg,
+      transparent,
+      rgba(0, 0, 0, 0.8),
+      transparent
+    );
+  }
+}
+
+/* Reduced motion support */
+@media (prefers-reduced-motion: reduce) {
+  .skeleton-shimmer {
+    animation: none;
+  }
+  
+  .skeleton-title,
+  .skeleton-subtitle {
+    animation: none;
+  }
+  
+  .optimized-image,
+  .optimized-video {
+    transition: none;
+  }
+}
+
+/* Legal Pages Styling */
+.legal-page {
+  background: #f8f9fa;
+  min-height: 100vh;
+}
+
+.legal-content {
+  background: white;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.legal-section h2 {
+  color: #333;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  border-bottom: 2px solid #007bff;
+  padding-bottom: 0.5rem;
+}
+
+.legal-section h3 {
+  color: #555;
+  font-size: 1.2rem;
+  margin: 1rem 0 0.5rem 0;
+}
+
+.legal-section p {
+  color: #666;
+  line-height: 1.6;
+  margin-bottom: 1rem;
+}
+
+.legal-section ul {
+  margin-bottom: 1rem;
+  padding-left: 1.5rem;
+}
+
+.legal-section li {
+  color: #666;
+  line-height: 1.6;
+  margin-bottom: 0.5rem;
+}
+
+.legal-section table {
+  margin: 1rem 0;
+}
+
+.legal-section th {
+  background: #f8f9fa;
+  font-weight: 600;
+}
+
+/* Contact Form Checkbox Styling */
+.cn-contactform-checkbox {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  margin-bottom: 8px;
+}
+
+.cn-contactform-checkbox input[type="checkbox"] {
+  width: 18px;
+  height: 18px;
+  margin-top: 2px;
+  cursor: pointer;
+}
+
+.cn-contactform-checkbox label {
+  font-size: 14px;
+  line-height: 1.5;
+  color: #666;
+  cursor: pointer;
+  margin: 0;
+}
+
+.cn-contactform-checkbox a {
+  color: #007bff;
+  text-decoration: underline;
+  transition: color 0.2s ease;
+}
+
+.cn-contactform-checkbox a:hover {
+  color: #0056b3;
+}
+
+/* Dark theme support for legal pages */
+@media (prefers-color-scheme: dark) {
+  .legal-page {
+    background: #1a1a1a;
+  }
+  
+  .legal-content {
+    background: #2d2d2d;
+    color: #ffffff;
+  }
+  
+  .legal-section h2 {
+    color: #ffffff;
+    border-bottom-color: #007bff;
+  }
+  
+  .legal-section h3 {
+    color: #ffffff;
+  }
+  
+  .legal-section p,
+  .legal-section li {
+    color: #ffffff;
+  }
+  
+  .legal-section th {
+    background: #3a3a3a;
+    color: #ffffff;
+  }
+  
+  .legal-section td {
+    color: #ffffff;
+  }
+  
+  .cn-contactform-checkbox label {
+    color: #ffffff;
+  }
+}
+
+/* Forced dark mode for legal pages */
+.legal-page.dark-mode {
+  background: #1a1a1a !important;
+}
+
+.legal-content.dark-mode {
+  background: #2d2d2d !important;
+  color: #ffffff !important;
+}
+
+.legal-content.dark-mode .legal-section h2 {
+  color: #ffffff !important;
+  border-bottom-color: #007bff !important;
+}
+
+.legal-content.dark-mode .legal-section h3 {
+  color: #ffffff !important;
+}
+
+.legal-content.dark-mode .legal-section p,
+.legal-content.dark-mode .legal-section li {
+  color: #ffffff !important;
+}
+
+.legal-content.dark-mode .legal-section th {
+  background: #3a3a3a !important;
+  color: #ffffff !important;
+}
+
+.legal-content.dark-mode .legal-section td {
+  color: #ffffff !important;
+}
+
+.legal-content.dark-mode .text-muted {
+  color: #ffffff !important;
+}
+
+.legal-content.dark-mode .btn-primary {
+  background-color: #007bff !important;
+  border-color: #007bff !important;
+  color: #fff !important;
+}
+
+.legal-content.dark-mode .btn-primary:hover {
+  background-color: #0056b3 !important;
+  border-color: #0056b3 !important;
+}
+
+/* Ensure all text elements in legal pages are white */
+.legal-page.dark-mode h1,
+.legal-page.dark-mode h2,
+.legal-page.dark-mode h3,
+.legal-page.dark-mode h4,
+.legal-page.dark-mode h5,
+.legal-page.dark-mode h6,
+.legal-page.dark-mode p,
+.legal-page.dark-mode li,
+.legal-page.dark-mode span,
+.legal-page.dark-mode a:not(.btn-primary),
+.legal-page.dark-mode td,
+.legal-page.dark-mode th {
+  color: #ffffff !important;
+}
+
+/* Make links white with hover effect */
+.legal-page.dark-mode a:not(.btn-primary) {
+  color: #ffffff !important;
+  text-decoration: underline;
+}
+
+.legal-page.dark-mode a:not(.btn-primary):hover {
+  color: #007bff !important;
+}
+
+/* Footer Legal Links Styling */
+.tp-footer-legal-links {
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  padding-top: 1rem;
+}
+
+.tp-footer-legal-separator {
+  height: 1px;
+  background: rgba(255, 255, 255, 0.1);
+  width: 100%;
+}
+
+.tp-footer-legal-menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.tp-footer-legal-menu a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 14px;
+  transition: color 0.3s ease;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  background: rgba(255, 255, 255, 0.05);
+}
+
+.tp-footer-legal-menu a:hover {
+  color: #007bff;
+  background: rgba(255, 255, 255, 0.1);
+}
+
+/* Responsive adjustments for footer legal links */
+@media (max-width: 768px) {
+  .tp-footer-legal-menu {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  
+  .tp-footer-legal-menu a {
+    padding: 0.25rem 0.5rem;
+    font-size: 13px;
+  }
+}

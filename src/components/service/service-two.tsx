@@ -1,6 +1,6 @@
 import React from "react";
 import { Leaf } from "../svg";
-import Image from "next/image";
+import OptimizedImage from "@/components/ui/optimized-image";
 // service icon
 import ser_1 from "@/assets/img/home-02/service/sv-icon-1.png";
 import ser_2 from "@/assets/img/home-02/service/sv-icon-2.png";
@@ -58,7 +58,7 @@ export default function ServiceTwo() {
         <div className="row align-items-center">
           <div className="col-xxl-6 col-xl-4 col-lg-4">
             <div className="tp-service-2-shape-img text-center text-lg-start">
-              <Image src={shape} alt="" />
+              <OptimizedImage src={shape} alt="" showSkeleton={true} />
             </div>
           </div>
           <div className="col-xxl-6 col-xl-8 col-lg-8">
@@ -76,7 +76,7 @@ export default function ServiceTwo() {
                         aria-controls={`collapse-${s.id}`}
                       >
                         <span>
-                          <Image src={s.icon} alt="icon" />
+                          <OptimizedImage src={s.icon} alt="icon" showSkeleton={true} />
                         </span>
                         {s.title}
                         <span className="accordion-icon"></span>

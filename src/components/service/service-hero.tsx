@@ -1,5 +1,5 @@
 import React from "react";
-import Image from "next/image";
+import OptimizedImage from "@/components/ui/optimized-image";
 
 // image
 import ser_hero from "@/assets/img/inner-service/hero/hero-1.jpg";
@@ -25,18 +25,20 @@ export default function ServiceHero() {
           <div className="col-xl-12">
             <div className="sv-hero-thumb p-relative">
               <div className="sv-hero-thumb-box">
-                <Image
+                <OptimizedImage
                   data-speed=".7"
                   src={ser_hero}
                   alt="ser_hero-img"
                   style={{height:"auto"}}
+                  showSkeleton={true}
                 />
               </div>
-              <Image
+              <OptimizedImage
                 className="sv-hero-thumb-shape d-none d-lg-block"
                 src={ser_hero_shape}
                 alt="ser_hero-shape"
                 style={{height:"auto"}}
+                showSkeleton={true}
               />
             </div>
           </div>

@@ -62,6 +62,7 @@ export default function FooterTwo({ whiteFooter = false,topCls='footer-top' }: I
                 </div>
               </div>
             </div>
+
             <div className="col-xl-3 col-lg-5 col-md-6 mb-50">
               <div className="tp-footer-2-widget footer-col-2-3">
                 <h4 className="tp-footer-2-widget-title">Office</h4>
@@ -127,6 +128,22 @@ export default function FooterTwo({ whiteFooter = false,topCls='footer-top' }: I
                 <a className="mb-10" href="https://www.linkedin.com/company/thexmedia/" target="_blank">Linkedin</a>
                 <a className="mb-10" href="https://www.facebook.com/thexmediaofficial" target="_blank">Facebook</a>
                 <a className="mb-10" href="https://www.instagram.com/thexmedia_/" target="_blank">Instagram</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        {/* Legal Links Section */}
+        <div className="container container-1480 mt-3">
+          <div className="row">
+            <div className="col-12">
+              <div className="tp-footer-legal-links text-center">
+                <div className="tp-footer-legal-separator mb-3"></div>
+                <div className="tp-footer-legal-menu">
+                  <a href="/terms-and-conditions" className="me-4">Terms & Conditions</a>
+                  <a href="/privacy-policy" className="me-4">Privacy Policy</a>
+                  <a href="/cookies-policy">Cookies Policy</a>
+                </div>
               </div>
             </div>
           </div>

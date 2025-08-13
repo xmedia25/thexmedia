@@ -3,7 +3,7 @@ import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { SwiperOptions } from "swiper/types";
 import Link from "next/link";
-import Image from "next/image";
+import OptimizedImage from "@/components/ui/optimized-image";
 
 // internal imports
 import star_icon from "@/assets/img/home-04/service/sv-star-1.png";
@@ -103,10 +103,11 @@ export default function ServiceThree() {
             </div>
             <div className="col-xl-3 col-lg-3 col-md-3">
               <div className="tp-service-4-shape-1 text-start text-md-end">
-                <Image
+                <OptimizedImage
                   className="tp-zoom-in-out"
                   src={star_icon}
                   alt="star"
+                  showSkeleton={true}
                 />
               </div>
             </div>
@@ -127,7 +128,7 @@ export default function ServiceThree() {
                 }}
               >
                 <div className="tp-service-4-icon">
-                  <Image src={item.icon} alt="icon" />
+                  <OptimizedImage src={item.icon} alt="icon" showSkeleton={true} />
                 </div>
                 <div className="tp-service-4-content">
                   <h4 className="tp-service-4-title-sm">

@@ -12,6 +12,12 @@ const footer_links = [
   { link: "/blog", title: "Blog" },
   { link: "/contact", title: "Contact" },
 ];
+
+const legal_links = [
+  { link: "/terms-and-conditions", title: "Terms & Conditions" },
+  { link: "/privacy-policy", title: "Privacy Policy" },
+  { link: "/cookies-policy", title: "Cookies Policy" },
+];
 export default function FooterOne() {
   const [isActive, setIsActive] = React.useState(false);
   useEffect(() => {
@@ -87,6 +93,7 @@ export default function FooterOne() {
                       </div>
                     </div>
                   </div>
+                  
                 </div>
               </div>
             </div>
@@ -117,6 +124,18 @@ export default function FooterOne() {
           </div>
         </div>
         {/* copyright area end */}
+        
+        {/* Legal Links Section */}
+        <div className="container-fluid">
+          <div className="tp-footer-legal-links text-center py-3">
+            <div className="tp-footer-legal-separator mb-3"></div>
+            <div className="tp-footer-legal-menu">
+              {legal_links.map((item, i) => (
+                <a key={i} href={item.link} className="me-4">{item.title}</a>
+              ))}
+            </div>
+          </div>
+        </div>
       </div>
       {/* footer area start */}
     </footer>

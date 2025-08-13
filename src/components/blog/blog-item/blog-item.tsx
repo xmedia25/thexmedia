@@ -1,5 +1,5 @@
 import React from "react";
-import Image from "next/image";
+import OptimizedImage from "@/components/ui/optimized-image";
 import { IBlogDT } from "@/types/blog-d-t";
 import Link from "next/link";
 
@@ -7,7 +7,7 @@ export default function BlogItem({ item }: { item: IBlogDT }) {
   return (
     <div className="tp-blog-item">
       <div className="tp-blog-thumb fix p-relative">
-        <Image src={item.img!} alt="blog-img" style={{ height: "auto" }} />
+        <OptimizedImage src={item.img!} alt="blog-img" style={{ height: "auto" }} showSkeleton={true} />
         <div className="tp-blog-meta">
           <span>{item.date}</span>
         </div>
