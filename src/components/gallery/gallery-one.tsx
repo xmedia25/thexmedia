@@ -1,6 +1,7 @@
 import React, { CSSProperties } from 'react';
 import Image from 'next/image';
 import Marquee from 'react-fast-marquee';
+import OptimizedVideo from '@/components/ui/optimized-video';
 // images
 import shape_1 from '@/assets/img/home-03/gallery/gal-shape-1.png';
 import shape_d_1 from '@/assets/img/home-03/gallery/gal-shape-dark-1.png';
@@ -42,7 +43,7 @@ export default function GalleryOne() {
 
                     <div key={i}>
                       <div className="tp-gallery-item mr-30">
-                        <video 
+                        <OptimizedVideo 
                           src={video} 
                           style={{ 
                             height: '600px', 
@@ -52,8 +53,10 @@ export default function GalleryOne() {
                           }}
                           muted
                           loop
-                          playsInline
                           autoPlay
+                          playsInline
+                          controls={false}
+                          showSkeleton={true}
                         />
                       </div>
                     </div>

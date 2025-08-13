@@ -9,12 +9,14 @@ type FormData = {
   name: string;
   subject: string;
   message: string;
+  agreeToTerms: boolean;
 };
 
 const schema = yup.object().shape({
   name: yup.string().required().label("Name"),
   subject: yup.string().required().label("subject"),
   message: yup.string().required().label("Message"),
+  agreeToTerms: yup.boolean().oneOf([true], "You must agree to the terms and conditions").required(),
 });
 
 // prop type 
@@ -45,6 +47,30 @@ export default function ContactForm({btnCls=''}:IProps) {
         <label>Message</label>
         <textarea id='message' {...register("message")} placeholder="Tell Us About Your Project"></textarea>
         <ErrorMsg msg={errors.message?.message!} />
+      </div>
+      <div className="cn-contactform-input mb-25">
+        <div className="cn-contactform-checkbox">
+          <input 
+            id='agreeToTerms' 
+            type="checkbox" 
+            {...register("agreeToTerms")} 
+          />
+          <label htmlFor="agreeToTerms">
+            I agree to the{" "}
+            <a href="/terms-and-conditions" target="_blank" className="text-primary">
+              Terms & Conditions
+            </a>
+            ,{" "}
+            <a href="/privacy-policy" target="_blank" className="text-primary">
+              Privacy Policy
+            </a>
+            , and{" "}
+            <a href="/cookies-policy" target="_blank" className="text-primary">
+              Cookies Policy
+            </a>
+          </label>
+        </div>
+        <ErrorMsg msg={errors.agreeToTerms?.message!} />
       </div>
       <div className="cn-contactform-btn">
         <button className={`tp-btn-black-md ${btnCls} w-100`} type="submit">

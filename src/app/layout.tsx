@@ -9,6 +9,7 @@ import { Aladin, Big_Shoulders_Display, Marcellus } from "next/font/google";
 import localFont from "next/font/local";
 import { ThemeProvider } from "next-themes";
 import "./globals.scss";
+import "./skeleton-loading.css";
 import StructuredData from "@/components/structured-data";
 
 const gellery = localFont({

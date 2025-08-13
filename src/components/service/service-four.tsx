@@ -1,5 +1,5 @@
 import React from "react";
-import Image from "next/image";
+import OptimizedImage from "@/components/ui/optimized-image";
 import Link from "next/link";
 import { FirstBracket, FirstBracketTwo, RightArrow, SvgBg } from "../svg";
 import icon from '@/assets/img/home-03/service/sv-icon-1.png';
@@ -45,7 +45,7 @@ export default function ServiceFour() {
           <div className="col-xl-9">
             <div className="tp-service-3-title-box mb-60 p-relative">
               <div className="tp-service-3-icon">
-                <Image src={icon} alt="icon" />
+                <OptimizedImage src={icon} alt="icon" showSkeleton={true} />
               </div>
               <span className="tp-section-subtitle-2 tp_fade_bottom">
                 <span>

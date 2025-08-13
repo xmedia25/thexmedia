@@ -1,5 +1,5 @@
 import React from "react";
-import Image from "next/image";
+import OptimizedImage from "@/components/ui/optimized-image";
 import Marquee from "react-fast-marquee";
 
 // images
@@ -22,7 +22,7 @@ export default function LineImgSlider() {
               className={`sv-port-thumb port-thumb-${index % 2 === 0 ? 1 : 2}`}
               style={{marginRight: '40px'}}
             >
-              <Image src={imgSrc} alt="port-img" />
+              <OptimizedImage src={imgSrc} alt="port-img" showSkeleton={true} />
             </div>
           ))}
         </Marquee>

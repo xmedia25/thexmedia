@@ -1,5 +1,5 @@
 import React from "react";
-import Image from "next/image";
+import OptimizedImage from "@/components/ui/optimized-image";
 import Link from "next/link";
 // images
 import s_1 from "@/assets/img/home-01/service/service-icon-1.png";
@@ -59,7 +59,7 @@ export function ServiceItems() {
         <div key={item.id} className="col-xxl-4 col-xl-4 col-lg-6 col-md-6 mb-30">
           <div className="tp-service-5-item tp_fade_bottom space-1">
             <div className="tp-service-4-icon">
-              <Image src={item.icon} alt="icon" />
+              <OptimizedImage src={item.icon} alt="icon" showSkeleton={true} />
             </div>
             <div className="tp-service-4-content">
               <h4 className="tp-service-4-title-sm tp-text-black">

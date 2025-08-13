@@ -1,5 +1,5 @@
 import React from "react";
-import Image from "next/image";
+import OptimizedImage from "@/components/ui/optimized-image";
 import Link from "next/link";
 
 // service images
@@ -69,7 +69,7 @@ const ServiceOne = () => {
                   className="tp-service-item d-flex align-items-start mb-75 tp_fade_bottom"
                 >
                   <div className="tp-service-icon">
-                    <Image src={s.icon} alt="icon" style={{ height: "auto" }} />
+                    <OptimizedImage src={s.icon} alt="icon" style={{ height: "auto" }} showSkeleton={true} />
                   </div>
                   <div className="tp-service-content">
                     <h4 className="tp-service-title-sm order-0">
