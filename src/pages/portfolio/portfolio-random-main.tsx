@@ -20,6 +20,7 @@ import LineTextThree from "@/components/line-text/line-text-3";
 import FooterTwo from "@/layouts/footers/footer-two";
 // animation
 import { charAnimation, titleAnimation } from "@/utils/title-animation";
+import FooterOne from "@/layouts/footers/footer-one";
 
 const PortfolioRandomMain = () => {
   useScrollSmooth();
@@ -135,7 +136,7 @@ const PortfolioRandomMain = () => {
           </main>
 
           {/* footer area */}
-          <FooterTwo topCls="" />
+          <FooterOne />
           {/* footer area */}
         </div>
       </div>

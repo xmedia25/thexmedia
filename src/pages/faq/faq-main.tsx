@@ -14,6 +14,7 @@ import FooterTwo from "@/layouts/footers/footer-two";
 import { charAnimation, titleAnimation } from "@/utils/title-animation";
 import FaqArea from "@/components/faq/faq-area";
 import HeaderFour from "@/layouts/headers/header-four";
+import FooterOne from "@/layouts/footers/footer-one";
 
 const FaqMain = () => {
   useScrollSmooth();
@@ -75,7 +76,7 @@ const FaqMain = () => {
             </main>
 
             {/* footer area */}
-            <FooterTwo topCls="" />
+            <FooterOne />
             {/* footer area */}
           </div>
         </div>

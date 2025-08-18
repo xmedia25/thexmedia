@@ -16,6 +16,7 @@ import { charAnimation, titleAnimation } from "@/utils/title-animation";
 import { hoverBtn } from "@/utils/hover-btn";
 import { brandAnimation } from "@/utils/brand-anim";
 import HeaderFour from "@/layouts/headers/header-four";
+import FooterOne from "@/layouts/footers/footer-one";
 
 const BrandMain = () => {
   useScrollSmooth();
@@ -79,7 +80,7 @@ const BrandMain = () => {
             </main>
 
             {/* footer area */}
-            <FooterTwo topCls="" />
+            <FooterOne />
             {/* footer area */}
           </div>
         </div>

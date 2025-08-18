@@ -15,6 +15,7 @@ import { charAnimation } from "@/utils/title-animation";
 import BlogClassicSlider from "@/components/blog/slider/blog-classic-slider";
 import BlogClassicArea from "@/components/blog/blog-classic-area";
 import VideoPopup from "@/components/modal/video-popup";
+import FooterOne from "@/layouts/footers/footer-one";
 
 const BlogClassicMain = () => {
   const [isVideoOpen, setIsVideoOpen] = React.useState(false);
@@ -47,7 +48,7 @@ const BlogClassicMain = () => {
           </main>
 
           {/* footer area */}
-          <FooterTwo topCls="" />
+          <FooterOne />
           {/* footer area */}
         </div>
       </div>

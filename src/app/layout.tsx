@@ -11,6 +11,7 @@ import { ThemeProvider } from "next-themes";
 import "./globals.scss";
 import "./skeleton-loading.css";
 import StructuredData from "@/components/structured-data";
+import BackToTop from "@/components/back-to-top";
 
 const gellery = localFont({
   src: [
@@ -138,13 +139,18 @@ export default function RootLayout({
       <head>
         <StructuredData type="organization" />
         <StructuredData type="website" />
+        <script 
+          src="https://crm.thexmedia.com/reputation/assets/review-widget.js" 
+          async
+        ></script>
       </head>
       <body
         id="body"
         suppressHydrationWarning={true}
         className={`${gellery.variable} ${aladin.variable} ${syne_body.variable} ${syne_heading.variable} ${syne_p.variable} ${syne.variable} ${big_shoulders.variable} ${marcellus.variable}`}
       >
-        <ThemeProvider defaultTheme="dark">{children}</ThemeProvider>
+        <ThemeProvider defaultTheme="dark">{children} <BackToTop /></ThemeProvider>
+        
       </body>
     </html>
   );

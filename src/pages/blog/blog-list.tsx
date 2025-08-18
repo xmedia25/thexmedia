@@ -12,7 +12,7 @@ import HeaderFour from "@/layouts/headers/header-four";
 import BlogListBanner from "@/components/blog/blog-list-banner";
 import BlogListArea from "@/components/blog/blog-list-area";
 import BigText from "@/components/big-text";
-import FooterTwo from "@/layouts/footers/footer-two";
+import FooterOne from "@/layouts/footers/footer-one";
 // animation
 import { charAnimation, zoomAnimation } from "@/utils/title-animation";
 
@@ -50,7 +50,7 @@ const BlogListMain = () => {
           </main>
 
           {/* footer area */}
-          <FooterTwo topCls="" />
+          <FooterOne />
           {/* footer area */}
         </div>
       </div>

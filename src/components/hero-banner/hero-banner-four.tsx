@@ -23,7 +23,7 @@ export default function HeroBannerFour() {
               <span className="tp-hero-3-category tp_reveal_anim">
               Branding / Lead Generation / Automations / Content Creation
               </span>
-              <Link className="tp-btn-black-2" href="/contact">
+              <Link className="tp-btn-black-2" href="https://crm.thexmedia.com/widget/booking/49CNEuLUWgqv6vOPwV7t" target="_blank">
               Book Now{" "}
                 <span className="p-relative">
                   <RightArrowTwo />

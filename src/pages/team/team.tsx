@@ -11,10 +11,10 @@ import Wrapper from "@/layouts/wrapper";
 import HeaderFour from "@/layouts/headers/header-four";
 import TeamArea from "@/components/team/team-area";
 import StudioPanelFour from "@/components/studio-panels/studio-panel-4";
-import FooterTwo from "@/layouts/footers/footer-two";
 // animation
 import {charAnimation,titleAnimation} from "@/utils/title-animation";
 import { hoverBtn } from "@/utils/hover-btn";
+import FooterOne from "@/layouts/footers/footer-one";
 
 const TeamMain = () => {
   useScrollSmooth();
@@ -71,7 +71,7 @@ const TeamMain = () => {
           </main>
 
           {/* footer area */}
-          <FooterTwo topCls="" whiteFooter={true} />
+          <FooterOne />
           {/* footer area */}
         </div>
       </div>

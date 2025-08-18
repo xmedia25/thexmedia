@@ -142,14 +142,14 @@
 }
 
 /* Optimized image container */
-.optimized-image-container {
+/* .optimized-image-container {
   position: relative;
   display: inline-block;
-}
+} */
 
-.optimized-image {
+/* .optimized-image {
   display: block;
-}
+} */
 
 .image-loading {
   opacity: 0;

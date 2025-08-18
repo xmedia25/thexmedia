@@ -11,10 +11,10 @@ import Wrapper from "@/layouts/wrapper";
 import HeaderFour from "@/layouts/headers/header-four";
 import PortfolioGridColTwoArea from "@/components/portfolio/portfolio-grid-col-2-area";
 import BigText from "@/components/big-text";
-import FooterTwo from "@/layouts/footers/footer-two";
 // animation
 import { hoverBtn } from "@/utils/hover-btn";
 import { charAnimation, fadeAnimation, titleAnimation, zoomAnimation } from "@/utils/title-animation";
+import FooterOne from "@/layouts/footers/footer-one";
 
 const PortfolioGridColTwoMain = () => {
   useScrollSmooth();
@@ -93,7 +93,7 @@ const PortfolioGridColTwoMain = () => {
           </main>
 
           {/* footer area */}
-          <FooterTwo topCls="" />
+          <FooterOne />
           {/* footer area */}
         </div>
       </div>

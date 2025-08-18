@@ -15,6 +15,7 @@ import PortfolioMasonryArea from "@/components/portfolio/portfolio-masonry-area"
 // animation
 import { hoverBtn } from "@/utils/hover-btn";
 import { charAnimation, titleAnimation } from "@/utils/title-animation";
+import FooterOne from "@/layouts/footers/footer-one";
 
 const PortfolioMasonryMain = () => {
   useScrollSmooth();
@@ -73,7 +74,7 @@ const PortfolioMasonryMain = () => {
           </main>
 
           {/* footer area */}
-          <FooterTwo topCls="" />
+          <FooterOne />
           {/* footer area */}
         </div>
       </div>

@@ -25,11 +25,14 @@ import FooterOne from "@/layouts/footers/footer-one";
 import ProjectFive from "@/components/project/project-five";
 import TeamOne from "@/components/team/team-one";
 import AboutWork from "@/components/work/about-work";
+import ServicesGrid from "@/components/services/services-grid";
+import { ReviewWidgetSection } from "@/components/review-widget";
 
 const HomeFourMain = () => {
   useScrollSmooth();
   useEffect(() => {
     document.body.classList.add("tp-smooth-scroll");
+    
     return () => {
       document.body.classList.remove("tp-smooth-scroll");
     };
@@ -69,11 +72,13 @@ const HomeFourMain = () => {
             <AboutThree />
             {/* about area end */}
 
-            <TeamOne />
-
             {/* brand area start */}
             <BrandThree />
             {/* brand area end */}
+
+            {/* services grid area start */}
+            <ServicesGrid />
+            {/* services grid area end */}
 
 
             {/* project area start */}
@@ -84,11 +89,20 @@ const HomeFourMain = () => {
             <ServiceFour />
             {/* service area end */}
 
-            <AboutWork />
+            
+            <TeamOne />
 
-            {/* contact area start */}
+
+                        {/* contact area start */}
             <ContactOne />
             {/* contact area end */}
+
+
+            {/* review widget area start */}
+            <ReviewWidgetSection />
+            {/* review widget area end */}
+
+         
 
           </main>
 

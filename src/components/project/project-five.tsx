@@ -126,7 +126,8 @@ export default function ProjectFive({ style_2 = false }: IProps) {
         )}
         
         {/* Client Introduction Section */}
-        <div className="container mb-120">
+        <div className="container mb-120 mt-120">
+
           <div className="row">
             <div className="col-xl-8 col-lg-8">
               <div className="client-intro-content">

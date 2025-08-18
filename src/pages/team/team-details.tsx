@@ -9,8 +9,8 @@ gsap.registerPlugin(ScrollTrigger, ScrollSmoother, SplitText);
 import { ITeamDT } from "@/types/team-d-t";
 import Wrapper from "@/layouts/wrapper";
 import HeaderEleven from "@/layouts/headers/header-eleven";
-import FooterTwo from "@/layouts/footers/footer-two";
 import TeamDetailsArea from "@/components/team/team-details-area";
+import FooterOne from "@/layouts/footers/footer-one";
 
 
 // prop type 
@@ -36,7 +36,7 @@ const TeamDetailsMain = ({item}:IProps) => {
           </main>
 
           {/* footer area */}
-          <FooterTwo topCls="" />
+          <FooterOne />
           {/* footer area */}
         </div>
       </div>

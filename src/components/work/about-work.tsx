@@ -29,7 +29,7 @@ export default function AboutWork() {
     <div className="ab-2-work-area">
       <div className="container">
         <div className="row">
-          <div className="col-xl-6 col-lg-5">
+          {/* <div className="col-xl-6 col-lg-5">
             <div className="ab-2-work-title-box p-relative">
               <h4 className="ab-2-work-title tp_title_anim">
               Our Team
@@ -43,7 +43,7 @@ export default function AboutWork() {
                 alt="shape"
               />
             </div>
-          </div>
+          </div> */}
           <div className="col-xl-6 col-lg-7">
             {work_data.map((item) => (
               <div key={item.id} className="ab-2-work-item tp_fade_bottom">

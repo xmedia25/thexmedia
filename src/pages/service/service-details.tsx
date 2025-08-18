@@ -13,8 +13,10 @@ import ServiceDetailsArea from "@/components/service/service-details-area";
 import LineImgSlider from "@/components/line-text/line-img-slider";
 import BigText from "@/components/big-text";
 import FooterTwo from "@/layouts/footers/footer-two";
+import { ReviewWidgetSection } from "@/components/review-widget";
 // animation
 import { charAnimation, titleAnimation } from "@/utils/title-animation";
+import FooterOne from "@/layouts/footers/footer-one";
 
 const ServiceDetailsMain = () => {
   useScrollSmooth();
@@ -40,6 +42,13 @@ const ServiceDetailsMain = () => {
             <ServiceDetailsArea />
             {/* service details area */}
 
+            {/* review widget */}
+            <ReviewWidgetSection 
+              title="Client Success Stories"
+              subtitle="See what our clients have to say about their experience with our specialized services and the results they've achieved."
+            />
+            {/* review widget */}
+
             {/* line image slider  */}
             <LineImgSlider />
             {/* line image slider  */}
@@ -50,7 +59,7 @@ const ServiceDetailsMain = () => {
           </main>
 
           {/* footer area */}
-          <FooterTwo topCls="" />
+          <FooterOne />
           {/* footer area */}
         </div>
       </div>

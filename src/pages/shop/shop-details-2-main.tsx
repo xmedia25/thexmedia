@@ -12,6 +12,7 @@ import { IProductDT } from "@/types/product-d-t";
 import ShopDetailsAreaTwo from "@/components/shop/details/shop-details-area-2";
 import ShopDetailsBottomArea from "@/components/shop/details/shop-details-bottom-area";
 import FooterSix from "@/layouts/footers/footer-six";
+import { ReviewWidgetSection } from "@/components/review-widget";
 
 // prop type
 type IProps = {
@@ -33,6 +34,13 @@ const ShopDetailsTwoMain = ({ product }: IProps) => {
             {/* shop details */}
             <ShopDetailsAreaTwo />
             {/* shop details */}
+
+            {/* review widget */}
+            <ReviewWidgetSection 
+              title="Customer Reviews"
+              subtitle="Discover what our customers think about this product. Your feedback matters and helps others make the right choice."
+            />
+            {/* review widget */}
 
             {/* shop details area */}
             <ShopDetailsBottomArea product={product} />
