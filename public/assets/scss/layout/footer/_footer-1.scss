@@ -315,3 +315,33 @@
         }
     }
 }
+
+// Legal links inline styling
+.tp-footer-legal-links-inline {
+    .tp-footer-legal-link {
+        color: rgba(245, 247, 245, 0.80);
+        text-decoration: none;
+        font-size: 14px;
+        font-weight: 400;
+        transition: color 0.3s ease;
+        display: inline;
+        background: none;
+        border: none;
+        padding: 0;
+        
+        &:hover {
+            color: var(--tp-common-white);
+            text-decoration: none;
+        }
+        
+        @media #{$xs} {
+            font-size: 12px;
+            display: block;
+            margin-bottom: 5px;
+            
+            &:last-child {
+                margin-bottom: 0;
+            }
+        }
+    }
+}

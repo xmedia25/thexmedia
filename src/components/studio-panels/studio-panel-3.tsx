@@ -55,7 +55,7 @@ export default function StudioPanelThree() {
             <div className="col-xl-3 col-lg-6">
               <div className="tp-studio-portfolio-title-box">
                 <h4 className="tp-studio-portfolio-title">
-                  Unique & <br /> Creative Studio
+                  Unique & <br /> The X Media
                 </h4>
                 <p>
                   The list is far from is exhaustive we all have our own

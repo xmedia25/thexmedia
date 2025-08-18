@@ -65,8 +65,8 @@ export default function HeaderFour() {
                       <i className="fa-brands fa-instagram"></i>
                     </a>
                   </div>
-                  <button onClick={() => setOpenOffCanvas(true)} className="tp-header-3-bar tp-offcanvas-open-btn d-xl-none">
-                    <i className="fa-solid fa-bars"></i>
+                  <button onClick={() => setOpenOffCanvas(true)} className="tp-header-3-bar tp-offcanvas-open-btn d-xl-none" style={{color: 'white', backgroundColor: 'transparent', border: 'none', outline: 'none'}} onMouseEnter={(e) => e.currentTarget.style.backgroundColor = 'transparent'} onMouseLeave={(e) => e.currentTarget.style.backgroundColor = 'transparent'}>
+                    <i className="fa-solid fa-bars" style={{color: 'white'}}></i>
                   </button>
                 </div>
               </div>

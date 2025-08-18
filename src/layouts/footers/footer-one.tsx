@@ -105,14 +105,23 @@ export default function FooterOne() {
         <div className="container-fluid">
           <div className="tp-copyright-wrap">
             <div className="row align-items-center">
-              <div className="col-xl-6 col-md-4">
+              <div className="col-xl-4 col-md-3">
                 <div className="tp-copyright-logo text-center text-md-start">
                   <Link href="/">
                     <Image src={logo} alt="logo" />
                   </Link>
                 </div>
               </div>
-              <div className="col-xl-6 col-md-8">
+              <div className="col-xl-4 col-md-6">
+                <div className="tp-footer-legal-links-inline text-center">
+                  {legal_links.map((item, i) => (
+                    <a key={i} href={item.link} className={`tp-footer-legal-link ${i < legal_links.length - 1 ? 'me-3' : ''}`}>
+                      {item.title}
+                    </a>
+                  ))}
+                </div>
+              </div>
+              <div className="col-xl-4 col-md-3">
                 <div className="tp-copyright-text text-center text-md-end">
                   <p>
                     Copyright © {new Date().getFullYear()} The-X-Media. All rights
@@ -124,18 +133,6 @@ export default function FooterOne() {
           </div>
         </div>
         {/* copyright area end */}
-        
-        {/* Legal Links Section */}
-        <div className="container-fluid">
-          <div className="tp-footer-legal-links text-center py-3">
-            <div className="tp-footer-legal-separator mb-3"></div>
-            <div className="tp-footer-legal-menu">
-              {legal_links.map((item, i) => (
-                <a key={i} href={item.link} className="me-4">{item.title}</a>
-              ))}
-            </div>
-          </div>
-        </div>
       </div>
       {/* footer area start */}
     </footer>

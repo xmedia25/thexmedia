@@ -16,6 +16,7 @@ import BlogDetailsBreadcrumb from "@/components/blog/details/blog-details-breadc
 import BlogDetailsRelatedPosts from "@/components/blog/details/blog-details-related-posts";
 // animation
 import { charAnimation } from "@/utils/title-animation";
+import FooterOne from "@/layouts/footers/footer-one";
 
 // prop type
 type IProps = {
@@ -55,7 +56,7 @@ const BlogDetailsMain = ({ blog }: IProps) => {
           </main>
 
           {/* footer area */}
-          <FooterTwo topCls="" />
+          <FooterOne />
           {/* footer area */}
         </div>
       </div>

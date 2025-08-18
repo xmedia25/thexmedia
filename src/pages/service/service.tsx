@@ -17,9 +17,11 @@ import LineImgSlider from "@/components/line-text/line-img-slider";
 import BigText from "@/components/big-text";
 import { Leaf } from "@/components/svg";
 import FooterTwo from "@/layouts/footers/footer-two";
+import { ReviewWidgetSection } from "@/components/review-widget";
 // animation
 import { charAnimation, fadeAnimation } from "@/utils/title-animation";
 import { servicePanel } from "@/utils/panel-animation";
+import FooterOne from "@/layouts/footers/footer-one";
 
 const ServiceMain = () => {
   useScrollSmooth();
@@ -74,6 +76,13 @@ const ServiceMain = () => {
             <ServiceSix />
             {/* service area */}
 
+            {/* review widget */}
+            <ReviewWidgetSection 
+              title="What Our Service Clients Say"
+              subtitle="Discover how our digital marketing and automation strategies have helped service professionals across Canada grow their businesses and achieve remarkable results."
+            />
+            {/* review widget */}
+
             {/* brand area */}
             <div className="tp-brand-4-area pt-120 pb-120">
               <div className="container">
@@ -94,7 +103,7 @@ const ServiceMain = () => {
           </main>
 
           {/* footer area */}
-          <FooterTwo topCls="" />
+          <FooterOne />
           {/* footer area */}
         </div>
       </div>

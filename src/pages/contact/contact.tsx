@@ -14,6 +14,7 @@ import ContactLocation from "@/components/contact/contact-location";
 import FooterTwo from "@/layouts/footers/footer-two";
 // animation
 import { charAnimation } from "@/utils/title-animation";
+import FooterOne from "@/layouts/footers/footer-one";
 
 const ContactMain = () => {
   useScrollSmooth();
@@ -68,7 +69,7 @@ const ContactMain = () => {
             </main>
 
             {/* footer area */}
-            <FooterTwo topCls="" whiteFooter={true} />
+            <FooterOne />
             {/* footer area */}
           </div>
         </div>

@@ -116,34 +116,25 @@ export default function FooterTwo({ whiteFooter = false,topCls='footer-top' }: I
       >
         <div className="container container-1480">
           <div className="row align-items-center">
-            <div className="col-xl-4 col-lg-5">
+            <div className="col-xl-3 col-lg-4">
               <div className="tp-copyright-2-left text-center text-lg-start">
                 <p>
                   All rights reserved — {new Date().getFullYear()} © The-X-Media
                 </p>
               </div>
             </div>
-            <div className="col-xl-8 col-lg-7">
+            <div className="col-xl-6 col-lg-4">
+              <div className="tp-footer-legal-links-inline text-center">
+                <a href="/terms-and-conditions" className="tp-footer-legal-link me-3">Terms & Conditions</a>
+                <a href="/privacy-policy" className="tp-footer-legal-link me-3">Privacy Policy</a>
+                <a href="/cookies-policy" className="tp-footer-legal-link">Cookies Policy</a>
+              </div>
+            </div>
+            <div className="col-xl-3 col-lg-4">
               <div className="tp-copyright-2-social text-center text-lg-end">
                 <a className="mb-10" href="https://www.linkedin.com/company/thexmedia/" target="_blank">Linkedin</a>
                 <a className="mb-10" href="https://www.facebook.com/thexmediaofficial" target="_blank">Facebook</a>
                 <a className="mb-10" href="https://www.instagram.com/thexmedia_/" target="_blank">Instagram</a>
-              </div>
-            </div>
-          </div>
-        </div>
-        
-        {/* Legal Links Section */}
-        <div className="container container-1480 mt-3">
-          <div className="row">
-            <div className="col-12">
-              <div className="tp-footer-legal-links text-center">
-                <div className="tp-footer-legal-separator mb-3"></div>
-                <div className="tp-footer-legal-menu">
-                  <a href="/terms-and-conditions" className="me-4">Terms & Conditions</a>
-                  <a href="/privacy-policy" className="me-4">Privacy Policy</a>
-                  <a href="/cookies-policy">Cookies Policy</a>
-                </div>
               </div>
             </div>
           </div>

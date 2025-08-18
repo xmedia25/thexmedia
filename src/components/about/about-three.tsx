@@ -17,20 +17,19 @@ export default function AboutThree() {
                 <span>
                   <FirstBracket />
                 </span>
-                <span className="tp-subtitle-text tp_text_invert">
+                <span className="tp-subtitle-text">
                   What we do
                 </span>
                 <span>
                   <FirstBracketTwo />
                 </span>
               </span>
-              <h4 className="tp-section-title-90 tp_text_invert tp_fade_bottom">
+              <h4 className="mb-30 tp-section-title-90 tp_fade_bottom">
               We generate qualified leads, organically!{" "}
-                <span>
-                  {" "}
-                  <br />Using AI Automations.
-                </span>
-              </h4>
+               </h4>
+              <h5 className="tp-section-subtitle-2 mb-30">
+              Using AI Automations.             
+              </h5>
             </div>
           </div>
         </div>
@@ -42,7 +41,7 @@ export default function AboutThree() {
           </div>
           <div className="col-xl-6 col-lg-6 col-md-8">
             <div className="tp-about-3-content">
-              <p className="mb-30 tp_fade_bottom">
+              <p className="mt-60 mb-30 tp_fade_bottom">
               At TheXMedia, we help realtors, mortgage agents, lawyers, CAs, and businesses grow fast with powerful organic social media content. No paid ads just content that connects, engages, and reaches millions.
               </p>
               <p className="mb-45 tp_fade_bottom">

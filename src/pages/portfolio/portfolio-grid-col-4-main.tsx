@@ -16,6 +16,7 @@ import FooterTwo from "@/layouts/footers/footer-two";
 import { hoverBtn } from "@/utils/hover-btn";
 import {charAnimation,fadeAnimation,titleAnimation} from "@/utils/title-animation";
 import { imageRevealAnimation } from "@/utils/image-reveal-anim";
+import FooterOne from "@/layouts/footers/footer-one";
 
 const PortfolioGridColFourMain = () => {
   useScrollSmooth();
@@ -94,7 +95,7 @@ const PortfolioGridColFourMain = () => {
           </main>
 
           {/* footer area */}
-          <FooterTwo topCls="" />
+          <FooterOne />
           {/* footer area */}
         </div>
       </div>

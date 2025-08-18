@@ -10,6 +10,7 @@ import Wrapper from "@/layouts/wrapper";
 import HeaderTwelve from "@/layouts/headers/header-twelve";
 import ShopArea from "@/components/shop/shop-area";
 import FooterSix from "@/layouts/footers/footer-six";
+import { ReviewWidgetSection } from "@/components/review-widget";
 
 const ShopMain = () => {
   useScrollSmooth();
@@ -46,6 +47,13 @@ const ShopMain = () => {
             {/* shop area */}
             <ShopArea />
             {/* shop area */}
+
+            {/* review widget */}
+            <ReviewWidgetSection 
+              title="What Our Customers Say"
+              subtitle="Read authentic reviews from customers who have experienced our products and services. Their feedback helps us continue to deliver excellence."
+            />
+            {/* review widget */}
           </main>
 
           {/* footer area */}

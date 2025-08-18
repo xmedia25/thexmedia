@@ -15,6 +15,7 @@ import BlogDetailsRelatedPosts from "@/components/blog/details/blog-details-rela
 // animation
 import { charAnimation } from "@/utils/title-animation";
 import BlogDetailsAreaTwo from "@/components/blog/details/blog-details-area-2";
+import FooterOne from "@/layouts/footers/footer-one";
 // image
 import blog_bg from "@/assets/img/inner-blog/blog-details-without-sidebar/blog-details-3.jpg";
 
@@ -102,7 +103,7 @@ const BlogDetailsTwoMain = () => {
           </main>
 
           {/* footer area */}
-          <FooterTwo topCls="" />
+          <FooterOne />
           {/* footer area */}
         </div>
       </div>

@@ -111,14 +111,21 @@ export default function FooterSix() {
         <div className="tp-copyright-2-area tp-copyright-2-bdr-top black-bg">
           <div className="container container-1300">
             <div className="row align-items-center">
-              <div className="col-xl-4 col-lg-5 col-md-6">
+              <div className="col-xl-3 col-lg-4 col-md-4">
                 <div className="tp-copyright-2-left text-center text-md-start">
                   <p className="mb-0">
                     All rights reserved — {new Date().getFullYear()} © The-X-Media
                   </p>
                 </div>
               </div>
-              <div className="col-xl-8 col-lg-7 col-md-6">
+              <div className="col-xl-6 col-lg-4 col-md-4">
+                <div className="tp-footer-legal-links-inline text-center">
+                  <a href="/terms-and-conditions" className="tp-footer-legal-link me-3">Terms & Conditions</a>
+                  <a href="/privacy-policy" className="tp-footer-legal-link me-3">Privacy Policy</a>
+                  <a href="/cookies-policy" className="tp-footer-legal-link">Cookies Policy</a>
+                </div>
+              </div>
+              <div className="col-xl-3 col-lg-4 col-md-4">
                 <div className="tp-copyright-2-payment text-center text-md-end">
                   <Image src={payment} alt="payment" />
                 </div>

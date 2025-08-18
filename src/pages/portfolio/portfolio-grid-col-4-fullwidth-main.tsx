@@ -20,6 +20,7 @@ import {
   titleAnimation,
 } from "@/utils/title-animation";
 import { imageRevealAnimation } from "@/utils/image-reveal-anim";
+import FooterOne from "@/layouts/footers/footer-one";
 
 const PortfolioGridColFourFullwidthMain = () => {
   useScrollSmooth();
@@ -98,7 +99,7 @@ const PortfolioGridColFourFullwidthMain = () => {
           </main>
 
           {/* footer area */}
-          <FooterTwo topCls="" />
+          <FooterOne />
           {/* footer area */}
         </div>
       </div>

@@ -14,6 +14,7 @@ import FooterTwo from "@/layouts/footers/footer-two";
 // animation
 import { panelTwoAnimation } from "@/utils/panel-animation";
 import { charAnimation, revelAnimationTwo, titleAnimation } from "@/utils/title-animation";
+import FooterOne from "@/layouts/footers/footer-one";
 
 const PortfolioShowcaseMain = () => {
   useScrollSmooth();
@@ -43,7 +44,7 @@ const PortfolioShowcaseMain = () => {
           </main>
 
           {/* footer area */}
-          <FooterTwo topCls="" />
+          <FooterOne />
           {/* footer area */}
         </div>
       </div>

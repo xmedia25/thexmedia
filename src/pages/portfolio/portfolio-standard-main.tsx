@@ -16,6 +16,8 @@ import BigText from "@/components/big-text";
 import { charAnimation, titleAnimation } from "@/utils/title-animation";
 import { imageRevealAnimation } from "@/utils/image-reveal-anim";
 import { hoverBtn } from "@/utils/hover-btn";
+import FooterOne from "@/layouts/footers/footer-one";
+import ReviewWidgetSection from "@/components/review-widget/review-widget-section";
 
 const PortfolioStandardMain = () => {
   useScrollSmooth();
@@ -73,8 +75,8 @@ const PortfolioStandardMain = () => {
                         Our Clients – Who We Work With
                       </h4>
                     </div>
-                    <div className="tm-hero-text">
-                      <p className="tp_title_anim">
+                    <div className="tm-hero-description tp_fade_bottom mt-4">
+                      <p>
                         At TheXMedia, we&apos;re proud to work with professionals who are serious about growing their brand, reaching new audiences, and converting attention into action.
                       </p>
                     </div>
@@ -95,12 +97,31 @@ const PortfolioStandardMain = () => {
             </div>
             {/* portfolio hero */}
 
+              <div className="tp-services-grid-section pt-80 pb-80">
+                <div className="container container-1530">
+                  <div className="row">
+                    <div className="col-xl-10 mx-auto">
+                      <div className="tp-service-card text-center">
+                        <div className="tp-service-card-content">
+                          <h2 className="tp-section-title-2 mb-30 tp-char-animation">
+                            Client Profiles
+                          </h2>
+                          <p className="tp-section-text tp_fade_bottom">
+                            You can now follow this section with individual client spotlights, testimonials, case studies, or social media highlights.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
             {/* portfolio area */}
-            <div className="tp-service-5-area sv-service-style pb-70">
+            {/* <div className="tp-service-5-area sv-service-style pb-70">
               <div className="container container-1530">
                 <div className="row">
                   <div className="col-xl-12">
-                    <div className="tp-service-5-title-box mb-90">
+                    <div className="tp-service-5-title-box mb-90 ">
                       <h4 className="tp-service-5-title tp-char-animation">
                         Client Profiles
                       </h4>
@@ -111,20 +132,30 @@ const PortfolioStandardMain = () => {
                   </div>
                 </div>
               </div>
-            </div>
+            </div> */}
             {/* portfolio area */}
 
             {/* client profiles area */}
             <ProjectFive style_2={true} />
+
             {/* client profiles area */}
+
+            {/* review widget */}
+            <ReviewWidgetSection 
+              title="Customer Reviews"
+              subtitle="Discover what our customers think about this product. Your feedback matters and helps others make the right choice."
+            />
+            {/* review widget */}
 
             {/* big text */}
             <BigText/>
             {/* big text */}
+
+
           </main>
 
           {/* footer area */}
-          <FooterTwo topCls="" />
+          <FooterOne />
           {/* footer area */}
         </div>
       </div>

@@ -14,6 +14,7 @@ import FooterTwo from "@/layouts/footers/footer-two";
 import { charAnimation } from "@/utils/title-animation";
 import BlogModern from "@/components/blog/blog-modern-area";
 import BigText from "@/components/big-text";
+import FooterOne from "@/layouts/footers/footer-one";
 
 const BlogModernMain = () => {  
   useScrollSmooth();
@@ -44,7 +45,7 @@ const BlogModernMain = () => {
           </main>
 
           {/* footer area */}
-          <FooterTwo topCls="" />
+          <FooterOne />
           {/* footer area */}
         </div>
       </div>
