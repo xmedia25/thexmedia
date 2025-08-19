@@ -1,7 +1,7 @@
 "use client";
 import React, { useEffect } from "react";
 // internal imports
-import HeaderNine from "@/layouts/headers/header-nine";
+import HeaderFour from "@/layouts/headers/header-four";
 import PortfolioSliderHomeTen from "@/components/portfolio/slider/portfolio-slider-home-ten";
 import ThemeSetting from "@/components/theme-setting";
 
@@ -16,7 +16,7 @@ const HomeTenMain = () => {
   return (
     <div>
       {/* header area start */}
-      <HeaderNine />
+      <HeaderFour />
       {/* header area end */}
 
       <main>

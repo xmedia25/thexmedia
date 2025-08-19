@@ -8,7 +8,7 @@ gsap.registerPlugin(ScrollTrigger, ScrollSmoother, SplitText);
 // internal imports
 import { ITeamDT } from "@/types/team-d-t";
 import Wrapper from "@/layouts/wrapper";
-import HeaderEleven from "@/layouts/headers/header-eleven";
+import HeaderFour from "@/layouts/headers/header-four";
 import TeamDetailsArea from "@/components/team/team-details-area";
 import FooterOne from "@/layouts/footers/footer-one";
 
@@ -24,7 +24,7 @@ const TeamDetailsMain = ({item}:IProps) => {
   return (
     <Wrapper>
       {/* header area start */}
-      <HeaderEleven />
+      <HeaderFour />
       {/* header area end */}
 
       <div id="smooth-wrapper">

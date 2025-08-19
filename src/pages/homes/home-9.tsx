@@ -7,7 +7,7 @@ import { useGSAP } from "@gsap/react";
 gsap.registerPlugin(useGSAP, ScrollTrigger, ScrollSmoother, SplitText);
 
 // internal imports
-import HeaderEight from "@/layouts/headers/header-eight";
+import HeaderFour from "@/layouts/headers/header-four";
 import PortfolioSliderHomeNine from "@/components/portfolio/slider/portfolio-slider-home-nine";
 import ThemeSetting from "@/components/theme-setting";
 
@@ -34,7 +34,7 @@ const HomeNineMain = () => {
             className={`tp-porfolio-10-main ${whiteCls ? "header-white" : ""}`}
           >
             {/* header area start */}
-            <HeaderEight style_2={true} container="1685" />
+            <HeaderFour />
             {/* header area end */}
 
             <main>

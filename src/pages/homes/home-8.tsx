@@ -7,7 +7,7 @@ import { useGSAP } from "@gsap/react";
 gsap.registerPlugin(useGSAP, ScrollTrigger, ScrollSmoother, SplitText);
 
 // internal imports
-import HeaderEight from "@/layouts/headers/header-eight";
+import HeaderFour from "@/layouts/headers/header-four";
 import { perspective } from "@/utils/perspective-anim";
 import PerspectivePortfolioSlider from "@/components/portfolio/slider/perspective-port-slider";
 import { revelAnimationOne } from "@/utils/title-animation";
@@ -48,7 +48,7 @@ const HomeEightMain = () => {
 
 
       {/* header area start */}
-      <HeaderEight />
+      <HeaderFour />
       {/* header area end */}
 
       <div id="smooth-wrapper">
