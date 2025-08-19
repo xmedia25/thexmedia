@@ -49,38 +49,38 @@ const service_data = [
   {
     id: 1,
     icon: sv_1,
-    title: "Website design",
-    subtitle: "You’re ready to take your business to higher ground.",
+    title: "SEO for Service Professionals",
+    subtitle: "Dominate local search and generate qualified leads month after month.",
   },
   {
     id: 2,
     icon: sv_2,
-    title: "Web development",
-    subtitle: "You’re ready to take your business to higher ground.",
+    title: "Business Consultancy & Strategy",
+    subtitle: "Refine your business model and growth systems for sustainable scaling.",
   },
   {
     id: 3,
     icon: sv_3,
-    title: "UI/UX Design",
-    subtitle: "You’re ready to take your business to higher ground.",
+    title: "Performance Marketing",
+    subtitle: "Scale faster with optimized Meta and Google Ads campaigns.",
   },
   {
     id: 4,
     icon: sv_4,
-    title: "Growth",
-    subtitle: "You’re ready to take your business to higher ground.",
+    title: "Website & App Development",
+    subtitle: "Build a digital presence that converts visitors into clients 24/7.",
   },
   {
     id: 5,
     icon: sv_2,
-    title: "App development",
-    subtitle: "You’re ready to take your business to higher ground.",
+    title: "Content Creation",
+    subtitle: "From ideation to final edit, create viral content that showcases your expertise.",
   },
   {
     id: 6,
     icon: sv_4,
-    title: "Marketing",
-    subtitle: "You’re ready to take your business to higher ground.",
+    title: "Leads/Automation",
+    subtitle: "Handle the buzz effortlessly with AI-powered lead management systems.",
   },
 ];
 export default function ServiceThree() {
@@ -96,8 +96,8 @@ export default function ServiceThree() {
             <div className="col-xl-9 col-lg-9 col-md-9">
               <div className="tp-service-4-title-box tp_fade_bottom">
                 <h4 className="tp-service-4-title">
-                  We work with select service providers in the disability sector
-                  to develop inclusive products tailored to their needs.
+                  We help service professionals scale their business with proven
+                  digital marketing and automation strategies.
                 </h4>
               </div>
             </div>

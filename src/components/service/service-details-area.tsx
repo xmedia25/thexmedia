@@ -1,6 +1,7 @@
 import React from "react";
 import OptimizedImage from "@/components/ui/optimized-image";
 import Link from "next/link";
+import { RightArrowTwo, ArrowBg } from "../svg";
 
 // images
 import sv_1 from "@/assets/img/inner-service/sercive-details/sv-details-1.jpg";
@@ -9,7 +10,7 @@ import sv_3 from "@/assets/img/inner-service/sercive-details/sv-details-3.jpg";
 
 export default function ServiceDetailsArea() {
   return (
-    <div className="service-details__area service-details__space pt-200 pb-120">
+    <div className="service-details__area service-details__space pt-200 pb-120 tp-services-grid-section">
       <div className="container">
         <div className="row">
           <div className="col-xl-12">
@@ -94,6 +95,7 @@ export default function ServiceDetailsArea() {
                 <a href="#marketing">Performance Marketing</a>
                 <a href="#development">Web Development</a>
                 <a href="#content">Content Creation</a>
+                <a href="#automation">Leads/Automation</a>
               </div>
               <div className="service-details__right-text-box">
                 <h4>SEO for Service Professionals</h4>
@@ -305,7 +307,7 @@ export default function ServiceDetailsArea() {
 
                 <h5 className="mb-20">Editing</h5>
                 <p className="mb-20">
-                  We turn raw footage into scroll-stopping videos using modern editing techniques. We add viral hooks, integrate subtitles and branding, and optimize for platform-specific formats.
+                  We turn raw footage into scroll-stopping videos using modern editing techniques. We add viral visual and audio hooks, integrate subtitles, branding, effects, and AI-generated elements. We optimize for platform-specific formats (Reels, Shorts, TikTok, LinkedIn).
                 </p>
                 <p className="mb-30">
                   <strong>Timeline:</strong> 48–72 hour turnaround per video
@@ -332,21 +334,82 @@ export default function ServiceDetailsArea() {
         </div>
       </div>
 
-      {/* Call to Action Section */}
-      <div className="container">
+      {/* Leads/Automation Section */}
+      <div className="container mb-120" id="automation">
         <div className="row">
-          <div className="col-xl-12">
-            <div className="service-details__cta text-center">
-              <h3 className="mb-30">Ready to Transform Your Business?</h3>
-              <p className="mb-40">
-                Let&apos;s discuss how our comprehensive services can help you dominate your market, generate qualified leads, and scale sustainably.
-              </p>
-              <Link
-                className="tp-btn-white background-black"
-                href="/contact"
-              >
-                Schedule a Free Consultation
-              </Link>
+          <div className="col-xl-7 col-lg-7">
+            <div className="service-details__left-wrap">
+              <div className="service-details__left-text pb-20">
+                <h3 className="mb-30">Leads/Automation</h3>
+                <p className="text-1 tp_title_anim mb-30">
+                  Going viral is just the beginning — we help you handle the buzz, effortlessly. Using AI and modern automation tools, we respond to DMs, explain your services, collect leads, and push them into your CRM — all without human intervention.
+                </p>
+                <h5 className="mb-20">What We Do:</h5>
+                <div className="service-details__fea-list mb-30">
+                  <ul>
+                    <li>AI-powered DM response systems</li>
+                    <li>Automated lead qualification and scoring</li>
+                    <li>CRM integration and lead nurturing workflows</li>
+                    <li>Service explanation and booking automation</li>
+                    <li>Follow-up sequences and appointment scheduling</li>
+                    <li>Performance tracking and optimization</li>
+                  </ul>
+                </div>
+                <p className="mb-20">
+                  <strong>Why It Works:</strong> You stay focused on your work, while our systems handle the lead generation and initial client interactions automatically.
+                </p>
+                <p className="mb-20">
+                  <strong>Who It&apos;s For:</strong> Busy professionals who want to scale their lead generation without increasing manual workload.
+                </p>
+                <p className="mb-30">
+                  <strong>Timeline:</strong> 2–3 weeks setup + ongoing optimization
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="col-xl-5 col-lg-5">
+            <div className="service-details__right-wrap fix p-relative">
+              <div className="service-details__right-text-box">
+                <h4>Leads/Automation</h4>
+                <p className="mb-20">
+                  Handle viral content buzz effortlessly with AI-powered automation that converts engagement into qualified leads.
+                </p>
+                <Link
+                  className="tp-btn-white background-black"
+                  href="/contact"
+                >
+                  Automate Leads
+                </Link>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* Call to Action Section */}
+      <div className="tp-services-grid-section pt-80 pb-80">
+        <div className="container container-1530">
+          <div className="row">
+            <div className="col-xl-8 mx-auto">
+              <div className="tp-service-card text-center">
+                <div className="tp-service-card-content">
+                  <h3 className="tp-service-card-title mb-20 tp-char-animation">
+                    Ready to Transform Your Business?
+                  </h3>
+                  <p className="tp-service-card-desc tp_fade_bottom">
+                    Let&apos;s create a custom strategy that turns your expertise into viral content, qualified leads, and consistent revenue growth.
+                  </p>
+                  <div className="tp-hero-btn mt-30">
+                    <Link href="https://crm.thexmedia.com/widget/booking/49CNEuLUWgqv6vOPwV7t" className="tp-btn-black-2" target="_blank">
+                      Schedule a Free Consultation{" "}
+                      <span className="p-relative">
+                        <RightArrowTwo />
+                        <ArrowBg />
+                      </span>
+                    </Link>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
