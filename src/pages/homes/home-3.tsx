@@ -8,7 +8,7 @@ gsap.registerPlugin(useGSAP, ScrollTrigger, ScrollSmoother, SplitText);
 
 // internal imports
 import Wrapper from "@/layouts/wrapper";
-import HeaderThree from "@/layouts/headers/header-three";
+import HeaderFour from "@/layouts/headers/header-four";
 import HeroBannerThree from "@/components/hero-banner/hero-banner-three";
 import AboutTwo from "@/components/about/about-two";
 import ServiceThree from "@/components/service/service-three";
@@ -48,7 +48,7 @@ const HomeThreeMain = () => {
   return (
     <Wrapper>
       {/* header area start */}
-      <HeaderThree />
+      <HeaderFour />
       {/* header area end */}
 
       <div id="smooth-wrapper">

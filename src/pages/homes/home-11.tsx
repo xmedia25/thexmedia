@@ -6,7 +6,7 @@ import { ScrollSmoother, ScrollTrigger, SplitText } from "@/plugins";
 import { useGSAP } from "@gsap/react";
 gsap.registerPlugin(useGSAP, ScrollTrigger, ScrollSmoother, SplitText);
 
-import HeaderTen from "@/layouts/headers/header-ten";
+import HeaderFour from "@/layouts/headers/header-four";
 import PortfolioSliderHomeEleven from "@/components/portfolio/slider/portfolio-slider-home-eleven";
 import ThemeSetting from "@/components/theme-setting";
 // internal imports
@@ -16,7 +16,7 @@ const HomeElevenMain = () => {
   return (
     <div>
       {/* header area start */}
-      <HeaderTen />
+      <HeaderFour />
       {/* header area end */}
 
       <div id="smooth-wrapper">

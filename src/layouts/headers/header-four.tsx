@@ -55,6 +55,9 @@ export default function HeaderFour() {
               <div className="col-xl-3 col-lg-6 col-md-6 col-6">
                 <div className="tp-header-3-right d-flex align-items-center justify-content-end">
                   <div className="tp-header-3-social d-none d-sm-block">
+                    <a href="https://crm.thexmedia.com/widget/booking/49CNEuLUWgqv6vOPwV7t">
+              <i className="fa-solid fa-calendar"></i>
+            </a>
                     <a href="https://x.com/thexmedia">
                       <i className="fa-brands fa-twitter"></i>
                     </a>

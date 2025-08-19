@@ -8,7 +8,7 @@ gsap.registerPlugin(useGSAP, ScrollTrigger, ScrollSmoother, SplitText);
 
 // internal imports
 import Wrapper from "@/layouts/wrapper";
-import HeaderSeven from "@/layouts/headers/header-seven";
+import HeaderFour from "@/layouts/headers/header-four";
 import StudioPanelOne from "@/components/studio-panels/studio-panel-1";
 import StudioPanelTwo from "@/components/studio-panels/studio-panel-2";
 import { studioPanel } from "@/utils/panel-animation";
@@ -36,7 +36,7 @@ const HomeSevenMain = () => {
   return (
     <Wrapper>
       {/* header area start */}
-      <HeaderSeven />
+      <HeaderFour />
       {/* header area end */}
 
       <div id="smooth-wrapper">

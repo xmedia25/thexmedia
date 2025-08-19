@@ -8,7 +8,7 @@ gsap.registerPlugin(useGSAP, ScrollTrigger, ScrollSmoother, SplitText);
 
 // internal imports
 import Wrapper from "@/layouts/wrapper";
-import HeaderFive from "@/layouts/headers/header-five";
+import HeaderFour from "@/layouts/headers/header-four";
 import HeroBannerFive from "@/components/hero-banner/hero-banner-five";
 import AboutFour from "@/components/about/about-four";
 import ProjectFive from "@/components/project/project-five";
@@ -66,7 +66,7 @@ const HomeFiveMain = () => {
           <main>
 
             {/* header area start */}
-            <HeaderFive />
+            <HeaderFour />
             {/* header area end */}
 
             {/* hero area start */}

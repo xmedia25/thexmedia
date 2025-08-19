@@ -6,7 +6,7 @@ import logo from '@/assets/img/logo/logo-white.png';
 import { footerOneAnimation, footerTwoAnimation } from "@/utils/footer-anim";
 
 const footer_links = [
-  { link: "/our-clients", title: "Our Clients" },
+  { link: "/our-clients", title: "Expertise" },
   { link: "/service", title: "Services" },
   { link: "/about-us", title: "About" },
   { link: "/blog", title: "Blog" },
