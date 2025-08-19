@@ -3,9 +3,9 @@ import { Metadata } from "next";
 import ServiceMain from "@/pages/service/service";
 
 export const metadata: Metadata = {
-  title: "Digital Marketing Services | The X Media - SEO, AI Content & Lead Generation",
-  description: "Transform your business with The X Media's comprehensive digital marketing services. Expert SEO, AI content creation, social media marketing, and lead generation strategies.",
-  keywords: "digital marketing services, SEO services, AI content creation, social media marketing, lead generation, web design, brand development, The X Media services",
+  title: "Digital Marketing Services | The X Media - SEO, Business Consultancy & Performance Marketing",
+  description: "Transform your service business with The X Media's comprehensive digital marketing services. Expert SEO for service professionals, business consultancy, performance marketing, website development, content creation, and lead automation.",
+  keywords: "SEO for service professionals, business consultancy, performance marketing, website development, content creation, lead automation, digital marketing for realtors, mortgage agents, lawyers, CAs, local service businesses",
   authors: [{ name: "The X Media Team" }],
   creator: "The X Media",
   publisher: "The X Media",
@@ -13,8 +13,8 @@ export const metadata: Metadata = {
     canonical: '/service',
   },
   openGraph: {
-    title: "Digital Marketing Services | The X Media - SEO, AI Content & Lead Generation",
-    description: "Transform your business with our comprehensive digital marketing services. Expert SEO, AI content creation, and lead generation strategies.",
+    title: "Digital Marketing Services | The X Media - SEO, Business Consultancy & Performance Marketing",
+    description: "Transform your service business with our comprehensive digital marketing services. Expert SEO for service professionals, business consultancy, performance marketing, and lead automation.",
     url: 'https://thexmedia.com/service',
     siteName: 'The X Media',
     images: [
@@ -31,7 +31,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: "Digital Marketing Services | The X Media",
-    description: "Transform your business with our comprehensive digital marketing services. Expert SEO, AI content creation, and lead generation.",
+    description: "Transform your service business with our comprehensive digital marketing services. Expert SEO for service professionals, business consultancy, and performance marketing.",
     images: ['/assets/img/logo/logo.png'],
     creator: '@thexmedia',
   },

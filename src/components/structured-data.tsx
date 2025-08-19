@@ -46,24 +46,48 @@ const StructuredData: React.FC<StructuredDataProps> = ({ type, data }) => {
                 "@type": "Offer",
                 "itemOffered": {
                   "@type": "Service",
-                  "name": "SEO Services",
-                  "description": "Search engine optimization to improve your website's visibility"
+                  "name": "SEO for Service Professionals",
+                  "description": "Help realtors, mortgage agents, lawyers, CAs, and local service-based businesses dominate local search"
                 }
               },
               {
                 "@type": "Offer",
                 "itemOffered": {
                   "@type": "Service",
-                  "name": "AI Content Creation",
-                  "description": "AI-powered content creation and voice cloning services"
+                  "name": "Business Consultancy & Strategy",
+                  "description": "Partner with you to refine your business model, positioning, offer, and growth systems"
                 }
               },
               {
                 "@type": "Offer",
                 "itemOffered": {
                   "@type": "Service",
-                  "name": "Social Media Marketing",
-                  "description": "Comprehensive social media marketing strategies"
+                  "name": "Performance Marketing",
+                  "description": "Create, test, and optimize Meta and Google Ads campaigns that convert clicks into real business"
+                }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Website & App Development",
+                  "description": "Build sleek, fast, and functional websites and mobile apps designed to convert"
+                }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Content Creation",
+                  "description": "From ideation to final edit, create viral content that showcases your expertise"
+                }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Leads/Automation",
+                  "description": "Handle the buzz effortlessly with AI-powered lead management and automation systems"
                 }
               }
             ]
