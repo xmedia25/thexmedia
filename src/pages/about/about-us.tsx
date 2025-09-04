@@ -12,7 +12,7 @@ import HeaderFour from "@/layouts/headers/header-four";
 import FooterTwo from "@/layouts/footers/footer-two";
 import AboutUsHero from "@/components/about/about-us-hero";
 import AboutUsArea from "@/components/about/about-us-area";
-import ReviewWidget from "@/components/about/review-widget";
+
 import TeamOne from "@/components/team/team-one";
 import FunFactOne from "@/components/fun-fact/fun-fact-one";
 import BrandFive from "@/components/brand/brand-five";
@@ -55,7 +55,7 @@ const AboutUsMain = () => {
             {/* about area */}
 
             {/* review widget area */}
-            <ReviewWidget />
+
             {/* review widget area */}
 
             {/* team area */}

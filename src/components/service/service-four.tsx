@@ -47,17 +47,7 @@ export default function ServiceFour() {
               <div className="tp-service-3-icon">
                 <OptimizedImage src={icon} alt="icon" showSkeleton={true} />
               </div>
-              <span className="tp-section-subtitle-2 tp_fade_bottom">
-                <span>
-                  <FirstBracket />
-                </span>
-                <span className="tp-subtitle-text tp_text_invert">
-                  Our approach
-                </span>
-                <span>
-                  <FirstBracketTwo />
-                </span>
-              </span>
+              
               <h4 className="tp-section-title-90 tp_text_invert tp_fade_bottom">
               Journey From <br /> Content to Business
               </h4>

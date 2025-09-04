@@ -187,23 +187,23 @@
 }
 .tp-footer-white{
     & .tp-footer-2-widget-text p {
-        color: #5D5D63;
+        color: #ffffff;
     }
     & .tp-footer-2-widget-title {
         color: var(--tp-common-black-2);
     }
     & .tp-footer-2-widget-menu ul li a {
-        color: #5D5D63;
-        background-image: linear-gradient(#5D5D63, #5D5D63), linear-gradient(#5D5D63, #5D5D63);
+        color: #ffffff;
+        background-image: linear-gradient(#ffffff, #ffffff), linear-gradient(#ffffff, #ffffff);
     }
     & .tp-footer-2-contact-item span {
-        color: #5D5D63;
+        color: #ffffff;
     }
     & .tp-footer-2-input input {
-        color: #5D5D63;
-        border-bottom: 1px solid #5D5D63;
+        color: #ffffff;
+        border-bottom: 1px solid #ffffff;
         @include placeholder{
-            color:#5D5D63;
+            color:#ffffff;
         }
     }
     & .tp-footer-2-contact-item span:hover a {
@@ -212,7 +212,7 @@
 }
 .tp-copyright-white{
     & .tp-copyright-2-left p {
-        color: #5D5D63;
+        color: #ffffff;
     }
     & .tp-copyright-2-social a {
         color: var(--tp-common-black);
@@ -260,7 +260,7 @@
     // White footer variant
     .tp-copyright-white & {
         .tp-footer-legal-link {
-            color: #5D5D63;
+            color: #ffffff;
             
             &:hover {
                 color: var(--tp-common-black-2);

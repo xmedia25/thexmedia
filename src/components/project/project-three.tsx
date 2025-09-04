@@ -44,7 +44,7 @@ export default function ProjectThree() {
               <div key={item.id} className="tp-project-4-bg project-panel">
                 <Link href="/portfolio-details">
                   <div className="tp-project-4-thumb">
-                    <Image src={item.img} alt="port-thumb" style={{ height: "auto" }} /> 
+                    <Image src={item.img} alt="port-thumb" style={{ height: "auto" }} width={800} height={600} /> 
                   </div>
                   <div className="tp-project-4-content z-index">
                     <h4 className="tp-project-4-title tp_reveal_anim-2">

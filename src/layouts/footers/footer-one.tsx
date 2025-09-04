@@ -124,7 +124,7 @@ export default function FooterOne() {
               <div className="col-xl-4 col-md-3">
                 <div className="tp-copyright-text text-center text-md-end">
                   <p>
-                    Copyright © {new Date().getFullYear()} The-X-Media. All rights
+                    Copyright © {new Date().getFullYear()} The X Media. All rights
                     reserved.
                   </p>
                 </div>
