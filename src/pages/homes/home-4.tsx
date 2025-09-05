@@ -74,7 +74,7 @@ const HomeFourMain = () => {
             {/* about area end */}
 
             {/* brand area start */}
-            <BrandThree />
+            {/* <BrandThree /> */}
             {/* brand area end */}
 
             {/* services grid area start */}

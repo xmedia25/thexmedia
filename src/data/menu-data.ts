@@ -45,7 +45,7 @@ const menu_data:IMenuDT[] = [
 
 export default menu_data;
 
-// mobile menus - updated to match desktop navigation with dropdown structure
+// mobile menus - updated to include top-level Blog, Schedule Call, and Contact
 export const mobile_menu_data:{
   id: number;
   title: string;
@@ -68,28 +68,21 @@ export const mobile_menu_data:{
   {
     id: 3,
     title: 'About',
-    link: '/about-us',
-    dropdown_menus: [
-      {
-        title: 'Blog',
-        link: '/blog'
-      },
-      {
-        title: 'FAQ',
-        link: '/faq'
-      },
-      {
-        title: 'Contact',
-        link: '/contact'
-      },
-      {
-        title: 'About Us',
-        link: '/about-us'
-      },
-      {
-        title: 'Schedule Call',
-        link: 'https://crm.thexmedia.com/widget/booking/49CNEuLUWgqv6vOPwV7t'
-      }
-    ]
+    link: '/about-us'
+  },
+  {
+    id: 4,
+    title: 'Blog',
+    link: '/blog'
+  },
+  {
+    id: 5,
+    title: 'Schedule Call',
+    link: 'https://crm.thexmedia.com/widget/booking/49CNEuLUWgqv6vOPwV7t'
+  },
+  {
+    id: 6,
+    title: 'Contact',
+    link: '/contact'
   }
 ]

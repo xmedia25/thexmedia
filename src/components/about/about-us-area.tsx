@@ -87,7 +87,7 @@ export default function AboutUsArea() {
                  }}>
                    <h4 className="mb-25" style={{color: 'white', fontSize: '22px'}}>Our Philosophy</h4>
                    <p style={{fontSize: '16px', lineHeight: '1.7', color: 'white'}}>
-                     We started with a simple belief: professionals shouldn't need to rely solely on paid ads to grow. With the right content, storytelling, and automation, you can become a go-to name in your industry—organically.
+                     We started with a simple belief: professionals shouldn&apos;t need to rely solely on paid ads to grow. With the right content, storytelling, and automation, you can become a go-to name in your industry—organically.
                    </p>
                  </div>
                </div>
@@ -105,7 +105,7 @@ export default function AboutUsArea() {
                  }}>
                    <h4 className="mb-25" style={{color: 'white', fontSize: '22px'}}>What Makes Us Different</h4>
                    <p style={{fontSize: '16px', lineHeight: '1.7', color: 'white'}}>
-                     We do it all. From ideation and scripting to direction, editing, and automated lead generation, our team handles the entire content-to-client journey. We don't just create videos—we build systems that attract, engage, and convert at scale.
+                     We do it all. From ideation and scripting to direction, editing, and automated lead generation, our team handles the entire content-to-client journey. We don&apos;t just create videos—we build systems that attract, engage, and convert at scale.
                    </p>
                  </div>
                </div>
@@ -123,7 +123,7 @@ export default function AboutUsArea() {
                  }}>
                    <h4 className="mb-25" style={{color: 'white', fontSize: '22px'}}>Technology & Innovation</h4>
                    <p style={{fontSize: '16px', lineHeight: '1.7', color: 'white'}}>
-                     We blend creativity with cutting-edge tech like AI-driven CRMs and automation tools, so while your content reaches millions, your backend never misses a beat. You focus on your expertise—we'll handle the visibility, engagement, and growth.
+                     We blend creativity with cutting-edge tech like AI-driven CRMs and automation tools, so while your content reaches millions, your backend never misses a beat. You focus on your expertise—we&apos;ll handle the visibility, engagement, and growth.
                    </p>
                  </div>
                </div>
@@ -193,7 +193,7 @@ export default function AboutUsArea() {
                 }}>
                   <h4 className="mb-25" style={{color: 'white', fontSize: '22px'}}>The Breakthrough</h4>
                   <p style={{fontSize: '16px', lineHeight: '1.7', color: 'white'}}>
-                    Eventually, I found my voice by talking about business ideas in Canada and launched the series "100 Business Ideas in 100 Days." It went viral. Fast. We gained over 2 million followers across platforms, and our videos consistently hit 500K+ views—all shot from the front seat of a car using a regular iPhone.
+                    Eventually, I found my voice by talking about business ideas in Canada and launched the series &ldquo;100 Business Ideas in 100 Days.&rdquo; It went viral. Fast. We gained over 2 million followers across platforms, and our videos consistently hit 500K+ views—all shot from the front seat of a car using a regular iPhone.
                   </p>
                 </div>
               </div>
@@ -276,7 +276,7 @@ export default function AboutUsArea() {
                 }}>
                   <h4 className="mb-25" style={{color: 'white', fontSize: '22px'}}>Built by Creators, Backed by Systems</h4>
                   <p style={{fontSize: '16px', lineHeight: '1.7', color: 'white'}}>
-                    We've lived the content grind and cracked the code on what goes viral, paired with business automation.
+                    We&apos;ve lived the content grind and cracked the code on what goes viral, paired with business automation.
                   </p>
                 </div>
               </div>
@@ -416,7 +416,7 @@ export default function AboutUsArea() {
                   <div style={{fontSize: '16px', lineHeight: '1.7', color: 'white'}}>
                     <div className="mb-15"><strong>Authenticity:</strong> We keep it real, on and off camera</div>
                     <div className="mb-15"><strong>Innovation:</strong> We blend creativity with cutting-edge tech</div>
-                    <div className="mb-15"><strong>Results:</strong> We're focused on ROI, not just reach</div>
+                    <div className="mb-15"><strong>Results:</strong> We&apos;re focused on ROI, not just reach</div>
                     <div className="mb-15"><strong>Partnership:</strong> We grow when our clients grow</div>
                     <div><strong>Simplicity:</strong> No fluff, no jargon—just systems that work</div>
                   </div>

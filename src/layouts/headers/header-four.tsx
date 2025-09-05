@@ -58,14 +58,17 @@ export default function HeaderFour() {
                     <a href="https://crm.thexmedia.com/widget/booking/49CNEuLUWgqv6vOPwV7t">
               <i className="fa-solid fa-calendar"></i>
             </a>
-                    <a href="https://x.com/thexmedia">
+                    {/* <a href="https://x.com/thexmedia">
                       <i className="fa-brands fa-twitter"></i>
-                    </a>
-                    <a href="https://www.facebook.com/thexmedia/">
+                    </a> */}
+                    <a href="https://www.facebook.com/thexmediaofficial/">
                       <i className="fa-brands fa-facebook"></i>
                     </a>
-                    <a href="https://www.instagram.com/thexmedia/">
+                    <a href="https://www.instagram.com/thexmedia_/">
                       <i className="fa-brands fa-instagram"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/company/theexmedia">
+                      <i className="fa-brands fa-linkedin"></i>
                     </a>
                   </div>
                   <button onClick={() => setOpenOffCanvas(true)} className="tp-header-3-bar tp-offcanvas-open-btn d-xl-none" style={{color: 'white', backgroundColor: 'transparent', border: 'none', outline: 'none'}} onMouseEnter={(e) => e.currentTarget.style.backgroundColor = 'transparent'} onMouseLeave={(e) => e.currentTarget.style.backgroundColor = 'transparent'}>

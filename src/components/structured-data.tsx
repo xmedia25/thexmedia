@@ -33,10 +33,9 @@ const StructuredData: React.FC<StructuredDataProps> = ({ type, data }) => {
             "availableLanguage": "English"
           },
           "sameAs": [
-            "https://www.facebook.com/thexmedia",
-            "https://www.instagram.com/thexmedia",
-            "https://www.linkedin.com/company/thexmedia",
-            "https://twitter.com/thexmedia"
+            "https://www.facebook.com/thexmediaofficial/",
+            "https://www.instagram.com/thexmedia_/",
+            "https://www.linkedin.com/company/theexmedia"
           ],
           "hasOfferCatalog": {
             "@type": "OfferCatalog",
