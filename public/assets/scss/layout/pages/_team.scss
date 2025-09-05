@@ -173,7 +173,7 @@
             font-size: 13px;
             font-weight: 400;
             line-height: 1;
-            color: #5D5D63;
+            color: #ffffff;
             letter-spacing: 0.26px;
             text-transform: uppercase;
             margin-bottom: 8px;
@@ -204,7 +204,7 @@
         }
     }
     &-subtitle{
-        color: #5D5D63;
+        color: #ffffff;
         font-size: 18px;
         font-weight: 500;
         line-height: 1;
@@ -212,7 +212,7 @@
             content: "";
             height: 1px;
             width: 40px;
-            background-color: #5D5D63;
+            background-color: #ffffff;
             display: inline-block;
             transform: translateY(-3px);
             margin-left: 14px;
@@ -270,7 +270,7 @@
             font-size: 18px;
             font-weight: 400;
             line-height: 26px;
-            color: #5D5D63;
+            color: #ffffff;
             max-width: 460px;
             @media #{$xs}{
                 & br{
@@ -312,7 +312,7 @@
     }
     &-text{
         & p{
-            color: #5D5D63;
+            color: #ffffff;
             font-size: 18px;
             font-weight: 400;
             line-height: 26px;

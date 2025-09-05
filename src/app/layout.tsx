@@ -139,10 +139,7 @@ export default function RootLayout({
       <head>
         <StructuredData type="organization" />
         <StructuredData type="website" />
-        <script 
-          src="https://crm.thexmedia.com/reputation/assets/review-widget.js" 
-          async
-        ></script>
+
       </head>
       <body
         id="body"

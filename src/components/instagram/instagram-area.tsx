@@ -45,13 +45,13 @@ export default function InstagramArea() {
         <div className="tp-instagram-content-wrap text-start">
           <div className="tp-instagram-title-box">
             <span className="tp-instagram-subtitle">INSTAGRAM</span>
-            <h4 className="tp-instagram-title">@thexmedia</h4>
+            <h4 className="tp-instagram-title">@thexmedia_</h4>
           </div>
           <div className="tp-instagram-content">
             <p>
               Become a part of our stories! <br /> Join the adventure.
             </p>
-            <a className="tp-btn-white background-black" href="#">
+            <a className="tp-btn-white background-black" href="https://www.instagram.com/thexmedia_/" target="_blank">
               Follow Us
               <span>
                 <Leaf />

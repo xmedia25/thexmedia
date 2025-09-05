@@ -115,7 +115,7 @@
             background: transparent;
             border: 1px solid #D9D9D9;
             @include placeholder{
-                color: #5D5D63;
+                color: #ffffff;
                 font-size: 18px;
                 font-weight: 400;
                 line-height: 1;
@@ -177,7 +177,7 @@
         }
         &-content{
             & p{
-                color: #5D5D63;
+                color: #ffffff;
                 font-size: 16px;
                 font-weight: 400;
                 line-height: 22px;

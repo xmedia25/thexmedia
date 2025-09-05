@@ -1,0 +1,1 @@
+export { default as TestimonialHome } from './testimonial-home';

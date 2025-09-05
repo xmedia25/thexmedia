@@ -13,23 +13,9 @@ export default function AboutThree() {
         <div className="row">
           <div className="col-xl-11">
             <div className="tp-about-3-title-box">
-              <span className="tp-section-subtitle-2 tp_fade_bottom">
-                <span>
-                  <FirstBracket />
-                </span>
-                <span className="tp-subtitle-text">
-                  What we do
-                </span>
-                <span>
-                  <FirstBracketTwo />
-                </span>
-              </span>
               <h4 className="mb-30 tp-section-title-90 tp_fade_bottom">
               We generate qualified leads, organically!{" "}
                </h4>
-              <h5 className="tp-section-subtitle-2 mb-30">
-              Using AI Automations.             
-              </h5>
             </div>
           </div>
         </div>

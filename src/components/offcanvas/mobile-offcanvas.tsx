@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import { Behance, CloseTwo, Dribble, InstagramTwo, Youtube } from "../svg";
+import { CloseTwo, Facebook, InstagramTwo, Linkdin } from "../svg";
 
 // images
 import logo from "@/assets/img/logo/logo.png";
@@ -78,16 +78,13 @@ export default function MobileOffcanvas({openOffcanvas,setOpenOffcanvas}: IProps
               <h3 className="tp-offcanvas-title sm">Follow Us</h3>
               <ul>
                 <li>
-                  <a href="#"><InstagramTwo /></a>
+                  <a href="https://www.instagram.com/thexmedia_/" target="_blank"><InstagramTwo /></a>
                 </li>
                 <li>
-                  <a href="#"><Dribble /></a>
+                  <a href="https://www.facebook.com/thexmediaofficial/" target="_blank"><Facebook /></a>
                 </li>
                 <li>
-                  <a href="#"> <Behance /></a>
-                </li>
-                <li>
-                  <a href="#"><Youtube /></a>
+                  <a href="https://www.linkedin.com/company/theexmedia" target="_blank"><Linkdin /></a>
                 </li>
               </ul>
             </div>

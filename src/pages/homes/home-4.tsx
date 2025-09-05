@@ -26,7 +26,8 @@ import ProjectFive from "@/components/project/project-five";
 import TeamOne from "@/components/team/team-one";
 import AboutWork from "@/components/work/about-work";
 import ServicesGrid from "@/components/services/services-grid";
-import { ReviewWidgetSection } from "@/components/review-widget";
+
+import { TestimonialHome } from "@/components/testimonial";
 
 const HomeFourMain = () => {
   useScrollSmooth();
@@ -73,7 +74,7 @@ const HomeFourMain = () => {
             {/* about area end */}
 
             {/* brand area start */}
-            <BrandThree />
+            {/* <BrandThree /> */}
             {/* brand area end */}
 
             {/* services grid area start */}
@@ -92,15 +93,16 @@ const HomeFourMain = () => {
             
             <TeamOne />
 
+            {/* testimonial area start */}
+            <TestimonialHome />
+            {/* testimonial area end */}
 
                         {/* contact area start */}
             <ContactOne />
             {/* contact area end */}
 
 
-            {/* review widget area start */}
-            <ReviewWidgetSection />
-            {/* review widget area end */}
+
 
          
 

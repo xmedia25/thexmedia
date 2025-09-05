@@ -3,11 +3,13 @@ import Image from "next/image";
 
 import { ProjectShape, RightArrow } from "../svg";
 // videos
-const video_1 = '/assets/reels/the_x_media-01.mp4';
-const video_2 = '/assets/reels/the_x_media-02.mp4';
-const video_3 = '/assets/reels/the_x_media-03.mp4';
-const video_4 = '/assets/reels/the_x_media-04.mp4';
-const video_5 = '/assets/reels/the_x_media-05.mp4';
+const video_1 = '/assets/reels/lets_work/realters_1.mp4';
+const video_2 = '/assets/reels/lets_work/realters_2.mp4';
+const video_3 = '/assets/reels/lets_work/INVESTORS_1.mp4';
+const video_4 = '/assets/reels/lets_work/INVESTORS_2.mp4';
+const video_5 = '/assets/reels/lets_work/BUSINESSES_1.mp4';
+const video_6 = '/assets/reels/lets_work/BUSINESSES_2.mp4';
+
 import Link from "next/link";
 
 // portfolio data
@@ -17,29 +19,22 @@ const project_data = [
     video_1: video_1,
     video_2: video_2,
     meta: "DEC 2024 . Creative",
-    title: "Real Estate Agents",
+    title: "Realtors ",
   },
   {
     id: 2,
     video_1: video_3,
     video_2: video_4,
     meta: "NOV 2024 . Creative",
-    title: "Mortgage Agents",
+    title: "Investors/ Lawyers",
   },
   {
     id: 3,
     video_1: video_5,
-    video_2: video_1,
+    video_2: video_6,
     meta: "OCT 2024 . Relish Immigration",
-    title: "Lawyer (Kapil Rathod)",
-  },
-  {
-    id: 4,
-    video_1: video_2,
-    video_2: video_3,
-    meta: "SEP 2024 .  Tint Express",
-    title: "Consutrction company",
-  },
+    title: "Businesses",
+  }
 ];
 
 // prop type
@@ -83,7 +78,7 @@ export default function ProjectFour({ style_2 = false }: IProps) {
                       <video
                         src={item.video_1}
                         style={{
-                          height: 'auto',
+                          height: '700px',
                           width: '100%',
                           objectFit: 'cover',
                           borderRadius: '20px',
@@ -121,7 +116,7 @@ export default function ProjectFour({ style_2 = false }: IProps) {
                       <video
                         src={item.video_2}
                         style={{
-                          height: 'auto',
+                          height: '700px',
                           width: '100%',
                           objectFit: 'cover',
                           borderRadius: '20px',

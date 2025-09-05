@@ -157,7 +157,7 @@ export default function PortfolioDetailsCustomLightArea() {
                       <div className="pd-typography-color tp_fade_bottom">
                           <h5 className="text-1">Colors</h5>
                           <span className="color-1">#19191A</span>
-                          <span className="color-2">#5D5D63</span>
+                          <span className="color-2">#ffffff</span>
                           <span className="color-3">#ECECEA</span>
                       </div>
                     </div>

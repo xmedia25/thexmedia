@@ -16,7 +16,7 @@ export default function HeroBannerFive() {
             </h4>
             <p className="">
               {"We're"} an innovative global ui/ux design agency building
-              high-end products <br />
+              premium services <br />
               and experiences that grow your business exponentially.
             </p>
             <Link className="tp-btn-black-2" href="/our-clients">View Our Clients</Link>

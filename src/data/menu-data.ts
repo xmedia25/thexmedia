@@ -36,18 +36,6 @@ const menu_data:IMenuDT[] = [
       {
         title: 'Schedule Call',
         link: 'https://crm.thexmedia.com/widget/booking/49CNEuLUWgqv6vOPwV7t'
-      },
-      {
-        title: 'Privacy Policy',
-        link: '/privacy-policy'
-      },
-      {
-        title: 'Cookie Policy',
-        link: '/cookies-policy'
-      },
-      {
-        title: 'Terms and Conditions',
-        link: '/terms-and-conditions'
       }
     ]
   }
@@ -57,11 +45,15 @@ const menu_data:IMenuDT[] = [
 
 export default menu_data;
 
-// mobile menus - updated to match desktop navigation
+// mobile menus - updated to include top-level Blog, Schedule Call, and Contact
 export const mobile_menu_data:{
   id: number;
   title: string;
   link: string;
+  dropdown_menus?: {
+    title: string;
+    link: string;
+  }[];
 }[] = [
   {
     id: 1,
@@ -75,42 +67,22 @@ export const mobile_menu_data:{
   },
   {
     id: 3,
+    title: 'About',
+    link: '/about-us'
+  },
+  {
+    id: 4,
     title: 'Blog',
     link: '/blog'
   },
   {
-    id: 4,
-    title: 'FAQ',
-    link: '/faq'
-  },
-  {
     id: 5,
-    title: 'Contact',
-    link: '/contact'
-  },
-  {
-    id: 6,
-    title: 'About Us',
-    link: '/about-us'
-  },
-  {
-    id: 7,
     title: 'Schedule Call',
     link: 'https://crm.thexmedia.com/widget/booking/49CNEuLUWgqv6vOPwV7t'
   },
   {
-    id: 8,
-    title: 'Privacy Policy',
-    link: '/privacy-policy'
-  },
-  {
-    id: 9,
-    title: 'Cookie Policy',
-    link: '/cookies-policy'
-  },
-  {
-    id: 10,
-    title: 'Terms and Conditions',
-    link: '/terms-and-conditions'
+    id: 6,
+    title: 'Contact',
+    link: '/contact'
   }
 ]

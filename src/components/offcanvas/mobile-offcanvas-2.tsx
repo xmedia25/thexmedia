@@ -76,10 +76,9 @@ export default function MobileOffcanvasTwo({openOffcanvas,setOpenOffcanvas}:IPro
             </div>
             <div className="tpoffcanvas__social-link">
               <ul>
-                <li><a href="#">Dribbble</a></li>
-                <li><a href="#">Instagram</a></li>
-                <li><a href="#">Linkedin</a></li>
-                <li><a href="#">Behance</a></li>
+                <li><a href="https://www.facebook.com/thexmediaofficial/" target="_blank">Facebook</a></li>
+                <li><a href="https://www.instagram.com/thexmedia_/" target="_blank">Instagram</a></li>
+                <li><a href="https://www.linkedin.com/company/theexmedia" target="_blank">Linkedin</a></li>
               </ul>
             </div>
           </div>

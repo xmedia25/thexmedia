@@ -17,7 +17,7 @@ import { charAnimation, titleAnimation } from "@/utils/title-animation";
 import { imageRevealAnimation } from "@/utils/image-reveal-anim";
 import { hoverBtn } from "@/utils/hover-btn";
 import FooterOne from "@/layouts/footers/footer-one";
-import ReviewWidgetSection from "@/components/review-widget/review-widget-section";
+
 
 const PortfolioStandardMain = () => {
   useScrollSmooth();
@@ -140,12 +140,7 @@ const PortfolioStandardMain = () => {
 
             {/* client profiles area */}
 
-            {/* review widget */}
-            <ReviewWidgetSection 
-              title="Customer Reviews"
-              subtitle="Discover what our customers think about this product. Your feedback matters and helps others make the right choice."
-            />
-            {/* review widget */}
+
 
             {/* big text */}
             <BigText/>
