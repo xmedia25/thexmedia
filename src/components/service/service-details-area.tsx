@@ -14,22 +14,22 @@ export default function ServiceDetailsArea() {
       <div className="container">
         <div className="row">
           <div className="col-xl-12">
-            <div className="service-details__title-box mb-40">
-              <span className="service-details__subtitle tp-char-animation">
+            <div className="service-details__title-box mb-40" style={{ textAlign: 'left' }}>
+              <span className="service-details__subtitle tp-char-animation" style={{ textAlign: 'left', display: 'block' }}>
                 TheXMedia Services
               </span>
-              <h4 className="sv-hero-title tp-char-animation">
+              <h4 className="sv-hero-title tp-char-animation" style={{ textAlign: 'left' }}>
                 Comprehensive Digital Solutions for Service Professionals
               </h4>
             </div>
           </div>
           <div className="row">
-            <div className="offset-xl-4 col-xl-5">
-              <div className="service-details__banner-text mb-80">
-                <p className="mb-30 tp_title_anim">
+            <div className="col-xl-8">
+              <div className="service-details__banner-text mb-80" style={{ textAlign: 'left' }}>
+                <p className="mb-30 tp_title_anim" style={{ textAlign: 'left' }}>
                   We help realtors, mortgage agents, lawyers, CAs, and local service-based businesses dominate their digital presence. Our services are designed to generate qualified leads and scale your business sustainably.
                 </p>
-                <p className="tp_title_anim">
+                <p className="tp_title_anim" style={{ textAlign: 'left' }}>
                   From SEO to content creation, we provide end-to-end solutions that drive real business results.
                 </p>
               </div>
@@ -400,7 +400,7 @@ export default function ServiceDetailsArea() {
                     Let&apos;s create a custom strategy that turns your expertise into viral content, qualified leads, and consistent revenue growth.
                   </p>
                   <div className="tp-hero-btn mt-30">
-                    <Link href="https://crm.thexmedia.com/widget/booking/49CNEuLUWgqv6vOPwV7t" className="tp-btn-black-2" target="_blank">
+                    <Link href="https://crm.thexmedia.com/widget/booking/49CNEuLUWgqv6vOPwV7t" className="tp-btn-black-2" target="_blank" rel="nofollow">
                       Schedule a Free Consultation{" "}
                       <span className="p-relative">
                         <RightArrowTwo />

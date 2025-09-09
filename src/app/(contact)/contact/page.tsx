@@ -1,11 +1,12 @@
 import React from "react";
 import { Metadata } from "next";
 import ContactMain from "@/pages/contact/contact";
+import StructuredData from "@/components/structured-data";
 
 export const metadata: Metadata = {
-  title: "Contact The X Media | Digital Marketing Agency in Mississauga, Toronto",
-  description: "Ready to grow your business? Contact The X Media today. Get a free consultation for your digital marketing needs. Call +1 437 263 5601 or email contact@thexmedia.com",
-  keywords: "contact The X Media, digital marketing consultation, Mississauga marketing agency, Toronto marketing services, free consultation, get quote",
+  title: "Contact The X Media | Get Your Free Digital Marketing Consultation",
+  description: "Ready to grow your business? Contact The X Media for a free consultation. Expert digital marketing services for realtors, lawyers, mortgage agents, and service professionals.",
+  keywords: "contact The X Media, free consultation, digital marketing consultation, get in touch, contact form, phone consultation, email marketing, business growth consultation, realtor marketing consultation, lawyer marketing help",
   authors: [{ name: "The X Media Team" }],
   creator: "The X Media",
   publisher: "The X Media",
@@ -13,8 +14,8 @@ export const metadata: Metadata = {
     canonical: '/contact',
   },
   openGraph: {
-    title: "Contact The X Media | Digital Marketing Agency in Mississauga, Toronto",
-    description: "Ready to grow your business? Get a free consultation for your digital marketing needs. Call +1 437 263 5601 or email contact@thexmedia.com",
+    title: "Contact The X Media | Get Your Free Digital Marketing Consultation",
+    description: "Ready to grow your business? Contact The X Media for a free consultation. Expert digital marketing services for service professionals.",
     url: 'https://thexmedia.com/contact',
     siteName: 'The X Media',
     images: [
@@ -22,7 +23,7 @@ export const metadata: Metadata = {
         url: '/assets/img/logo/logo.png',
         width: 1200,
         height: 630,
-        alt: 'Contact The X Media - Digital Marketing Agency',
+        alt: 'Contact The X Media - Free Digital Marketing Consultation',
       },
     ],
     locale: 'en_US',
@@ -30,8 +31,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: "Contact The X Media | Digital Marketing Agency",
-    description: "Ready to grow your business? Get a free consultation for your digital marketing needs.",
+    title: "Contact The X Media | Free Digital Marketing Consultation",
+    description: "Ready to grow your business? Contact us for a free consultation on digital marketing services.",
     images: ['/assets/img/logo/logo.png'],
     creator: '@thexmedia',
   },
@@ -50,7 +51,16 @@ export const metadata: Metadata = {
 
 const ContactPage = () => {
   return (
-    <ContactMain/>
+    <>
+      <StructuredData type="contact" data={{
+        name: "The X Media Contact",
+        description: "Contact The X Media for expert digital marketing services and free consultation.",
+        telephone: "+1-647-951-3509",
+        email: "info@thexmedia.com",
+        address: "Mississauga, Ontario, Canada"
+      }} />
+      <ContactMain/>
+    </>
   );
 };
 

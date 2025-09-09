@@ -1,11 +1,13 @@
 import React from "react";
 import { Metadata } from "next";
 import ServiceMain from "@/pages/service/service";
+import StructuredData from "@/components/structured-data";
+import AdvancedSEO from "@/components/seo/advanced-seo";
 
 export const metadata: Metadata = {
-  title: "Digital Marketing Services | The X Media - SEO, Business Consultancy & Performance Marketing",
-  description: "Transform your service business with The X Media's comprehensive digital marketing services. Expert SEO for service professionals, business consultancy, performance marketing, website development, content creation, and lead automation.",
-  keywords: "SEO for service professionals, business consultancy, performance marketing, website development, content creation, lead automation, digital marketing for realtors, mortgage agents, lawyers, CAs, local service businesses",
+  title: "Digital Marketing Services | The X Media - SEO, AI Content & Lead Generation",
+  description: "Comprehensive digital marketing services for service professionals. Specializing in SEO, AI content creation, lead generation, and viral marketing strategies for realtors, lawyers, and more.",
+  keywords: "digital marketing services, SEO services, AI content creation, lead generation, viral marketing, realtor marketing, lawyer marketing, mortgage agent marketing, social media marketing, content marketing, PPC advertising, email marketing, conversion optimization",
   authors: [{ name: "The X Media Team" }],
   creator: "The X Media",
   publisher: "The X Media",
@@ -13,8 +15,8 @@ export const metadata: Metadata = {
     canonical: '/service',
   },
   openGraph: {
-    title: "Digital Marketing Services | The X Media - SEO, Business Consultancy & Performance Marketing",
-    description: "Transform your service business with our comprehensive digital marketing services. Expert SEO for service professionals, business consultancy, performance marketing, and lead automation.",
+    title: "Digital Marketing Services | The X Media - SEO, AI Content & Lead Generation",
+    description: "Comprehensive digital marketing services for service professionals. Specializing in SEO, AI content creation, lead generation, and viral marketing strategies.",
     url: 'https://thexmedia.com/service',
     siteName: 'The X Media',
     images: [
@@ -31,7 +33,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: "Digital Marketing Services | The X Media",
-    description: "Transform your service business with our comprehensive digital marketing services. Expert SEO for service professionals, business consultancy, and performance marketing.",
+    description: "Comprehensive digital marketing services for service professionals. SEO, AI content, lead generation & more.",
     images: ['/assets/img/logo/logo.png'],
     creator: '@thexmedia',
   },
@@ -50,7 +52,17 @@ export const metadata: Metadata = {
 
 const ServicePage = () => {
   return (
-    <ServiceMain/>
+    <>
+      <AdvancedSEO page="services" />
+      <StructuredData type="service" data={{
+        name: "Digital Marketing Services",
+        description: "Comprehensive digital marketing services including SEO, AI content creation, lead generation, and viral marketing strategies for service professionals.",
+        provider: "The X Media",
+        areaServed: "North America",
+        serviceType: "Digital Marketing"
+      }} />
+      <ServiceMain/>
+    </>
   );
 };
 

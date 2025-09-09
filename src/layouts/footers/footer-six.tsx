@@ -57,11 +57,11 @@ export default function FooterSix() {
                   <h4 className="tp-footer-6-widget-title">Category</h4>
                   <div className="tp-footer-6-list">
                     <ul>
-                      <li><a href="/about-us">Our Story</a></li>
-                      <li><a href="/service">Services</a></li>
-                      <li><a href="/our-clients">Our Clients</a></li>
-                      <li><a href="/blog">Latest News</a></li>
-                      <li><a href="/contact">Contact Us</a></li>
+                      <li><a href="/about-us" style={{fontSize: '14px'}}>Our Story</a></li>
+                      <li><a href="/service" style={{fontSize: '14px'}}>Services</a></li>
+                      <li><a href="/our-clients" style={{fontSize: '14px'}}>Our Clients</a></li>
+                      <li><a href="/blog" style={{fontSize: '14px'}}>Latest News</a></li>
+                      <li><a href="/contact" style={{fontSize: '14px'}}>Contact Us</a></li>
                     </ul>
                   </div>
                 </div>

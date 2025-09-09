@@ -71,7 +71,7 @@ const HeaderMenus = () => {
                         <div className="tp-shop-banner-content">
                           <h4 className="tp-shop-banner-title">Sale</h4>
                           <span>20% Off all Shoes</span>
-                          <Link className="tp-shop-btn" href="/shop">
+                          <Link className="tp-shop-btn" href="/shop" target="_blank">
                             Shop Now
                           </Link>
                         </div>

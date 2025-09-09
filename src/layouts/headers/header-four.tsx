@@ -55,19 +55,19 @@ export default function HeaderFour() {
               <div className="col-xl-3 col-lg-6 col-md-6 col-6">
                 <div className="tp-header-3-right d-flex align-items-center justify-content-end">
                   <div className="tp-header-3-social d-none d-sm-block">
-                    <a href="https://crm.thexmedia.com/widget/booking/49CNEuLUWgqv6vOPwV7t">
+                    <a href="https://crm.thexmedia.com/widget/booking/49CNEuLUWgqv6vOPwV7t" target="_blank" rel="nofollow">
               <i className="fa-solid fa-calendar"></i>
             </a>
-                    {/* <a href="https://x.com/thexmedia">
+                    {/* <a href="https://x.com/thexmedia" target="_blank" rel="nofollow">
                       <i className="fa-brands fa-twitter"></i>
                     </a> */}
-                    <a href="https://www.facebook.com/thexmediaofficial/">
+                    <a href="https://www.facebook.com/thexmediaofficial/" target="_blank" rel="nofollow">
                       <i className="fa-brands fa-facebook"></i>
                     </a>
-                    <a href="https://www.instagram.com/thexmedia_/">
+                    <a href="https://www.instagram.com/thexmedia_/" target="_blank" rel="nofollow">
                       <i className="fa-brands fa-instagram"></i>
                     </a>
-                    <a href="https://www.linkedin.com/company/theexmedia">
+                    <a href="https://www.linkedin.com/company/theexmedia" target="_blank" rel="nofollow">
                       <i className="fa-brands fa-linkedin"></i>
                     </a>
                   </div>

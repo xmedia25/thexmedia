@@ -228,9 +228,9 @@ const TestimonialHome: React.FC = () => {
       <div className="container">
         <div className="row">
           <div className="col-xl-12">
-            <div className="ab-about-content p-relative text-center mb-60">
-              <h2 className="tp_fade_bottom mb-40" style={{color: 'white'}}>Client Testimonials</h2>
-              <div className="col-xl-8 mx-auto">
+            <div className="ab-about-content p-relative mb-60" style={{textAlign: 'left'}}>
+              <h2 className="tp_fade_bottom mb-40" style={{color: 'white', textAlign: 'left'}}>Client Testimonials</h2>
+              <div className="col-xl-12">
                 <div className="ab-about-card tp_fade_bottom" style={{
                   background: 'linear-gradient(135deg, rgba(30,30,30,0.9) 0%, rgba(20,20,20,0.95) 100%)',
                   backdropFilter: 'blur(10px)',
@@ -239,7 +239,7 @@ const TestimonialHome: React.FC = () => {
                   padding: '30px',
                   boxShadow: '0 8px 32px rgba(0,0,0,0.5)'
                 }}>
-                  <p style={{fontSize: '18px', lineHeight: '1.7', color: 'white', margin: 0}}>
+                  <p style={{fontSize: '18px', lineHeight: '1.7', color: 'white', margin: 0, textAlign: 'left'}}>
                     Discover how we&apos;ve helped businesses across the Greater Toronto Area achieve remarkable digital growth through strategic content creation and automation.
                   </p>
                 </div>

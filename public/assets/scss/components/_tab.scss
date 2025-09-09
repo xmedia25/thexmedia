@@ -142,10 +142,10 @@
                 }
     
                 & .#{$theme-prifix}-product-tab-tooltip{
-                    background-color: var(--tp-theme-green);
+                    background-color: #fed83a;
 
                     &::after{
-                        background-color: var(--tp-theme-green);
+                        background-color: #fed83a;
                     }
                 }
             }

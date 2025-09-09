@@ -13,7 +13,7 @@ import ContactTwo from "@/components/contact/contact-two";
 import ContactLocation from "@/components/contact/contact-location";
 import FooterTwo from "@/layouts/footers/footer-two";
 // animation
-import { charAnimation } from "@/utils/title-animation";
+import { charAnimation, fadeAnimation } from "@/utils/title-animation";
 import FooterOne from "@/layouts/footers/footer-one";
 
 const ContactMain = () => {
@@ -22,6 +22,7 @@ const ContactMain = () => {
   useGSAP(() => {
     const timer = setTimeout(() => {
       charAnimation();
+      fadeAnimation();
     }, 100);
     return () => clearTimeout(timer);
   });
@@ -48,7 +49,7 @@ const ContactMain = () => {
                   <div className="row">
                     <div className="col-xl-12">
                       <div className="tm-hero-content">
-                        <span className="tm-hero-subtitle">The-X-Media</span>
+                        <span className="tm-hero-subtitle">The X Media</span>
                         <h4 className="tm-hero-title-big tp-char-animation">
                           Get in touch
                         </h4>

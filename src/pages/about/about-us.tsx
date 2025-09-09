@@ -17,6 +17,7 @@ import TeamOne from "@/components/team/team-one";
 import FunFactOne from "@/components/fun-fact/fun-fact-one";
 import BrandFive from "@/components/brand/brand-five";
 import AwardOne from "@/components/award/award-one";
+import FaqArea from "@/components/faq/faq-area";
 // animation
 import { charAnimation, fadeAnimation, titleAnimation } from "@/utils/title-animation";
 import { hoverBtn } from "@/utils/hover-btn";
@@ -59,7 +60,7 @@ const AboutUsMain = () => {
             {/* review widget area */}
 
             {/* team area */}
-            <TeamOne spacing="" />
+            {/* <TeamOne spacing="" /> */}
             {/* team area */}
 
             {/* fun fact area */}
@@ -67,12 +68,36 @@ const AboutUsMain = () => {
             {/* fun fact area */}
 
             {/* brand area */}
-            <BrandFive />
+            {/* <BrandFive /> */}
             {/* brand area */}
 
             {/* award area */}
-            <AwardOne cls="ab-award-style pt-120 pb-120" abStyle={true} />
+            {/* <AwardOne cls="ab-award-style pt-120 pb-120" abStyle={true} /> */}
             {/* award area */}
+
+            {/* faq area */}
+            <div className="tm-hero-area">
+              <div className="container">
+                <div className="row">
+                  <div className="col-xl-12">
+                    <div className="tm-hero-content">
+                      <span className="tm-hero-subtitle">The X Media</span>
+                      <h4 className="tm-hero-title tp-char-animation">
+                        Frequently Asked Questions
+                      </h4>
+                    </div>
+                    <div className="tm-hero-text tp_title_anim">
+                      <p>
+                        Get answers to common questions about our viral content <br />
+                        and growth services for service professionals.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <FaqArea />
+            {/* faq area */}
           </main>
 
           {/* footer area */}

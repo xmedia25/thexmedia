@@ -4,11 +4,29 @@
 User-agent: *
 Allow: /
 
-# Sitemap
-Sitemap: https://thexmedia.com/sitemap.xml
+# Disallow admin and private areas
+Disallow: /admin/
+Disallow: /private/
+Disallow: /_next/
+Disallow: /api/
 
-# Crawl-delay for respectful crawling
+# Allow important pages
+Allow: /service
+Allow: /about-us
+Allow: /contact
+Allow: /portfolio
+Allow: /blog
+Allow: /faq
+Allow: /team
+Allow: /our-clients
+Allow: /ai-content
+
+# Crawl delay
 Crawl-delay: 1
+
+# Sitemap location
+Sitemap: https://thexmedia.com/sitemap.xml
+Sitemap: https://thexmedia.com/sitemap-0.xml
 
 # Allow all major search engines
 User-agent: Googlebot

@@ -21,7 +21,7 @@ export default function ContactTwo() {
             <div className="ab-about-category-title-box mb-40 p-relative">
               <h4 className="ab-about-category-title">
                 Send a Message <br />
-                <span>Contact Us</span>
+                <span style={{color: "#FFD700"}}>Contact Us</span>
               </h4>
               <Image
                 className="ab-about-shape-1 d-none d-xl-block"

@@ -10,7 +10,7 @@ export default function MobileMenus() {
         <ul>
           {mobile_menu_data.map((menu) => (
             <li key={menu.id}>
-              <Link href={menu.link}>
+              <Link href={menu.link} target="_blank">
                 {menu.title}
               </Link>
             </li>

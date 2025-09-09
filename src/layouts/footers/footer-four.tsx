@@ -16,11 +16,11 @@ export default function FooterFour() {
                   <h4 className="tp-footer-3-title">Website map</h4>
                   <div className="tp-footer-3-menu">
                     <ul>
-                      <li><a href="/about-us">About</a></li>
-                      <li><a href="/service">Services</a></li>
-                      <li><a href="/blog">Blog</a></li>
-                      <li><a href="/contact">Contact</a></li>
-                      <li><a href="/our-clients">Our Clients</a></li>
+                      <li><a href="/about-us" style={{fontSize: '14px'}}>About</a></li>
+                      <li><a href="/service" style={{fontSize: '14px'}}>Services</a></li>
+                      <li><a href="/blog" style={{fontSize: '14px'}}>Blog</a></li>
+                      <li><a href="/contact" style={{fontSize: '14px'}}>Contact</a></li>
+                      <li><a href="/our-clients" style={{fontSize: '14px'}}>Our Clients</a></li>
                     </ul>
                   </div>
                 </div>

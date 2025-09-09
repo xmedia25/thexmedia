@@ -1,11 +1,13 @@
 import React from "react";
 import { Metadata } from "next";
-import AboutUsMain from "@/pages/about/about-us";
+import AboutMain from "@/pages/about/about-us";
+import StructuredData from "@/components/structured-data";
+import AdvancedSEO from "@/components/seo/advanced-seo";
 
 export const metadata: Metadata = {
-  title: "About The X Media | Leading Digital Marketing Agency in Mississauga, Toronto",
-  description: "Learn about The X Media, a leading digital marketing agency in Mississauga, Toronto. Discover our mission, team, and proven strategies that help businesses grow and succeed.",
-  keywords: "about The X Media, digital marketing agency Mississauga, Toronto marketing agency, company history, team, mission, digital marketing experts",
+  title: "About The X Media | Leading Digital Marketing Agency for Service Professionals",
+  description: "Learn about The X Media's mission to help service professionals grow their businesses through expert digital marketing, SEO, AI content creation, and lead generation strategies.",
+  keywords: "about The X Media, digital marketing agency, service professionals marketing, company story, team, mission, vision, values, expertise, experience, digital marketing experts, SEO specialists, content creators",
   authors: [{ name: "The X Media Team" }],
   creator: "The X Media",
   publisher: "The X Media",
@@ -13,8 +15,8 @@ export const metadata: Metadata = {
     canonical: '/about-us',
   },
   openGraph: {
-    title: "About The X Media | Leading Digital Marketing Agency in Mississauga, Toronto",
-    description: "Learn about our mission, team, and proven strategies that help businesses grow and succeed in the digital world.",
+    title: "About The X Media | Leading Digital Marketing Agency for Service Professionals",
+    description: "Learn about our mission to help service professionals grow their businesses through expert digital marketing, SEO, and lead generation strategies.",
     url: 'https://thexmedia.com/about-us',
     siteName: 'The X Media',
     images: [
@@ -22,7 +24,7 @@ export const metadata: Metadata = {
         url: '/assets/img/logo/logo.png',
         width: 1200,
         height: 630,
-        alt: 'About The X Media - Digital Marketing Agency',
+        alt: 'About The X Media - Digital Marketing Agency Team',
       },
     ],
     locale: 'en_US',
@@ -30,8 +32,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: "About The X Media | Leading Digital Marketing Agency",
-    description: "Learn about our mission, team, and proven strategies that help businesses grow and succeed.",
+    title: "About The X Media | Digital Marketing Agency",
+    description: "Learn about our mission to help service professionals grow through expert digital marketing strategies.",
     images: ['/assets/img/logo/logo.png'],
     creator: '@thexmedia',
   },
@@ -50,7 +52,18 @@ export const metadata: Metadata = {
 
 const AboutUsPage = () => {
   return (
-    <AboutUsMain/>
+    <>
+      <AdvancedSEO page="about" />
+      <StructuredData type="organization" data={{
+        name: "The X Media",
+        description: "Leading digital marketing agency specializing in helping service professionals grow their businesses through expert SEO, AI content creation, and lead generation.",
+        url: "https://thexmedia.com",
+        logo: "https://thexmedia.com/assets/img/logo/logo.png",
+        foundingDate: "2020",
+        address: "Mississauga, Ontario, Canada"
+      }} />
+      <AboutMain />
+    </>
   );
 };
 

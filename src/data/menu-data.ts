@@ -22,10 +22,6 @@ const menu_data:IMenuDT[] = [
         link: '/blog'
       },
       {
-        title: 'FAQ',
-        link: '/faq'
-      },
-      {
         title: 'Contact',
         link: '/contact'
       },
@@ -67,21 +63,26 @@ export const mobile_menu_data:{
   },
   {
     id: 3,
+    title: 'Pricing',
+    link: '/pricing'
+  },
+  {
+    id: 4,
     title: 'About',
     link: '/about-us'
   },
   {
-    id: 4,
+    id: 5,
     title: 'Blog',
     link: '/blog'
   },
   {
-    id: 5,
+    id: 6,
     title: 'Schedule Call',
     link: 'https://crm.thexmedia.com/widget/booking/49CNEuLUWgqv6vOPwV7t'
   },
   {
-    id: 6,
+    id: 7,
     title: 'Contact',
     link: '/contact'
   }

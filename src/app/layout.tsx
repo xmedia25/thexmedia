@@ -12,6 +12,7 @@ import "./globals.scss";
 import "./skeleton-loading.css";
 import StructuredData from "@/components/structured-data";
 import BackToTop from "@/components/back-to-top";
+import SEOMonitor from "@/components/seo/seo-monitor";
 
 const gellery = localFont({
   src: [
@@ -71,12 +72,17 @@ const marcellus = Marcellus({
 });
 
 export const metadata: Metadata = {
-  title: "The X Media - Digital Marketing Agency & Portfolio Next js Template",
-  description: "The X Media is a leading digital marketing agency specializing in creative solutions, web design, SEO, social media marketing, and brand development. Transform your business with our innovative digital strategies.",
-  keywords: "digital marketing, web design, SEO, social media marketing, brand development, creative agency, marketing solutions, The X Media",
+  title: {
+    default: "The X Media - Leading Digital Marketing Agency | SEO, Web Design & Brand Development",
+    template: "%s | The X Media - Digital Marketing Agency"
+  },
+  description: "Transform your business with The X Media's proven digital marketing strategies. Expert SEO for service professionals, AI content creation, lead generation, and brand development services in Mississauga, Toronto, Ontario.",
+  keywords: "digital marketing agency, SEO services, AI content creation, lead generation, web design, brand development, social media marketing, business consultancy, performance marketing, Mississauga, Toronto, Ontario, Canada, realtors, mortgage agents, lawyers, CAs, local service businesses, viral content, automation, CRM integration",
   authors: [{ name: "The X Media Team" }],
   creator: "The X Media",
   publisher: "The X Media",
+  category: "Digital Marketing",
+  classification: "Business Services",
   formatDetection: {
     email: false,
     address: false,
@@ -85,7 +91,12 @@ export const metadata: Metadata = {
   metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || 'https://thexmedia.com'),
   alternates: {
     canonical: '/',
+    languages: {
+      'en-US': '/en-US',
+      'en-CA': '/en-CA',
+    },
   },
+  manifest: '/manifest.json',
   openGraph: {
     title: "The X Media - Digital Marketing Agency & Creative Solutions",
     description: "Transform your business with our innovative digital marketing strategies. Expert web design, SEO, social media marketing, and brand development services.",
@@ -126,6 +137,20 @@ export const metadata: Metadata = {
   other: {
     'msapplication-TileColor': '#000000',
     'theme-color': '#000000',
+    'apple-mobile-web-app-capable': 'yes',
+    'apple-mobile-web-app-status-bar-style': 'black-translucent',
+    'apple-mobile-web-app-title': 'The X Media',
+    'application-name': 'The X Media',
+    'mobile-web-app-capable': 'yes',
+    'msapplication-starturl': '/',
+    'msapplication-tap-highlight': 'no',
+    'format-detection': 'telephone=no',
+    'HandheldFriendly': 'true',
+    'MobileOptimized': '320',
+    'viewport': 'width=device-width, initial-scale=1, shrink-to-fit=no',
+    'referrer': 'origin-when-cross-origin',
+    'color-scheme': 'dark light',
+    'supported-color-schemes': 'dark light',
   },
 };
 
@@ -137,16 +162,29 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning={true}>
       <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="format-detection" content="telephone=no" />
+        <meta name="HandheldFriendly" content="true" />
+        <meta name="MobileOptimized" content="320" />
+        <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="referrer" content="origin-when-cross-origin" />
+        <meta name="color-scheme" content="dark light" />
+        <meta name="supported-color-schemes" content="dark light" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
+        <link rel="dns-prefetch" href="https://fonts.googleapis.com" />
+        <link rel="dns-prefetch" href="https://fonts.gstatic.com" />
+        <link rel="preload" href="/assets/img/logo/logo.png" as="image" type="image/png" />
         <StructuredData type="organization" />
         <StructuredData type="website" />
-
+        <StructuredData type="localbusiness" />
       </head>
       <body
         id="body"
         suppressHydrationWarning={true}
         className={`${gellery.variable} ${aladin.variable} ${syne_body.variable} ${syne_heading.variable} ${syne_p.variable} ${syne.variable} ${big_shoulders.variable} ${marcellus.variable}`}
       >
-        <ThemeProvider defaultTheme="dark">{children} <BackToTop /></ThemeProvider>
+        <ThemeProvider defaultTheme="dark">{children} <BackToTop />{/* <SEOMonitor /> */}</ThemeProvider>
         
       </body>
     </html>

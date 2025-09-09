@@ -448,7 +448,7 @@ const AiContentMain = () => {
                             Let&apos;s turn your face and voice into a 24/7 content machine that brings visibility, authority, and revenue.
                           </p>
                           <div className="tp-hero-btn mt-30">
-                            <a href="https://crm.thexmedia.com/widget/booking/49CNEuLUWgqv6vOPwV7t" className="tp-btn-black-2" target="_blank">
+                            <a href="https://crm.thexmedia.com/widget/booking/49CNEuLUWgqv6vOPwV7t" className="tp-btn-black-2" target="_blank" rel="nofollow">
                               Book Your AI Content Demo{" "}
                               <span className="p-relative">
                                 <RightArrowTwo />
