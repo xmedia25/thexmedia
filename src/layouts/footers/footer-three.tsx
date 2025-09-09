@@ -55,11 +55,11 @@ export default function FooterThree() {
                 <div className="tp-footer-2-widget-menu">
                   <h4 className="tp-footer-2-widget-title">Sitemap</h4>
                   <ul>
-                    <li><a href="/about-us">About</a></li>
-                    <li><a href="/service">Services</a></li>
-                    <li><a href="/our-clients">Our Clients</a></li>
-                    <li><a href="/blog">Blog</a></li>
-                    <li><a href="/contact">Contact</a></li>
+                    <li><a href="/about-us" style={{fontSize: '14px'}}>About</a></li>
+                    <li><a href="/service" style={{fontSize: '14px'}}>Services</a></li>
+                    <li><a href="/our-clients" style={{fontSize: '14px'}}>Our Clients</a></li>
+                    <li><a href="/blog" style={{fontSize: '14px'}}>Blog</a></li>
+                    <li><a href="/contact" style={{fontSize: '14px'}}>Contact</a></li>
                   </ul>
                 </div>
               </div>

@@ -52,12 +52,12 @@ export default function FooterTwo({ whiteFooter = false,topCls='footer-top' }: I
                 <div className="tp-footer-2-widget-menu">
                   <h4 className="tp-footer-2-widget-title">Sitemap</h4>
                   <ul>
-                    <li><a href="/about-us">About</a></li>
-                    <li><a href="/service">Services</a></li>
-                    <li><a href="/our-clients">Our Clients</a></li>
-                    <li><a href="/blog">Blog</a></li>
-                    <li><a href="/contact">Contact</a></li>
-                    <li><a href="/faq">FAQ</a></li>
+                    <li><a href="/about-us" style={{fontSize: '14px'}}>About</a></li>
+                    <li><a href="/service" style={{fontSize: '14px'}}>Services</a></li>
+                    <li><a href="/our-clients" style={{fontSize: '14px'}}>Our Clients</a></li>
+                    <li><a href="/blog" style={{fontSize: '14px'}}>Blog</a></li>
+                    <li><a href="/contact" style={{fontSize: '14px'}}>Contact</a></li>
+                    <li><a href="/faq" style={{fontSize: '14px'}}>FAQ</a></li>
                   </ul>
                 </div>
               </div>
@@ -70,7 +70,8 @@ export default function FooterTwo({ whiteFooter = false,topCls='footer-top' }: I
                   <span>
                     <a
                         href="https://www.google.com/maps/place/100+Matheson+Blvd+E,+Mississauga,+ON,+Canada/"
-                        target="_blank"
+                      target="_blank"
+                      rel="nofollow"
                       >
                       100 Matheson blvd, Mississauga, Ontario CA
                     </a>
@@ -132,9 +133,9 @@ export default function FooterTwo({ whiteFooter = false,topCls='footer-top' }: I
             </div>
             <div className="col-xl-3 col-lg-4">
               <div className="tp-copyright-2-social text-center text-lg-end">
-                <a className="mb-10" href="https://www.linkedin.com/company/thexmedia/" target="_blank">Linkedin</a>
-                <a className="mb-10" href="https://www.facebook.com/thexmediaofficial" target="_blank">Facebook</a>
-                <a className="mb-10" href="https://www.instagram.com/thexmedia_/" target="_blank">Instagram</a>
+                <a className="mb-10" href="https://www.linkedin.com/company/thexmedia/" target="_blank" rel="nofollow">Linkedin</a>
+                    <a className="mb-10" href="https://www.facebook.com/thexmediaofficial" target="_blank" rel="nofollow">Facebook</a>
+                    <a className="mb-10" href="https://www.instagram.com/thexmedia_/" target="_blank" rel="nofollow">Instagram</a>
               </div>
             </div>
           </div>

@@ -80,6 +80,7 @@ const MobileHeader: React.FC = () => {
                   href={menu.link} 
                   onClick={closeMenu}
                   className="mobile-menu-link"
+
                 >
                   {menu.title}
                 </Link>
@@ -110,6 +111,7 @@ const MobileHeader: React.FC = () => {
             href="/contact" 
             className="tp-btn tp-btn-2 w-100"
             onClick={closeMenu}
+
           >
             Get Free Consultation
           </Link>

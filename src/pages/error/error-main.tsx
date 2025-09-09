@@ -37,10 +37,15 @@ const ErrorMain = () => {
                         <h4 className="tp-error-title-sm">
                           Something went Wrong...
                         </h4>
-                        <p>Sorry, we {"couldn't"} find your page.</p>
-                        <Link className="tp-btn-black-2" href="/">
-                          Back to Home
-                        </Link>
+                        <p>Sorry, we couldn&apos;t find your page. Let&apos;s schedule a call to discuss your needs!</p>
+                        <div className="tp-error-btn-group" style={{display: 'flex', gap: '15px', justifyContent: 'center', flexWrap: 'wrap'}}>
+                          <Link className="tp-btn-black-2" href="https://crm.thexmedia.com/widget/booking/49CNEuLUWgqv6vOPwV7t" target="_blank" rel="nofollow">
+                            Schedule a Call
+                          </Link>
+                          <Link className="tp-btn-white background-black" href="/">
+                            Back to Home
+                          </Link>
+                        </div>
                       </div>
                     </div>
                   </div>

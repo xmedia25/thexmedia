@@ -44,15 +44,16 @@ export default function AboutUsHero() {
             </div>
           </div>
         </div>
-        <div className="row justify-content-end">
-          <div className="col-xl-5 col-lg-8">
+        <div className="row">
+          <div className="col-xl-12">
             <div
               className="ab-inner-hero-content"
               data-lag="0.2"
               data-stagger="0.08"
+              style={{ textAlign: 'left' }}
             >
-              <p className="tp_title_anim">
-                At TheXMedia, we help professionals stand out and scale up by creating viral, organic content that drives real business results—without relying solely on paid ads.
+              <p className="tp_title_anim" style={{ textAlign: 'left' }}>
+                At The X Media, we help professionals stand out and scale up by creating viral, organic content that drives real business results—without relying solely on paid ads.
               </p>
                <a className="tp-btn-white-sm border-style" href="#our-story">Our Story</a>
             </div>

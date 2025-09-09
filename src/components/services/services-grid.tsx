@@ -57,13 +57,13 @@ const ServicesGrid = () => {
   return (
     <section className="tp-services-grid-section pt-120 pb-120">
       <div className="container">
-        <div className="row justify-content-center mb-60">
-          <div className="col-xl-8">
-            <div className="tp-section-header text-center">
-              <h2 className="tp-section-title-2 mb-20">
+        <div className="row mb-60">
+          <div className="col-xl-12">
+            <div className="tp-section-header" style={{ textAlign: 'left' }}>
+              <h2 className="tp-section-title-2 mb-20" style={{ textAlign: 'left' }}>
                 Our <span>Services</span>
               </h2>
-              <p className="tp-section-text">
+              <p className="tp-section-text" style={{ textAlign: 'left' }}>
                 Comprehensive solutions to grow your professional service business
               </p>
             </div>

@@ -143,8 +143,8 @@ const OptimizedVideo: React.FC<OptimizedVideoProps> = ({
 
   // Memory cleanup
   useEffect(() => {
+    const video = videoRef.current;
     return () => {
-      const video = videoRef.current;
       if (video) {
         video.pause();
         video.src = '';

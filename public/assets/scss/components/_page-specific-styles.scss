@@ -12,8 +12,8 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background: radial-gradient(circle at 30% 20%, rgba(0, 255, 136, 0.05) 0%, transparent 50%),
-                radial-gradient(circle at 70% 80%, rgba(0, 255, 136, 0.03) 0%, transparent 50%);
+    background: radial-gradient(circle at 30% 20%, rgba(254, 216, 58, 0.05) 0%, transparent 50%),
+              radial-gradient(circle at 70% 80%, rgba(254, 216, 58, 0.03) 0%, transparent 50%);
     pointer-events: none;
   }
 
@@ -34,7 +34,7 @@
       color: white;
       
       span {
-        color: #00ff88;
+        color: #fed83a;
       }
       
       @media (max-width: 1199px) {
@@ -81,7 +81,7 @@
     &:hover {
       transform: translateY(-8px);
       background: rgba(255, 255, 255, 0.05);
-      border-color: rgba(0, 255, 136, 0.3);
+      border-color: rgba(254, 216, 58, 0.3);
       box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
     }
 

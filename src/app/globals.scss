@@ -4,3 +4,30 @@
 @import '../../public/assets/scss/main.scss';
 @import './about-us-cards.css';
 
+/* Instagram overlay styles for gallery videos */
+.instagram-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(135deg, rgba(225, 48, 108, 0.8), rgba(255, 255, 255, 0.1));
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: all 0.3s ease;
+  border-radius: 8px;
+  cursor: pointer;
+  backdrop-filter: blur(2px);
+}
+
+.instagram-overlay:hover {
+  opacity: 1 !important;
+  transform: scale(1.02);
+}
+
+.instagram-overlay:active {
+  transform: scale(0.98);
+}
+

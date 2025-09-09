@@ -1,0 +1,65 @@
+{
+  "name": "The X Media - Digital Marketing Agency",
+  "short_name": "The X Media",
+  "description": "Leading digital marketing agency specializing in SEO, AI content creation, and lead generation for service professionals.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#000000",
+  "theme_color": "#000000",
+  "orientation": "portrait-primary",
+  "scope": "/",
+  "lang": "en-US",
+  "dir": "ltr",
+  "categories": ["business", "marketing", "productivity"],
+  "icons": [
+    {
+      "src": "/assets/img/logo/logo.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/assets/img/logo/logo.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/assets/img/logo/logo.png",
+      "sizes": "1280x720",
+      "type": "image/png",
+      "platform": "wide",
+      "label": "The X Media Homepage"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Contact Us",
+      "short_name": "Contact",
+      "description": "Get in touch with our digital marketing experts",
+      "url": "/contact",
+      "icons": [
+        {
+          "src": "/assets/img/logo/logo.png",
+          "sizes": "96x96"
+        }
+      ]
+    },
+    {
+      "name": "Our Services",
+      "short_name": "Services",
+      "description": "Explore our digital marketing services",
+      "url": "/service",
+      "icons": [
+        {
+          "src": "/assets/img/logo/logo.png",
+          "sizes": "96x96"
+        }
+      ]
+    }
+  ],
+  "related_applications": [],
+  "prefer_related_applications": false
+}

@@ -45,14 +45,14 @@ export default function AboutUsArea() {
         </div>
 
         {/* Main Overview Section */}
-        <div id="about-info" className="row mb-120">
+        <div id="about-info" className="row mb-80">
           <div className="col-xxl-12">
-            <div className="ab-about-content p-relative text-center mb-60">
+            <div className="ab-about-content p-relative text-left mb-60">
               <span>
                 <Hand />
                 Welcome!
               </span>
-              <h2 className="tp_fade_bottom mt-30 mb-40" style={{color: 'white'}}>About TheXMedia</h2>
+              <h2 className="tp_fade_bottom mt-120 " style={{color: 'white', borderBottom: '3px solid #FFD700', paddingBottom: '10px', display: 'inline-block'}}>About TheXMedia</h2>
             </div>
             
             {/* Card Layout for Company Description */}
@@ -67,8 +67,8 @@ export default function AboutUsArea() {
                    padding: '40px',
                    boxShadow: '0 8px 32px rgba(0,0,0,0.5)'
                  }}>
-                   <h3 className="mb-30" style={{color: 'white', fontSize: '28px'}}>Who We Are</h3>
-                   <p className="tp-dropcap" style={{fontSize: '18px', lineHeight: '1.8', color: 'white'}}>
+                   <h3 className="mb-30" style={{color: 'white', fontSize: '28px', borderBottom: '3px solid #FFD700', paddingBottom: '10px', display: 'inline-block'}}>Who We Are</h3>
+                   <p style={{fontSize: '18px', lineHeight: '1.8', color: 'white'}}>
                      At TheXMedia, we help realtors, mortgage agents, lawyers, CAs, and other service professionals stand out and scale up by creating viral, organic content that drives real business results.
                    </p>
                  </div>
@@ -85,7 +85,7 @@ export default function AboutUsArea() {
                    boxShadow: '0 8px 32px rgba(0,0,0,0.5)',
                    height: '100%'
                  }}>
-                   <h4 className="mb-25" style={{color: 'white', fontSize: '22px'}}>Our Philosophy</h4>
+                   <h4 className="mb-25" style={{color: 'white', fontSize: '22px', borderBottom: '3px solid #FFD700', paddingBottom: '10px', display: 'inline-block'}}>Our Philosophy</h4>
                    <p style={{fontSize: '16px', lineHeight: '1.7', color: 'white'}}>
                      We started with a simple belief: professionals shouldn&apos;t need to rely solely on paid ads to grow. With the right content, storytelling, and automation, you can become a go-to name in your industry—organically.
                    </p>
@@ -103,7 +103,7 @@ export default function AboutUsArea() {
                    boxShadow: '0 8px 32px rgba(0,0,0,0.5)',
                    height: '100%'
                  }}>
-                   <h4 className="mb-25" style={{color: 'white', fontSize: '22px'}}>What Makes Us Different</h4>
+                   <h4 className="mb-25" style={{color: 'white', fontSize: '22px', borderBottom: '3px solid #FFD700', paddingBottom: '10px', display: 'inline-block'}}>What Makes Us Different</h4>
                    <p style={{fontSize: '16px', lineHeight: '1.7', color: 'white'}}>
                      We do it all. From ideation and scripting to direction, editing, and automated lead generation, our team handles the entire content-to-client journey. We don&apos;t just create videos—we build systems that attract, engage, and convert at scale.
                    </p>
@@ -121,7 +121,7 @@ export default function AboutUsArea() {
                    boxShadow: '0 8px 32px rgba(0,0,0,0.5)',
                    height: '100%'
                  }}>
-                   <h4 className="mb-25" style={{color: 'white', fontSize: '22px'}}>Technology & Innovation</h4>
+                   <h4 className="mb-25" style={{color: 'white', fontSize: '22px', borderBottom: '3px solid #FFD700', paddingBottom: '10px', display: 'inline-block'}}>Technology & Innovation</h4>
                    <p style={{fontSize: '16px', lineHeight: '1.7', color: 'white'}}>
                      We blend creativity with cutting-edge tech like AI-driven CRMs and automation tools, so while your content reaches millions, your backend never misses a beat. You focus on your expertise—we&apos;ll handle the visibility, engagement, and growth.
                    </p>
@@ -141,9 +141,9 @@ export default function AboutUsArea() {
                    display: 'flex',
                    flexDirection: 'column',
                    justifyContent: 'center',
-                   textAlign: 'center'
+                   textAlign: 'left'
                  }}>
-                   <h4 className="mb-25" style={{color: 'white', fontSize: '20px'}}>Welcome to the Future</h4>
+                   <h4 className="mb-25" style={{color: 'white', fontSize: '20px', borderBottom: '3px solid #FFD700', paddingBottom: '10px', display: 'inline-block'}}>Welcome to the Future</h4>
                    <p style={{fontSize: '16px', lineHeight: '1.7', color: 'white', fontWeight: '500'}}>
                      Welcome to the new era of marketing.<br/>
                      <span style={{color: 'white', fontSize: '18px', fontWeight: '600'}}>Welcome to TheXMedia.</span>
@@ -155,10 +155,10 @@ export default function AboutUsArea() {
         </div>
 
         {/* Our Story Section */}
-        <div id="our-story" className="row mb-120">
+        <div id="our-story" className="row mb-60">
           <div className="col-xxl-12">
-            <div className="ab-about-content p-relative text-center mb-60">
-              <h2 className="tp_fade_bottom mt-30 mb-40" style={{color: 'white'}}>Our Story</h2>
+            <div className="ab-about-content p-relative text-left mb-60">
+              <h2 className="tp_fade_bottom  mb-20" style={{color: 'white', borderBottom: '3px solid #FFD700', paddingBottom: '10px', display: 'inline-block'}}>Our Story</h2>
             </div>
             
             {/* Card Layout for Company Story */}
@@ -173,8 +173,8 @@ export default function AboutUsArea() {
                   padding: '40px',
                   boxShadow: '0 8px 32px rgba(0,0,0,0.5)'
                 }}>
-                  <h3 className="mb-30" style={{color: 'white', fontSize: '28px'}}>How It All Started</h3>
-                  <p className="tp-dropcap" style={{fontSize: '18px', lineHeight: '1.8', color: 'white'}}>
+                  <h3 className="mb-30" style={{color: 'white', fontSize: '28px', borderBottom: '3px solid #FFD700', paddingBottom: '10px', display: 'inline-block'}}>How It All Started</h3>
+                  <p style={{fontSize: '18px', lineHeight: '1.8', color: 'white'}}>
                     TheXMedia began as a personal mission. While working a 9-to-5 job as a millwright, I spent two years experimenting with content—everything from personal vlogs to social media trends—learning through trial and error. Over three years, I dove deep into how content really works.
                   </p>
                 </div>
@@ -191,7 +191,7 @@ export default function AboutUsArea() {
                   boxShadow: '0 8px 32px rgba(0,0,0,0.5)',
                   height: '100%'
                 }}>
-                  <h4 className="mb-25" style={{color: 'white', fontSize: '22px'}}>The Breakthrough</h4>
+                  <h4 className="mb-25" style={{color: 'white', fontSize: '22px', borderBottom: '3px solid #FFD700', paddingBottom: '10px', display: 'inline-block'}}>The Breakthrough</h4>
                   <p style={{fontSize: '16px', lineHeight: '1.7', color: 'white'}}>
                     Eventually, I found my voice by talking about business ideas in Canada and launched the series &ldquo;100 Business Ideas in 100 Days.&rdquo; It went viral. Fast. We gained over 2 million followers across platforms, and our videos consistently hit 500K+ views—all shot from the front seat of a car using a regular iPhone.
                   </p>
@@ -209,7 +209,7 @@ export default function AboutUsArea() {
                   boxShadow: '0 8px 32px rgba(0,0,0,0.5)',
                   height: '100%'
                 }}>
-                  <h4 className="mb-25" style={{color: 'white', fontSize: '22px'}}>The Realization</h4>
+                  <h4 className="mb-25" style={{color: 'white', fontSize: '22px', borderBottom: '3px solid #FFD700', paddingBottom: '10px', display: 'inline-block'}}>The Realization</h4>
                   <p style={{fontSize: '16px', lineHeight: '1.7', color: 'white'}}>
                     That&apos;s when I realized: it&apos;s not about fancy gear; it&apos;s about content that resonates, helps, and connects. The magic happens when you understand your audience and deliver value consistently.
                   </p>
@@ -226,7 +226,7 @@ export default function AboutUsArea() {
                   padding: '35px',
                   boxShadow: '0 8px 32px rgba(0,0,0,0.5)'
                 }}>
-                  <h4 className="mb-25" style={{color: 'white', fontSize: '22px'}}>The Perfect Partnership</h4>
+                  <h4 className="mb-25" style={{color: 'white', fontSize: '22px', borderBottom: '3px solid #FFD700', paddingBottom: '10px', display: 'inline-block'}}>The Partnership</h4>
                   <p style={{fontSize: '16px', lineHeight: '1.7', color: 'white'}}>
                     Then I met Dhruval, a seasoned entrepreneur and operations expert. While I mastered content, he mastered systems. Together, we built TheXMedia—a perfect mix of creativity and structure. I bring the storytelling, Dhruval brings the backend and business-building power. Now, we help professionals go viral, stay consistent, and turn views into real revenue.
                   </p>
@@ -237,10 +237,10 @@ export default function AboutUsArea() {
         </div>
 
         {/* Why Choose Us Section */}
-        <div id="why-choose-us" className="row mb-120">
+        <div id="why-choose-us" className="row mb-60">
           <div className="col-xxl-12">
-            <div className="ab-about-content p-relative text-center mb-60">
-              <h2 className="tp_fade_bottom mt-30 mb-40" style={{color: 'white'}}>Why Choose Us</h2>
+            <div className="ab-about-content p-relative text-left mb-60">
+              <h2 className="tp_fade_bottom mt-30 mb-40" style={{color: 'white', borderBottom: '3px solid #FFD700', paddingBottom: '10px', display: 'inline-block'}}>Why Choose Us</h2>
             </div>
             
             {/* Card Layout for Why Choose Us */}
@@ -256,7 +256,7 @@ export default function AboutUsArea() {
                   boxShadow: '0 8px 32px rgba(0,0,0,0.5)',
                   height: '100%'
                 }}>
-                  <h4 className="mb-25" style={{color: 'white', fontSize: '22px'}}>Real Results, Not Just Views</h4>
+                  <h4 className="mb-25" style={{color: 'white', fontSize: '22px', borderBottom: '3px solid #FFD700', paddingBottom: '10px', display: 'inline-block'}}>Real Results, Not Just Views</h4>
                   <p style={{fontSize: '16px', lineHeight: '1.7', color: 'white'}}>
                     We create content and systems that generate real leads, build trust, and convert followers into paying clients.
                   </p>
@@ -274,7 +274,7 @@ export default function AboutUsArea() {
                   boxShadow: '0 8px 32px rgba(0,0,0,0.5)',
                   height: '100%'
                 }}>
-                  <h4 className="mb-25" style={{color: 'white', fontSize: '22px'}}>Built by Creators, Backed by Systems</h4>
+                  <h4 className="mb-25" style={{color: 'white', fontSize: '22px', borderBottom: '3px solid #FFD700', paddingBottom: '10px', display: 'inline-block'}}>Built by Creators, Backed by Systems</h4>
                   <p style={{fontSize: '16px', lineHeight: '1.7', color: 'white'}}>
                     We&apos;ve lived the content grind and cracked the code on what goes viral, paired with business automation.
                   </p>
@@ -292,7 +292,7 @@ export default function AboutUsArea() {
                   boxShadow: '0 8px 32px rgba(0,0,0,0.5)',
                   height: '100%'
                 }}>
-                  <h4 className="mb-25" style={{color: 'white', fontSize: '22px'}}>End-to-End Service</h4>
+                  <h4 className="mb-25" style={{color: 'white', fontSize: '22px', borderBottom: '3px solid #FFD700', paddingBottom: '10px', display: 'inline-block'}}>End-to-End Service</h4>
                   <p style={{fontSize: '16px', lineHeight: '1.7', color: 'white'}}>
                     From ideation to editing, automation to CRM setup—we do it all in one place.
                   </p>
@@ -310,7 +310,7 @@ export default function AboutUsArea() {
                   boxShadow: '0 8px 32px rgba(0,0,0,0.5)',
                   height: '100%'
                 }}>
-                  <h4 className="mb-25" style={{color: 'white', fontSize: '22px'}}>AI & Automation First</h4>
+                  <h4 className="mb-25" style={{color: 'white', fontSize: '22px', borderBottom: '3px solid #FFD700', paddingBottom: '10px', display: 'inline-block'}}>AI & Automation First</h4>
                   <p style={{fontSize: '16px', lineHeight: '1.7', color: 'white'}}>
                     We leverage the latest tools to ensure no lead goes cold and your backend runs like a machine.
                   </p>
@@ -328,7 +328,7 @@ export default function AboutUsArea() {
                   boxShadow: '0 8px 32px rgba(0,0,0,0.5)',
                   height: '100%'
                 }}>
-                  <h4 className="mb-25" style={{color: 'white', fontSize: '22px'}}>Personal Branding That Works</h4>
+                  <h4 className="mb-25" style={{color: 'white', fontSize: '22px', borderBottom: '3px solid #FFD700', paddingBottom: '10px', display: 'inline-block'}}>Personal Branding That Works</h4>
                   <p style={{fontSize: '16px', lineHeight: '1.7', color: 'white'}}>
                     We build brands that feel real, relatable, and trustworthy—turning you into the go-to expert.
                   </p>
@@ -346,7 +346,7 @@ export default function AboutUsArea() {
                   boxShadow: '0 8px 32px rgba(0,0,0,0.5)',
                   height: '100%'
                 }}>
-                  <h4 className="mb-25" style={{color: 'white', fontSize: '22px'}}>Proven Track Record</h4>
+                  <h4 className="mb-25" style={{color: 'white', fontSize: '22px', borderBottom: '3px solid #FFD700', paddingBottom: '10px', display: 'inline-block'}}>Proven Track Record</h4>
                   <p style={{fontSize: '16px', lineHeight: '1.7', color: 'white'}}>
                     Over 2 million followers, consistent viral videos, and successful client case studies.
                   </p>
@@ -357,10 +357,10 @@ export default function AboutUsArea() {
         </div>
 
         {/* Mission, Vision & Values Section */}
-        <div className="row mb-120">
+        <div className="row mb-60">
           <div className="col-xxl-12">
-            <div className="ab-about-content p-relative text-center mb-60">
-              <h2 className="tp_fade_bottom mt-30 mb-40" style={{color: 'white'}}>Mission, Vision & Values</h2>
+            <div className="ab-about-content p-relative text-left mb-60">
+              <h2 className="tp_fade_bottom mt-30 mb-40" style={{color: 'white', borderBottom: '3px solid #FFD700', paddingBottom: '10px', display: 'inline-block'}}>Mission, Vision & Values</h2>
             </div>
             
             {/* Card Layout for Mission, Vision & Values */}
@@ -376,7 +376,7 @@ export default function AboutUsArea() {
                   boxShadow: '0 8px 32px rgba(0,0,0,0.5)',
                   height: '100%'
                 }}>
-                  <h4 className="mb-25" style={{color: 'white', fontSize: '22px'}}>Our Mission</h4>
+                  <h4 className="mb-25" style={{color: 'white', fontSize: '22px', borderBottom: '3px solid #FFD700', paddingBottom: '10px', display: 'inline-block'}}>Our Mission</h4>
                   <p style={{fontSize: '16px', lineHeight: '1.7', color: 'white'}}>
                     To empower service professionals with powerful content and automation systems that generate impact, influence, and income—organically.
                   </p>
@@ -394,7 +394,7 @@ export default function AboutUsArea() {
                   boxShadow: '0 8px 32px rgba(0,0,0,0.5)',
                   height: '100%'
                 }}>
-                  <h4 className="mb-25" style={{color: 'white', fontSize: '22px'}}>Our Vision</h4>
+                  <h4 className="mb-25" style={{color: 'white', fontSize: '22px', borderBottom: '3px solid #FFD700', paddingBottom: '10px', display: 'inline-block'}}>Our Vision</h4>
                   <p style={{fontSize: '16px', lineHeight: '1.7', color: 'white'}}>
                     To be the leading content-driven growth agency for professionals in Canada and beyond—where creativity meets technology to build trusted personal brands at scale.
                   </p>
@@ -412,7 +412,7 @@ export default function AboutUsArea() {
                   boxShadow: '0 8px 32px rgba(0,0,0,0.5)',
                   height: '100%'
                 }}>
-                  <h4 className="mb-25" style={{color: 'white', fontSize: '22px'}}>Our Values</h4>
+                  <h4 className="mb-25" style={{color: 'white', fontSize: '22px', borderBottom: '3px solid #FFD700', paddingBottom: '10px', display: 'inline-block'}}>Our Values</h4>
                   <div style={{fontSize: '16px', lineHeight: '1.7', color: 'white'}}>
                     <div className="mb-15"><strong>Authenticity:</strong> We keep it real, on and off camera</div>
                     <div className="mb-15"><strong>Innovation:</strong> We blend creativity with cutting-edge tech</div>

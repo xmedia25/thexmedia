@@ -57,15 +57,15 @@ export default function ContactForm({btnCls=''}:IProps) {
           />
           <label htmlFor="agreeToTerms">
             I agree to the{" "}
-            <a href="/terms-and-conditions" target="_blank" className="text-primary">
+            <a href="/terms-and-conditions" target="_blank" style={{color: "#FFD700"}}>
               Terms & Conditions
             </a>
             ,{" "}
-            <a href="/privacy-policy" target="_blank" className="text-primary">
+            <a href="/privacy-policy" target="_blank" style={{color: "#FFD700"}}>
               Privacy Policy
             </a>
             , and{" "}
-            <a href="/cookies-policy" target="_blank" className="text-primary">
+            <a href="/cookies-policy" target="_blank" style={{color: "#FFD700"}}>
               Cookies Policy
             </a>
           </label>

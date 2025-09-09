@@ -40,7 +40,7 @@ export default function FooterOne() {
                         onMouseLeave={() => setIsActive(false)}
                         className={isActive ? "" : "active"}
                       >
-                        <a href={item.link}>{item.title}</a>
+                        <a href={item.link} style={{fontSize: '40px'}}>{item.title}</a>
                       </li>
                     ))}
                   </ul>
@@ -67,6 +67,7 @@ export default function FooterOne() {
                             <a
                               href="https://www.google.com/maps/place/100+Matheson+Blvd+E,+Mississauga,+ON,+Canada/"
                               target="_blank"
+                              rel="nofollow"
                             >
                               100 Matheson blvd Unit 102, <br /> Mississauga, Ontario CA
                             </a>
@@ -81,13 +82,13 @@ export default function FooterOne() {
                         </h4>
                         <ul className="tp-footer-widget-social">
                           <li className="tp_fade_bottom">
-                            <a href="https://www.facebook.com/thexmediaofficial" target="_blank">Facebook</a>
+                            <a href="https://www.facebook.com/thexmediaofficial" target="_blank" rel="nofollow">Facebook</a>
                           </li>
                           <li className="tp_fade_bottom">
-                            <a href="https://www.instagram.com/thexmedia_/" target="_blank">Instagram</a>
+                            <a href="https://www.instagram.com/thexmedia_/" target="_blank" rel="nofollow">Instagram</a>
                           </li>
                           <li className="tp_fade_bottom">
-                            <a href="https://www.linkedin.com/company/theexmedia/" target="_blank">LinkedIn</a>
+                            <a href="https://www.linkedin.com/company/theexmedia/" target="_blank" rel="nofollow">LinkedIn</a>
                           </li>
                         </ul>
                       </div>
