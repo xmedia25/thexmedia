@@ -13,6 +13,10 @@ import "./skeleton-loading.css";
 import StructuredData from "@/components/structured-data";
 import BackToTop from "@/components/back-to-top";
 import SEOMonitor from "@/components/seo/seo-monitor";
+import { SpeedInsights } from "@vercel/speed-insights/next";
+import { GoogleAnalytics } from "@next/third-parties/google";
+import FacebookPixel from "@/components/analytics/facebook-pixel";
+import MicrosoftClarity from "@/components/analytics/microsoft-clarity";
 
 const gellery = localFont({
   src: [
@@ -185,6 +189,10 @@ export default function RootLayout({
         className={`${gellery.variable} ${aladin.variable} ${syne_body.variable} ${syne_heading.variable} ${syne_p.variable} ${syne.variable} ${big_shoulders.variable} ${marcellus.variable}`}
       >
         <ThemeProvider defaultTheme="dark">{children} <BackToTop />{/* <SEOMonitor /> */}</ThemeProvider>
+        <SpeedInsights />
+        <GoogleAnalytics gaId={process.env.NEXT_PUBLIC_GA_ID || ''} />
+        <FacebookPixel pixelId={process.env.NEXT_PUBLIC_FACEBOOK_PIXEL_ID || ''} />
+        <MicrosoftClarity clarityId={process.env.NEXT_PUBLIC_CLARITY_ID || ''} />
         
       </body>
     </html>

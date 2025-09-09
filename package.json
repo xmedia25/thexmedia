@@ -20,7 +20,9 @@
   "dependencies": {
     "@gsap/react": "^2.1.1",
     "@hookform/resolvers": "^3.4.2",
+    "@next/third-parties": "^15.5.2",
     "@types/react-modal-video": "^1.2.3",
+    "@vercel/speed-insights": "^1.2.0",
     "bootstrap": "^5.3.3",
     "critters": "^0.0.20",
     "gsap": "^3.12.5",
