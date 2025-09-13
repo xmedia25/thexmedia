@@ -102,8 +102,10 @@ export default function FaqArea() {
               <div className="fq-faq-sidebar-thumb">
                 <Image
                   className="w-100"
-                  src={faq_banner}
+                  src={"/assets/img/servciespage-faq.jpg"}
                   alt="faq-banner"
+                  width={400}
+                  height={300}
                   style={{height:'auto'}}
                 />
               </div>

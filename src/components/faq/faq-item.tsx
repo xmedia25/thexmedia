@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 
 // prop type
 type IProps = {
@@ -6,15 +6,20 @@ type IProps = {
 };
 
 export default function FaqItem({ item }: IProps) {
+  const [isOpen, setIsOpen] = useState(false);
+
+  const toggleAccordion = () => {
+    setIsOpen(!isOpen);
+  };
+
   return (
     <div className="accordion-items">
       <h2 className="accordion-header">
         <button
-          className="accordion-buttons collapsed"
+          className={`accordion-buttons ${!isOpen ? 'collapsed' : ''}`}
           type="button"
-          data-bs-toggle="collapse"
-          data-bs-target={`#collapse-${item.id}`}
-          aria-expanded="true"
+          onClick={toggleAccordion}
+          aria-expanded={isOpen}
           aria-controls={`collapse-${item.id}`}
         >
           {item.question}
@@ -23,8 +28,7 @@ export default function FaqItem({ item }: IProps) {
       </h2>
       <div
         id={`collapse-${item.id}`}
-        className="accordion-collapse collapse"
-        data-bs-parent="#accordionExample"
+        className={`accordion-collapse ${isOpen ? 'collapse show' : 'collapse'}`}
       >
         <div className="accordion-body">
           <p>{item.answer}</p>
