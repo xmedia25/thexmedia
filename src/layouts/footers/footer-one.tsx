@@ -40,7 +40,7 @@ export default function FooterOne() {
                         onMouseLeave={() => setIsActive(false)}
                         className={isActive ? "" : "active"}
                       >
-                        <a href={item.link} style={{fontSize: '40px'}}>{item.title}</a>
+                        <a href={item.link} style={{fontSize: '30px'}}>{item.title}</a>
                       </li>
                     ))}
                   </ul>

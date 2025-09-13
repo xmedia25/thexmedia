@@ -1,5 +1,5 @@
 'use client';
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useState, useCallback } from 'react';
 
 interface SEOMetrics {
   pageLoadTime: number;
@@ -18,18 +18,7 @@ const SEOMonitor: React.FC = () => {
   const [isVisible, setIsVisible] = useState(false);
   const [isMinimized, setIsMinimized] = useState(false);
 
-  useEffect(() => {
-    // Only show in development or when explicitly enabled
-    const showMonitor = process.env.NODE_ENV === 'development' || 
-                       localStorage.getItem('seo-monitor') === 'true';
-    setIsVisible(showMonitor);
-
-    if (showMonitor) {
-      measurePerformance();
-    }
-  }, []);
-
-  const measurePerformance = () => {
+  const measurePerformance = useCallback(() => {
     // Measure page load time
     const navigationTiming = performance.getEntriesByType('navigation')[0] as PerformanceNavigationTiming;
     const pageLoadTime = navigationTiming ? navigationTiming.loadEventEnd - navigationTiming.loadEventStart : 0;
@@ -55,10 +44,13 @@ const SEOMonitor: React.FC = () => {
         }
       });
 
+      // Calculate SEO score (simplified)
+      const seoScore = calculateSEOScore();
+      
       setMetrics({
         pageLoadTime,
         coreWebVitals: webVitals,
-        seoScore: calculateSEOScore(),
+        seoScore,
         mobileOptimized: checkMobileOptimization(),
         structuredDataValid: checkStructuredData()
       });
@@ -76,7 +68,20 @@ const SEOMonitor: React.FC = () => {
         structuredDataValid: checkStructuredData()
       });
     }
-  };
+  }, []);
+
+  useEffect(() => {
+    // Only show in development or when explicitly enabled
+    const showMonitor = process.env.NODE_ENV === 'development' || 
+                       localStorage.getItem('seo-monitor') === 'true';
+    setIsVisible(showMonitor);
+
+    if (showMonitor) {
+      measurePerformance();
+    }
+  }, [measurePerformance]);
+
+
 
   const calculateSEOScore = (): number => {
     let score = 0;

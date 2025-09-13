@@ -20,6 +20,7 @@ import { Leaf } from "@/components/svg";
 import { charAnimation, fadeAnimation } from "@/utils/title-animation";
 import { servicePanel } from "@/utils/panel-animation";
 import FooterOne from "@/layouts/footers/footer-one";
+import ServiceSix from "@/components/service/service-six";
 
 const ServiceMain = () => {
   useScrollSmooth();
@@ -71,19 +72,19 @@ const ServiceMain = () => {
             {/* service area */}
 
             {/* service area */}
-            {/* <ServiceSix /> */}
+            <ServiceSix />
             {/* service area */}
 
 
 
             {/* brand area */}
-            {/* <div className="tp-brand-4-area pt-120 pb-120"> */}
-              {/* <div className="container"> */}
-                {/* <div className="row gx-0"> */}
-                  {/* <BrandItems /> */}
-                {/* </div> */}
-              {/* </div> */}
-            {/* </div> */}
+            <div className="tp-brand-4-area pt-120 pb-140">
+              <div className="container">
+                <div className="row gx-0">
+               
+                </div>
+              </div>
+            </div>
             {/* brand area */}
 
             {/* line image slider  */}

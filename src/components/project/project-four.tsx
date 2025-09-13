@@ -9,6 +9,8 @@ const video_3 = '/assets/reels/lets_work/INVESTORS_1.mp4';
 const video_4 = '/assets/reels/the_x_media-03.mp4';
 const video_5 = '/assets/reels/lets_work/BUSINESSES_1.mp4';
 const video_6 = '/assets/reels/lets_work/BUSINESSES_2.mp4';
+const video_7 = '/assets/reels/lets_work/morgaj1.mp4';
+const video_8 = '/assets/reels/lets_work/morgaj2.mp4';
 
 import Link from "next/link";
 
@@ -27,6 +29,17 @@ const project_data = [
   },
   {
     id: 2,
+    video_1: video_7,
+    video_2: video_8,
+    meta: "DEC 2024 . Creative",
+    title: "Mortgage agents",
+    instagram_1: "https://www.instagram.com/reel/DNiZDMMNHvU/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
+    instagram_2: "https://www.instagram.com/reel/DM2oG-Qv3hE/?utm_source=ig_web_copy_link",
+    instagram_title_1: "@thexmedia_",
+    instagram_title_2: "@thexmedia_"
+  },
+  {
+    id: 3,
     video_1: video_3,
     video_2: video_4,
     meta: "NOV 2024 . Creative",
@@ -37,7 +50,7 @@ const project_data = [
     instagram_title_2: "@thexmedia_"
   },
   {
-    id: 3,
+    id: 4,
     video_1: video_5,
     video_2: video_6,
     meta: "OCT 2024 . Relish Immigration",
@@ -105,7 +118,7 @@ export default function ProjectFour({ style_2 = false }: IProps) {
                         autoPlay
                       />
                       {/* Instagram Link Overlay for Video 1 */}
-                      <div 
+                      <div
                         className="instagram-overlay"
                         style={{
                           position: 'absolute',
@@ -211,7 +224,7 @@ export default function ProjectFour({ style_2 = false }: IProps) {
                         autoPlay
                       />
                       {/* Instagram Link Overlay for Video 2 */}
-                      <div 
+                      <div
                         className="instagram-overlay"
                         style={{
                           position: 'absolute',
