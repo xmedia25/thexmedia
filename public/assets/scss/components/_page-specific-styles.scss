@@ -207,3 +207,12 @@
     }
   }
 }
+
+// Solid black variant for Journey section
+.tp-service-3-area--black {
+  background: #121212 !important;
+
+  & > div[style] {
+    display: none;
+  }
+}

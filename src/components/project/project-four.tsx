@@ -103,7 +103,7 @@ export default function ProjectFour({ style_2 = false }: IProps) {
                       <video
                         src={item.video_1}
                         style={{
-                          height: '700px',
+                          height: '600px',
                           width: '100%',
                           objectFit: 'cover',
                           borderRadius: '20px',
@@ -209,7 +209,7 @@ export default function ProjectFour({ style_2 = false }: IProps) {
                       <video
                         src={item.video_2}
                         style={{
-                          height: '700px',
+                          height: '600px',
                           width: '100%',
                           objectFit: 'cover',
                           borderRadius: '20px',
