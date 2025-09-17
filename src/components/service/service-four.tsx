@@ -39,21 +39,7 @@ const service_data = [
 export default function ServiceFour() {
   
   return (
-    <div className="tp-service-3-area pt-130 pb-130" style={{
-      background: 'linear-gradient(135deg, #0a0a0a 0%, #1a1a1a 100%)',
-      position: 'relative'
-    }}>
-      {/* Background overlay */}
-      <div style={{
-        position: 'absolute',
-        top: 0,
-        left: 0,
-        right: 0,
-        bottom: 0,
-        background: `radial-gradient(circle at 30% 20%, rgba(254, 216, 58, 0.05) 0%, transparent 50%),
-                     radial-gradient(circle at 70% 80%, rgba(254, 216, 58, 0.03) 0%, transparent 50%)`,
-        pointerEvents: 'none'
-      }}></div>
+    <div className="tp-service-3-area tp-service-3-area--black">
       
       <div className="container" style={{ position: 'relative', zIndex: 2 }}>
         <div className="row">

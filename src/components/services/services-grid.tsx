@@ -55,7 +55,7 @@ const ServicesGrid = () => {
   ];
 
   return (
-    <section className="tp-services-grid-section pt-120 pb-120">
+    <section className="tp-services-grid-section tp-services-grid--black pt-120 pb-120">
       <div className="container">
         <div className="row mb-60">
           <div className="col-xl-12">

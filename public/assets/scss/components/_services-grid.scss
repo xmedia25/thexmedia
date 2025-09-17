@@ -205,3 +205,22 @@
     }
   }
 }
+
+// Solid black variant only for the targeted section
+.tp-services-grid--black {
+  background: #121212 !important;
+
+  &::before {
+    display: none;
+  }
+
+  .tp-section-title-2,
+  .tp-service-card-title {
+    color: #fff;
+  }
+
+  .tp-section-text,
+  .tp-service-card-desc {
+    color: #cccccc;
+  }
+}
