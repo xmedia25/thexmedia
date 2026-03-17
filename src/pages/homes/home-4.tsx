@@ -1,6 +1,7 @@
 "use client";
 import { gsap } from "gsap";
 import React, { useEffect } from "react";
+import Head from "next/head";
 import useScrollSmooth from "@/hooks/use-scroll-smooth";
 import { ScrollSmoother, ScrollTrigger, SplitText } from "@/plugins";
 import { useGSAP } from "@gsap/react";
@@ -39,6 +40,22 @@ const HomeFourMain = () => {
     };
   }, []);
 
+  // Add LeadConnector widget script
+  useEffect(() => {
+    const script = document.createElement("script");
+    script.src = "https://widgets.leadconnectorhq.com/loader.js";
+    script.setAttribute("data-resources-url", "https://widgets.leadconnectorhq.com/chat-widget/loader.js");
+    script.setAttribute("data-widget-id", "69b4e6f52e31766f245f1280");
+    script.async = true;
+    document.body.appendChild(script);
+
+    return () => {
+      if (script.parentNode) {
+        script.parentNode.removeChild(script);
+      }
+    };
+  }, []);
+
   useGSAP(() => {
     const timer = setTimeout(() => {
       fadeAnimation();
@@ -51,60 +68,67 @@ const HomeFourMain = () => {
   });
 
   return (
-    <Wrapper>
+    <>
+      <Head>
+        <script 
+          src="https://widgets.leadconnectorhq.com/loader.js"  
+          data-resources-url="https://widgets.leadconnectorhq.com/chat-widget/loader.js" 
+          data-widget-id="69b4e6f52e31766f245f1280"   
+          async
+        />
+      </Head>
+      <Wrapper>
 
-      {/* header area start */}
-      <HeaderFour />
-      {/* header area end */}
+        {/* header area start */}
+        <HeaderFour />
+        {/* header area end */}
 
-      <div id="smooth-wrapper">
-        <div id="smooth-content">
-          <main>
+        <div id="smooth-wrapper">
+          <div id="smooth-content">
+            <main>
 
-            {/* hero area start */}
-            <HeroBannerFour />
-            {/* hero area end */}
+              {/* hero area start */}
+              <HeroBannerFour />
+              {/* hero area end */}
 
-            {/* gallery area start */}
-            <GalleryOne />
-            {/* gallery area end */}
+              {/* gallery area start */}
+              <GalleryOne />
+              {/* gallery area end */}
 
-            {/* about area start */}
-            <AboutThree />
-
-
-            {/* project area start */}
-            <ProjectFour />
-            {/* project area end */}
-
-            <ServicesGrid />
-
-
-            {/* service area start */}
-            <ServiceFour />
-            {/* service area end */}
-
-            {/* testimonial area start */}
-            <TestimonialHome />
-            {/* testimonial area end */}
-
-                        {/* contact area start */}
-            <ContactOne />
-            {/* contact area end */}
+              {/* about area start */}
+              <AboutThree />
 
 
+              {/* project area start */}
+              <ProjectFour />
+              {/* project area end */}
+
+              <ServicesGrid />
 
 
-         
+              {/* service area start */}
+              <ServiceFour />
+              {/* service area end */}
 
-          </main>
+              {/* testimonial area start */}
+              <TestimonialHome />
+              {/* testimonial area end */}
 
-          {/* footer area */}
-          <FooterOne />
-          {/* footer area */}
+                          {/* contact area start */}
+              <ContactOne />
+              {/* contact area end */}
+
+            
+
+            </main>
+
+            {/* footer area */}
+            <FooterOne />
+            {/* footer area */}
+          </div>
         </div>
-      </div>
-    </Wrapper>
+      </Wrapper>
+    </>
   );
 };
 
